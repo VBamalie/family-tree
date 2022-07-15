@@ -1,0 +1,20 @@
+{
+ "Individuals": [
+  {
+   "Id": "@I6862819516@",
+   "Givenname": "Michael",
+   "Fullname": {
+    "Value": "Michael /VON BEHREN/",
+    "Surname": "VON BEHREN"
+   }
+  },
+  {
+   "Id": "@I_1884986968@",
+   "Givenname": "Erwin Henry",
+   "Fullname": {
+    "Value": "Erwin Henry /VON BEHREN/",
+    "Surname": "VON BEHREN"
+   }
+  }
+ ]
+}

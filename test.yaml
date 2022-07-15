@@ -1,0 +1,15 @@
+---
+- Tag: INDI
+  CollectAs: Individuals
+  CollectAsArray: true
+  Property: Id
+  Properties:
+  - Tag: NAME
+    Property: Fullname
+    Properties:
+    - Tag: GIVN
+      Property: Givenname
+      MergeWithLast: INDI
+    - Tag: SURN
+      Property: Surname
+      MergeWithLast: INDI12

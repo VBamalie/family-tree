@@ -1,0 +1,25 @@
+{
+  "name": "family-tree",
+  "version": "1.0.0",
+  "description": "A repo to make a website for my family tree",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node /parse.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VBamalie/family-tree.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VBamalie/family-tree/issues"
+  },
+  "homepage": "https://github.com/VBamalie/family-tree#readme",
+  "dependencies": {
+    "gedcom.json": "^1.0.4"
+  }
+}
