@@ -17857,23 +17857,25 @@ parsingOptions.SetText(`
 parsingOptions.SetConfig(`
 ---
 Definition:
-- Tag: INDI
-  CollectAs: Individuals
+- Tag: FAM
+  CollectAs: familyUnit
   CollectAsArray: true
   Property: Id
   Properties:
-  - Tag: NAME
-    Property: Fullname
+  - Tag: HUSB
+    Property: husband
+  - Tag: WIFE
+    Property: wife
+  - Tag: MARR
+    Property: marriage
     Properties:
-    - Tag: GIVN
-      Property: Givenname
-      MergeWithLast: INDI
-    - Tag: SURN
-      Property: Surname
-      MergeWithLast: INDI12
+    - Tag: DATE
+      Property: date
+  - Tag: CHIL
+    Property: children
 ...
 `);
 
 let parse = new JsonParsing(parsingOptions);
 
-parse.ParseTextAsync().then(result => parse.SaveAs(result.Object, "test.json")).catch(e => console.error(e));
+parse.ParseTextAsync().then(result => parse.SaveAs(result.Object, "marriage.json")).catch(e => console.error(e));

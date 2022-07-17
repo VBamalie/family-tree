@@ -1,0 +1,63 @@
+{
+ "Individuals": [
+  {
+   "Id": "@I6862819516@",
+   "Fullname": [
+    {
+     "Value": "Michael /VON BEHREN/",
+     "Givenname": "Michael",
+     "Surname": "VON BEHREN"
+    },
+    {
+     "Value": "Mike /Vonbehren/",
+     "Givenname": "Mike",
+     "Surname": "Vonbehren"
+    }
+   ],
+   "Birth": {
+    "birthdate": "12/13/1964",
+    "birthplace": "Groton, New London, Connecticut, USA"
+   }
+  },
+  {
+   "Id": "@I_1884986968@",
+   "Fullname": {
+    "Value": "Erwin Henry /VON BEHREN/",
+    "Givenname": "Erwin Henry",
+    "Surname": "VON BEHREN"
+   },
+   "Birth": {
+    "birthdate": "19 AUG 1940",
+    "birthplace": "St. Louis, Missouri"
+   }
+  },
+  {
+   "Id": "@I_1884986966@",
+   "Fullname": [
+    {
+     "Value": "George Edward /Traxel/",
+     "Givenname": "George Edward",
+     "Surname": "Traxel"
+    },
+    {
+     "Value": "George Edward /Traxel/",
+     "Givenname": "George Edward",
+     "Surname": "Traxel"
+    }
+   ],
+   "Birth": {
+    "birthdate": [
+     "13 NOV 1911",
+     "13 NOV 1911"
+    ],
+    "birthplace": "Missouri"
+   },
+   "death": {
+    "date": "26 SEP 1984"
+   },
+   "burial": {
+    "burial": "Lakewood Park Cemetary"
+   }
+  }
+ ]
+}
