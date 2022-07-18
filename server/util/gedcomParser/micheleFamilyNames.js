@@ -1,5 +1,5 @@
-{
- "Individuals": [
+michelleNames = 
+[
   {
    "Id": "@P216@",
    "Fullname": {
@@ -7,6 +7,7 @@
     "Givenname": "Anna",
     "Surname": "Doppke"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "abt 1911",
     "birthplace": "Illinois"
@@ -19,6 +20,7 @@
     "Givenname": "Timothy James",
     "Surname": "Amore"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "26 Aug 1945",
     "birthplace": "Chicago,,Cook Co.,Illinois"
@@ -34,6 +36,7 @@
     "Givenname": "Mary",
     "Surname": "Dickinson"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "1690",
     "birthplace": "MD"
@@ -41,32 +44,18 @@
   },
   {
    "Id": "@P256@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Clarence E /Christman/",
      "Givenname": "Clarence E",
      "Surname": "Christman"
     },
-    {
-     "Value": "Christensen /Clarence N./",
-     "Givenname": "Christensen",
-     "Surname": "Clarence N."
-    },
-    {
-     "Value": "Clarence Norman /Christensen/",
-     "Givenname": "Clarence Norman",
-     "Surname": "Christensen"
-    }
-   ],
+   "sex": "M",
    "Birth": {
-    "birthdate": [
+    "birthdate": 
      "8 Dec 1896",
-     "Dec 1896"
-    ],
-    "birthplace": [
+    "birthplace": 
      "Illinois",
-     "Illinois"
-    ]
    },
    "death": {
     "date": "Abt 1941"
@@ -82,6 +71,7 @@
     "Givenname": "Patrick",
     "Surname": "Dunne"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "1782",
     "birthplace": "Ireland"
@@ -94,6 +84,7 @@
     "Givenname": "Elizabeth",
     "Surname": "Hunter"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "1735",
     "birthplace": "MarylandUnited States of America"
@@ -104,37 +95,18 @@
   },
   {
    "Id": "@P221@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Adolph Christian /Hansen/",
      "Givenname": "Adolph Christian",
      "Surname": "Hansen"
     },
-    {
-     "Value": "Adolf Christian /Hansen/",
-     "Givenname": "Adolf Christian",
-     "Surname": "Hansen"
-    },
-    {
-     "Value": "Edwin /Hansen/",
-     "Givenname": "Edwin",
-     "Surname": "Hansen"
-    },
-    {
-     "Value": "Adolf Kristian /Nilsen/",
-     "Givenname": "Adolf Kristian",
-     "Surname": "Nilsen"
-    }
-   ],
+   "sex": "M",
    "Birth": {
-    "birthdate": [
+    "birthdate":
      "03 Mar 1876",
-     "Mar 1877"
-    ],
-    "birthplace": [
+    "birthplace": 
      "Brevik norway",
-     "Norway"
-    ]
    },
    "death": {
     "date": "October 29 1968"
@@ -150,40 +122,29 @@
     "Givenname": "Isak",
     "Surname": "Kittelsen"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "30 Jun 1860"
    }
   },
   {
    "Id": "@P46@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Thomas /Lanam/",
      "Givenname": "Thomas",
      "Surname": "Lanam"
     },
-    {
-     "Value": "Tom /LANAM/",
-     "Givenname": "Tom",
-     "Surname": "LANAM"
-    }
-   ],
+   "sex": "M",
    "Birth": {
-    "birthdate": [
+    "birthdate":
      "27 May 1896",
-     "27 MAY 1896"
-    ],
-    "birthplace": [
+    "birthplace": 
      "Medaryville,Pulaski County,Indiana,United States of America",
-     "Indiana"
-    ]
    },
    "death": {
-    "date": [
+    "date": 
      "15 Jan 1974",
-     "30 JAN 1974",
-     "30 January 1974"
-    ]
    },
    "burial": {
     "burial": "Winamac,Pulaski County,Indiana,United States of America"
@@ -191,28 +152,13 @@
   },
   {
    "Id": "@P25@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Catherine /McAuliff/",
      "Givenname": "Catherine",
      "Surname": "McAuliff"
     },
-    {
-     "Value": "Catherine /O'Connor/",
-     "Givenname": "Catherine",
-     "Surname": "O'Connor"
-    },
-    {
-     "Value": "Catherine /O'Connor/",
-     "Givenname": "Catherine",
-     "Surname": "O'Connor"
-    },
-    {
-     "Value": "Catherine /Oconnor/",
-     "Givenname": "Catherine",
-     "Surname": "Oconnor"
-    }
-   ],
+   "sex": "F",
    "Birth": {
     "birthdate": "NOV 1835",
     "birthplace": "Ireland"
@@ -226,33 +172,13 @@
   },
   {
    "Id": "@P272@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Nicholas /Frankard/",
      "Givenname": "Nicholas",
      "Surname": "Frankard"
     },
-    {
-     "Value": "Nick /Frankard/",
-     "Givenname": "Nick",
-     "Surname": "Frankard"
-    },
-    {
-     "Value": "Nicholaus /Frankard/",
-     "Givenname": "Nicholaus",
-     "Surname": "Frankard"
-    },
-    {
-     "Value": "Nicholaus /Frankard/",
-     "Givenname": "Nicholaus",
-     "Surname": "Frankard"
-    },
-    {
-     "Value": "Niclaus /Franka/",
-     "Givenname": "Niclaus",
-     "Surname": "Franka"
-    }
-   ],
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1839",
     "birthplace": "Luxembourg"
@@ -271,6 +197,7 @@
     "Givenname": "Auguste",
     "Surname": "Dopke"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "1873"
    }
@@ -282,6 +209,7 @@
     "Givenname": "Anna Charlotte",
     "Surname": "Tyrrell"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "7 FEB 1894",
     "birthplace": "Indiana"
@@ -299,7 +227,8 @@
     "Value": "Caroline /Buetler/",
     "Givenname": "Caroline",
     "Surname": "Buetler"
-   }
+   },
+   "sex": "F"
   },
   {
    "Id": "@P40@",
@@ -308,6 +237,7 @@
     "Givenname": "Vincent",
     "Surname": "Grothouse"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1904",
     "birthplace": "Indiana"
@@ -320,6 +250,7 @@
     "Givenname": "David",
     "Surname": "Lanam"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "1859",
     "birthplace": "Indiana"
@@ -335,6 +266,7 @@
     "Givenname": "Lois",
     "Surname": "Manske"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "abt 1932",
     "birthplace": "Illinois"
@@ -346,7 +278,8 @@
     "Value": "Paulina /Krieger/",
     "Givenname": "Paulina",
     "Surname": "Krieger"
-   }
+   },
+   "sex": "F"
   },
   {
    "Id": "@P392@",
@@ -355,6 +288,7 @@
     "Givenname": "Henry",
     "Surname": "Lanham"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "3/30/1739",
     "birthplace": "King Georges Parish,Prince George's County,Maryland,USA"
@@ -367,6 +301,7 @@
     "Givenname": "Eugene Jack",
     "Surname": "Nelson"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "19 Mar 1907",
     "birthplace": "ChicagoIllinois"
@@ -383,7 +318,8 @@
    "Fullname": {
     "Value": "/Eliza/",
     "Surname": "Eliza"
-   }
+   },
+   "sex": "F"
   },
   {
    "Id": "@P298@",
@@ -392,6 +328,7 @@
     "Givenname": "Soren",
     "Surname": "Hansen"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "1756",
     "birthplace": "Eidanger,,Telemark,Norway"
@@ -404,6 +341,7 @@
     "Givenname": "Elsworth",
     "Surname": "Herman"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "1922",
     "birthplace": "Wisconsin"
@@ -416,6 +354,7 @@
     "Givenname": "Lydia",
     "Surname": "Katzberg"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "1910",
     "birthplace": "Poland"
@@ -423,18 +362,13 @@
   },
   {
    "Id": "@P47@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "William Joseph /Lanam/",
      "Givenname": "William Joseph",
      "Surname": "Lanam"
     },
-    {
-     "Value": "Gulielnum /Lanam/",
-     "Givenname": "Gulielnum",
-     "Surname": "Lanam"
-    }
-   ],
+   "sex": "M",
    "Birth": {
     "birthdate": "15 Mar 1892",
     "birthplace": "Indiana"
@@ -453,6 +387,7 @@
     "Givenname": "Charles",
     "Surname": "Janesovsky"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1879",
     "birthplace": "Illinois"
@@ -465,6 +400,7 @@
     "Givenname": "Nicholas Peter",
     "Surname": "Frankard"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "24 Jan 1877",
     "birthplace": "Illinois"
@@ -482,51 +418,23 @@
     "Value": "Thomas /Lanham/",
     "Givenname": "Thomas",
     "Surname": "Lanham"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@P271@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Magdalena /Schultz/",
      "Givenname": "Magdalena",
      "Surname": "Schultz"
     },
-    {
-     "Value": "Magdalena /Frankhardt/",
-     "Givenname": "Magdalena",
-     "Surname": "Frankhardt"
-    },
-    {
-     "Value": "Madline /Frankard/",
-     "Givenname": "Madline",
-     "Surname": "Frankard"
-    },
-    {
-     "Value": "Ellen /Frankard/",
-     "Givenname": "Ellen",
-     "Surname": "Frankard"
-    },
-    {
-     "Value": "Magdalena /Schilts/",
-     "Givenname": "Magdalena",
-     "Surname": "Schilts"
-    },
-    {
-     "Value": "Magdalena /Frankard/",
-     "Givenname": "Magdalena",
-     "Surname": "Frankard"
-    }
-   ],
+   "sex": "M",
    "Birth": {
-    "birthdate": [
+    "birthdate":
      "Oct 1842",
-     "Abt 1845"
-    ],
-    "birthplace": [
+    "birthplace": 
      "Luxembourg",
-     "Luxumburg"
-    ]
    },
    "death": {
     "date": "15 Sep 1902"
@@ -542,6 +450,7 @@
     "Givenname": "Henry",
     "Surname": "Doppke"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1914",
     "birthplace": "Illinois"
@@ -553,47 +462,18 @@
     "Value": "Thomas /Dickinson/",
     "Givenname": "Thomas",
     "Surname": "Dickinson"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@P231@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Nils Andrew /Hansen/",
      "Givenname": "Nils Andrew",
      "Surname": "Hansen"
     },
-    {
-     "Value": "Nils A /Hansen/",
-     "Givenname": "Nils A",
-     "Surname": "Hansen"
-    },
-    {
-     "Value": "Nils Andreas /Hansen/",
-     "Givenname": "Nils Andreas",
-     "Surname": "Hansen"
-    },
-    {
-     "Value": "Nels /Hansen/",
-     "Givenname": "Nels",
-     "Surname": "Hansen"
-    },
-    {
-     "Value": "Nils Andreas /Hansen/",
-     "Givenname": "Nils Andreas",
-     "Surname": "Hansen"
-    },
-    {
-     "Value": "Nils Andreas /Hansen/",
-     "Givenname": "Nils Andreas",
-     "Surname": "Hansen"
-    },
-    {
-     "Value": "Nils A /Hansen/",
-     "Givenname": "Nils A",
-     "Surname": "Hansen"
-    }
-   ],
+   "sex": "M",
    "Birth": {
     "birthdate": "04 Mar 1845",
     "birthplace": "Stathelle,,Telemark,Norway"
@@ -608,6 +488,7 @@
     "Value": "/Niels/",
     "Surname": "Niels"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "Abt. 1747"
    }
@@ -619,6 +500,7 @@
     "Givenname": "Margaret",
     "Surname": "Dopke"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "Apr 1900",
     "birthplace": "Illinois"
@@ -626,17 +508,13 @@
   },
   {
    "Id": "@P152@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "William /Manske/",
      "Givenname": "William",
      "Surname": "Manske"
     },
-    {
-     "Value": "/Wilhelm/",
-     "Surname": "Wilhelm"
-    }
-   ],
+   "sex": "M",
    "Birth": {
     "birthdate": "28 MAY 1876",
     "birthplace": "KostanGermany"
@@ -652,6 +530,7 @@
     "Givenname": "Clarence",
     "Surname": "Mareck"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1904",
     "birthplace": "Illinois"
@@ -663,6 +542,7 @@
     "Value": "/Caroline/",
     "Surname": "Caroline"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "abt 1850",
     "birthplace": "Germany"
@@ -674,41 +554,25 @@
     "Value": "4 children /Rosinke/",
     "Givenname": "4 children",
     "Surname": "Rosinke"
-   }
+   },
+   "sex": "U"
   },
   {
    "Id": "@P119@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Emilie /Herman/",
      "Givenname": "Emilie",
      "Surname": "Herman"
     },
-    {
-     "Value": "Emily /Herman/",
-     "Givenname": "Emily",
-     "Surname": "Herman"
-    },
-    {
-     "Value": "Emile /Herman/",
-     "Givenname": "Emile",
-     "Surname": "Herman"
-    },
-    {
-     "Value": "Emilie /Roeder/",
-     "Givenname": "Emilie",
-     "Surname": "Roeder"
-    }
-   ],
+   "sex": "F",
    "Birth": {
     "birthdate": "4 Sep 1883",
     "birthplace": "SompolnaPoland"
    },
    "death": {
-    "date": [
+    "date":
      "6 Jan 1960",
-     "6 Jan 1960"
-    ]
    },
    "burial": {
     "burial": "Chicago,Cook County,Illinois,United States of America"
@@ -721,6 +585,7 @@
     "Givenname": "George",
     "Surname": "AMORE"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "14 AUG 1891"
    },
@@ -730,41 +595,25 @@
   },
   {
    "Id": "@P2@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Nora /LANAM/",
      "Givenname": "Nora",
      "Surname": "LANAM"
     },
-    {
-     "Value": "Nora /Amore/",
-     "Givenname": "Nora",
-     "Surname": "Amore"
-    }
-   ],
+   "sex": "F",
    "Birth": {
-    "birthdate": [
+    "birthdate":
      "19 August 1886",
-     "19 AUG 1886",
-     "19 AUG 1886"
-    ],
-    "birthplace": [
-     "Medaryville,Pulaski County,Indiana,United States of America",
-     "Pulaski Co.Indiana",
-     "Medaryville"
-    ]
+    "birthplace": 
+     "Medaryville, Indiana,",
    },
    "death": {
-    "date": [
+    "date": 
      "10 November 1971",
-     "10 NOV 1971"
-    ]
    },
    "burial": {
-    "burial": [
-     "River Grove,Cook County,Illinois,United States of America",
-     "St Joseph Cemetery,,Chicago,Illinois"
-    ]
+    "burial": "River Grove,Cook County,Illinois,United States of America",
    }
   },
   {
@@ -774,6 +623,7 @@
     "Givenname": "Leo",
     "Surname": "Grothouse"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1915",
     "birthplace": "Indiana"
@@ -784,22 +634,18 @@
    "Fullname": {
     "Value": "/Kenneth/",
     "Surname": "Kenneth"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@P317@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Iver /Sørensen/",
      "Givenname": "Iver",
      "Surname": "Sørensen"
     },
-    {
-     "Value": "Ivar /Sørensen/",
-     "Givenname": "Ivar",
-     "Surname": "Sørensen"
-    }
-   ],
+   "sex": "M",
    "Birth": {
     "birthdate": "1 Feb 1882",
     "birthplace": "BrevikNorway"
@@ -811,22 +657,18 @@
     "Value": "George Hermann /Wagner/",
     "Givenname": "George Hermann",
     "Surname": "Wagner"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@P270@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Madlin /Zillenger/",
      "Givenname": "Madlin",
      "Surname": "Zillenger"
     },
-    {
-     "Value": "Madeline M /Homola/",
-     "Givenname": "Madeline M",
-     "Surname": "Homola"
-    }
-   ],
+   "sex": "F",
    "Birth": {
     "birthdate": "Sep 1893",
     "birthplace": "Illinois"
@@ -842,6 +684,7 @@
     "Givenname": "Ingeborg Elise",
     "Surname": "Sørensen"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "1885",
     "birthplace": "Brevik kjøpstad"
@@ -854,6 +697,7 @@
     "Givenname": "Paul",
     "Surname": "Rosinke"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "Aug 1885",
     "birthplace": "Germany"
@@ -866,6 +710,7 @@
     "Givenname": "Gustav",
     "Surname": "Herman"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "11 Dec 1881",
     "birthplace": "SompolnoPoland"
@@ -881,6 +726,7 @@
     "Givenname": "Damian",
     "Surname": "Amore"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "19 OCT 1911",
     "birthplace": "Chicago,,Cook Co.,Illinois"
@@ -899,6 +745,7 @@
     "Givenname": "Joseph D",
     "Surname": "Thiebaut"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "1811"
    },
@@ -913,6 +760,7 @@
     "Givenname": "Celia",
     "Surname": "Kelley"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "Sep 1891",
     "birthplace": "Illinois"
@@ -920,18 +768,13 @@
   },
   {
    "Id": "@P378@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Valborg Marie /Lindboe/",
      "Givenname": "Valborg Marie",
      "Surname": "Lindboe"
     },
-    {
-     "Value": "Marie /Christensen/",
-     "Givenname": "Marie",
-     "Surname": "Christensen"
-    }
-   ],
+   "sex": "F",
    "Birth": {
     "birthdate": "abt 1908",
     "birthplace": "Illinois"
@@ -947,6 +790,7 @@
     "Givenname": "Edward",
     "Surname": "Doppke"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "14 JUL 1912",
     "birthplace": "ChicagoIllinois"
@@ -962,6 +806,7 @@
     "Givenname": "Timothy",
     "Surname": "O'CONNOR"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "07/21/1824",
     "birthplace": "Ireland"
@@ -980,6 +825,7 @@
     "Givenname": "Peter H",
     "Surname": "McCall"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "1736"
    }
@@ -991,6 +837,7 @@
     "Givenname": "Edward",
     "Surname": "Grothouse"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1872",
     "birthplace": "Germany"
@@ -1003,6 +850,7 @@
     "Givenname": "Everett C",
     "Surname": "Forner"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1902",
     "birthplace": "Washington"
@@ -1010,33 +858,23 @@
   },
   {
    "Id": "@P222@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Laurie /Jensen/",
      "Givenname": "Laurie",
      "Surname": "Jensen"
     },
-    {
-     "Value": "Laurel /Jensen/",
-     "Givenname": "Laurel",
-     "Surname": "Jensen"
-    }
-   ]
+   "sex": "F"
   },
   {
    "Id": "@P99@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Catharine /Amour/",
      "Givenname": "Catharine",
      "Surname": "Amour"
     },
-    {
-     "Value": "Catherine /Nicolas/",
-     "Givenname": "Catherine",
-     "Surname": "Nicolas"
-    }
-   ],
+   "sex": "F",
    "Birth": {
     "birthdate": "1838",
     "birthplace": "Ohio"
@@ -1055,7 +893,8 @@
     "Value": "Aasmund /Andersen/",
     "Givenname": "Aasmund",
     "Surname": "Andersen"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@P197@",
@@ -1064,6 +903,7 @@
     "Givenname": "Adeline",
     "Surname": "Manske"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "abt 1909",
     "birthplace": "Illinois"
@@ -1076,6 +916,7 @@
     "Givenname": "Dorothy",
     "Surname": "Lanham"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "1708"
    }
@@ -1087,6 +928,7 @@
     "Givenname": "Bridgett",
     "Surname": "Dunn"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "1866",
     "birthplace": "Pulaski Co.Indiana"
@@ -1100,6 +942,7 @@
     "Givenname": "Randall J",
     "Surname": "Kirk"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1897",
     "birthplace": "Illinois"
@@ -1112,6 +955,7 @@
     "Givenname": "Maren",
     "Surname": "Henrichsdatter"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "Ca 1712",
     "birthplace": "Osebakken i GjerpenTelemark"
@@ -1128,6 +972,7 @@
     "Givenname": "Frances May",
     "Surname": "Moffett"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "Jun 1858",
     "birthplace": "New York"
@@ -1144,6 +989,7 @@
     "Givenname": "John",
     "Surname": "Lanham"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "1658",
     "birthplace": "EssexEngland"
@@ -1156,6 +1002,7 @@
     "Givenname": "Bernard",
     "Surname": "Zillinger"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1853",
     "birthplace": "Holland"
@@ -1166,23 +1013,13 @@
   },
   {
    "Id": "@P234@",
-   "Fullname": [
+   "Fullname": 
     {
      "Value": "Lillian /Hansen/",
      "Givenname": "Lillian",
      "Surname": "Hansen"
     },
-    {
-     "Value": "Lillian /Gordon/",
-     "Givenname": "Lillian",
-     "Surname": "Gordon"
-    },
-    {
-     "Value": "Lillian Adeline /Hansen/",
-     "Givenname": "Lillian Adeline",
-     "Surname": "Hansen"
-    }
-   ],
+   "sex": "F",
    "Birth": {
     "birthdate": "22 Dec 1911",
     "birthplace": "Chicago,Cook,Illinois,USA"
@@ -1198,6 +1035,7 @@
     "Givenname": "Eliazir",
     "Surname": "Lanham"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "1/3/1723",
     "birthplace": "King Georges Parish,Prince George's County,Maryland,USA"
@@ -1210,6 +1048,7 @@
     "Givenname": "Hiram",
     "Surname": "Lanam"
    },
+   "sex": "U",
    "Birth": {
     "birthdate": "1841"
    },
@@ -1222,18 +1061,13 @@
   },
   {
    "Id": "@P22@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Charlotte /Thiebaut/",
      "Givenname": "Charlotte",
      "Surname": "Thiebaut"
     },
-    {
-     "Value": "Charlotte /Amore/",
-     "Givenname": "Charlotte",
-     "Surname": "Amore"
-    }
-   ],
+   "sex": "F",
    "Birth": {
     "birthdate": "1798",
     "birthplace": "France"
@@ -1253,6 +1087,7 @@
     "Givenname": "Anne",
     "Surname": "Andersdatter"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "abt 1812",
     "birthplace": "Bamble"
@@ -1265,6 +1100,7 @@
     "Givenname": "Mary",
     "Surname": "Lanham"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "1809"
    },
@@ -1279,6 +1115,7 @@
     "Givenname": "Frank",
     "Surname": "Doppke"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "5 MAY 1919",
     "birthplace": "ChicagoIllinois"
@@ -1294,6 +1131,7 @@
     "Givenname": "Martin",
     "Surname": "Lanam"
    },
+   "sex": "U",
    "Birth": {
     "birthdate": "3 March 1838",
     "birthplace": "OhioUnited States of America"
@@ -1312,6 +1150,7 @@
     "Givenname": "Infant Daughter",
     "Surname": "Lanam"
    },
+   "sex": "U",
    "Birth": {
     "birthdate": "30 July 1857",
     "birthplace": "OhioUnited States of America"
@@ -1330,6 +1169,7 @@
     "Givenname": "Elmer",
     "Surname": "Mareck"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1907",
     "birthplace": "Illinois"
@@ -1341,7 +1181,8 @@
     "Value": "Gunnild /Kittelsdr/",
     "Givenname": "Gunnild",
     "Surname": "Kittelsdr"
-   }
+   },
+   "sex": "F"
   },
   {
    "Id": "@P49@",
@@ -1350,6 +1191,7 @@
     "Givenname": "John",
     "Surname": "Lanam"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "1820",
     "birthplace": "Ohio"
@@ -1363,32 +1205,18 @@
   },
   {
    "Id": "@P269@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Aaron /Zillinger/",
      "Givenname": "Aaron",
      "Surname": "Zillinger"
     },
-    {
-     "Value": "A /Zilinger/",
-     "Givenname": "A",
-     "Surname": "Zilinger"
-    },
-    {
-     "Value": "Aaron /Sielenga/",
-     "Givenname": "Aaron",
-     "Surname": "Sielenga"
-    }
-   ],
+   "sex": "M",
    "Birth": {
-    "birthdate": [
+    "birthdate":
      "abt 1814",
-     "abt 1818"
-    ],
-    "birthplace": [
+    "birthplace":
      "Holland",
-     "Holland"
-    ]
    },
    "death": {
     "date": "11 Apr 1889"
@@ -1396,18 +1224,13 @@
   },
   {
    "Id": "@P51@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Jesse /Lanam/",
      "Givenname": "Jesse",
      "Surname": "Lanam"
     },
-    {
-     "Value": "Jessie Lanam /Michaels/",
-     "Givenname": "Jessie Lanam",
-     "Surname": "Michaels"
-    }
-   ],
+   "sex": "F",
    "Birth": {
     "birthdate": "5 Aug 1888",
     "birthplace": "Pulaski Co.Indiana"
@@ -1426,6 +1249,7 @@
     "Givenname": "Robert Moses",
     "Surname": "Amore"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "27 JUN 1921",
     "birthplace": "Chicago,,Cook Co.,Illinois"
@@ -1442,7 +1266,8 @@
    "Fullname": {
     "Value": "/Vincent/",
     "Surname": "Vincent"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@P87@",
@@ -1451,6 +1276,7 @@
     "Givenname": "James",
     "Surname": "Shanesy"
    },
+   "sex": "M",
    "death": {
     "date": "1879"
    }
@@ -1462,6 +1288,7 @@
     "Givenname": "Jesse Brookes",
     "Surname": "Lanham"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "17 Jun 1764",
     "birthplace": "King Georges Parish,Prince George's County,Maryland,USA"
@@ -1469,23 +1296,13 @@
   },
   {
    "Id": "@P243@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Christine /Christensdr/",
      "Givenname": "Christine",
      "Surname": "Christensdr"
     },
-    {
-     "Value": "Anne Kirstine /Christensdr/",
-     "Givenname": "Anne Kirstine",
-     "Surname": "Christensdr"
-    },
-    {
-     "Value": "Christine /Christensdr/",
-     "Givenname": "Christine",
-     "Surname": "Christensdr"
-    }
-   ],
+   "sex": "F",
    "Birth": {
     "birthdate": "Ca.1818"
    }
@@ -1497,6 +1314,7 @@
     "Givenname": "Mildred",
     "Surname": "Janesovsky"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "abt 1903",
     "birthplace": "Illinois"
@@ -1509,6 +1327,7 @@
     "Givenname": "Herman",
     "Surname": "Dopke"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "27 Oct 1882",
     "birthplace": "LouisenhofGermany"
@@ -1519,18 +1338,13 @@
   },
   {
    "Id": "@P226@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Edna Louise /Zillinger/",
      "Givenname": "Edna Louise",
      "Surname": "Zillinger"
     },
-    {
-     "Value": "Edna Louise /Johnson/",
-     "Givenname": "Edna Louise",
-     "Surname": "Johnson"
-    }
-   ],
+   "sex": "F",
    "Birth": {
     "birthdate": "16 Feb 1898",
     "birthplace": "Illinois"
@@ -1549,6 +1363,7 @@
     "Givenname": "Samuel",
     "Surname": "Sørensen"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "1874",
     "birthplace": "Brevik kjøpstad"
@@ -1561,6 +1376,7 @@
     "Givenname": "Mollie",
     "Surname": "Doppke"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "1904",
     "birthplace": "Illinois"
@@ -1573,6 +1389,7 @@
     "Givenname": "Nathan",
     "Surname": "Wheeler"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "1828",
     "birthplace": "Virginia"
@@ -1589,6 +1406,7 @@
     "Givenname": "William",
     "Surname": "Lanham"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "21 Sep 1717",
     "birthplace": "King Georges Parish,Prince George's County,Maryland,USA"
@@ -1601,6 +1419,7 @@
     "Givenname": "Lewis",
     "Surname": "Wheeler"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "1827",
     "birthplace": "Virginia"
@@ -1614,7 +1433,8 @@
    "Fullname": {
     "Value": "/Joseph/",
     "Surname": "Joseph"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@P249@",
@@ -1623,6 +1443,7 @@
     "Givenname": "Clara",
     "Surname": "Johnsen"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "abt 1885",
     "birthplace": "ChicagoIllinois"
@@ -1630,18 +1451,13 @@
   },
   {
    "Id": "@P306@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Arthur /Johnson/",
      "Givenname": "Arthur",
      "Surname": "Johnson"
     },
-    {
-     "Value": "Arthur /Johnson/",
-     "Givenname": "Arthur",
-     "Surname": "Johnson"
-    }
-   ],
+   "sex": "M",
    "Birth": {
     "birthdate": "19 Aug 1890",
     "birthplace": "Chicago,,Cook,Illinois"
@@ -1654,6 +1470,7 @@
     "Givenname": "Søren",
     "Surname": "Sørensen"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1850",
     "birthplace": "Brevig"
@@ -1665,7 +1482,8 @@
     "Value": "Thomas /Smith/",
     "Givenname": "Thomas",
     "Surname": "Smith"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@P207@",
@@ -1674,6 +1492,7 @@
     "Givenname": "Auguste",
     "Surname": "Meyer"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "abt 1874",
     "birthplace": "Illinois"
@@ -1686,6 +1505,7 @@
     "Givenname": "Emil",
     "Surname": "Meyer"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "May 1881",
     "birthplace": "Illinois"
@@ -1698,6 +1518,7 @@
     "Givenname": "Marilyn",
     "Surname": "Manske"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "abt 1937",
     "birthplace": "Illinois"
@@ -1710,6 +1531,7 @@
     "Givenname": "Terressha",
     "Surname": "Lanham"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "28 Sep 1773",
     "birthplace": "King Georges Parish,Prince George's County,Maryland,USA"
@@ -1722,6 +1544,7 @@
     "Givenname": "Mary",
     "Surname": "Dopke"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "Aug 1875",
     "birthplace": "Illinois"
@@ -1729,27 +1552,18 @@
   },
   {
    "Id": "@P229@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "John Maugnus /Johnson/",
      "Givenname": "John Maugnus",
      "Surname": "Johnson"
     },
-    {
-     "Value": "John /Johnson/",
-     "Givenname": "John",
-     "Surname": "Johnson"
-    }
-   ],
+   "sex": "M",
    "Birth": {
-    "birthdate": [
+    "birthdate":
      "abt 1864",
-     "abt 1865"
-    ],
-    "birthplace": [
+    "birthplace":
      "Sweden",
-     "Sweden"
-    ]
    }
   },
   {
@@ -1759,6 +1573,7 @@
     "Givenname": "Jesse",
     "Surname": "Lanham"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "1/2/1733",
     "birthplace": "King Georges Parish,Prince George's County,Maryland,USA"
@@ -1777,6 +1592,7 @@
     "Givenname": "John J",
     "Surname": "Lanam"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "Feb 1883",
     "birthplace": "Indiana"
@@ -1788,31 +1604,23 @@
     "Value": "Mary /Piles Hunter/",
     "Givenname": "Mary",
     "Surname": "Piles Hunter"
-   }
+   },
+   "sex": "F"
   },
   {
    "Id": "@P53@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Ida \"Mae\" /LANAM/",
      "Givenname": "Ida \"Mae\"",
      "Surname": "LANAM"
     },
-    {
-     "Value": "Mae /Luken/",
-     "Givenname": "Mae",
-     "Surname": "Luken"
-    }
-   ],
+   "sex": "F",
    "Birth": {
-    "birthdate": [
+    "birthdate":
      "29 November 1884",
-     "9 DEC 1884"
-    ],
-    "birthplace": [
-     "IndianaUnited States of America",
-     "Pulaski Co.Indiana"
-    ]
+    "birthplace": 
+     "Indiana",
    },
    "death": {
     "date": "9 January 1956"
@@ -1823,38 +1631,13 @@
   },
   {
    "Id": "@P219@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Adeline /Johnson/",
      "Givenname": "Adeline",
      "Surname": "Johnson"
     },
-    {
-     "Value": "Adeline L /Hansen/",
-     "Givenname": "Adeline L",
-     "Surname": "Hansen"
-    },
-    {
-     "Value": "Adeline /Hansen/",
-     "Givenname": "Adeline",
-     "Surname": "Hansen"
-    },
-    {
-     "Value": "Adeline /Hansen/",
-     "Givenname": "Adeline",
-     "Surname": "Hansen"
-    },
-    {
-     "Value": "Adeline C /Johnson/",
-     "Givenname": "Adeline C",
-     "Surname": "Johnson"
-    },
-    {
-     "Value": "Adeline L /Johnson/",
-     "Givenname": "Adeline L",
-     "Surname": "Johnson"
-    }
-   ],
+   "sex": "F",
    "Birth": {
     "birthdate": "19 Dec 1923",
     "birthplace": "Chicago,Cook,Illinois,United States"
@@ -1872,7 +1655,8 @@
     "Value": "Julian /Röder/",
     "Givenname": "Julian",
     "Surname": "Röder"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@P113@",
@@ -1881,6 +1665,7 @@
     "Givenname": "Hiram L",
     "Surname": "McCay"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1857",
     "birthplace": "Indiana"
@@ -1896,6 +1681,7 @@
     "Givenname": "Elisha",
     "Surname": "Lanham"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "23 Jun 1725",
     "birthplace": "King Georges Parish,Prince George's County,Maryland,USA"
@@ -1908,6 +1694,7 @@
     "Givenname": "Nora",
     "Surname": "Mc Cay"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "Abt 1879",
     "birthplace": "Indiana"
@@ -1920,6 +1707,7 @@
     "Givenname": "Nils",
     "Surname": "Kittelsen"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "1 Jul 1854"
    }
@@ -1931,6 +1719,7 @@
     "Givenname": "Gertude Mae",
     "Surname": "Zillinger"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "Jun 1889",
     "birthplace": "Illinois"
@@ -1945,7 +1734,8 @@
     "Value": "Ingebor /Sorensdatter/",
     "Givenname": "Ingebor",
     "Surname": "Sorensdatter"
-   }
+   },
+   "sex": "F"
   },
   {
    "Id": "@P85@",
@@ -1954,6 +1744,7 @@
     "Givenname": "Johana",
     "Surname": "Burke"
    },
+   "sex": "F",
    "Birth": {
     "birthplace": "Ireland"
    },
@@ -1968,6 +1759,7 @@
     "Givenname": "Joseph",
     "Surname": "Thiebaut"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "1776",
     "birthplace": "France"
@@ -1978,18 +1770,13 @@
   },
   {
    "Id": "@P48@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Catherine /Wheeler/",
      "Givenname": "Catherine",
      "Surname": "Wheeler"
     },
-    {
-     "Value": "Catharine /Lanam/",
-     "Givenname": "Catharine",
-     "Surname": "Lanam"
-    }
-   ],
+   "sex": "F",
    "Birth": {
     "birthdate": "7 MAY 1830",
     "birthplace": "Harrison CountyWest Virginia"
@@ -2008,15 +1795,12 @@
     "Givenname": "Timothy Moses",
     "Surname": "Amore"
    },
+   "sex": "M",
    "Birth": {
-    "birthdate": [
+    "birthdate":
      "4 JAN 1876",
-     "4 January 1876"
-    ],
-    "birthplace": [
-     "MedaryvilleIndiana",
-     "Medaryville,Pulaski County,Indiana,United States of America"
-    ]
+    "birthplace": 
+     "Medaryville, Indiana",
    },
    "death": {
     "date": "25 May 1960"
@@ -2031,7 +1815,8 @@
     "Value": "unknown /Pubandz/",
     "Givenname": "unknown",
     "Surname": "Pubandz"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@P38@",
@@ -2040,6 +1825,7 @@
     "Givenname": "Joseph",
     "Surname": "Grothouse"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1909",
     "birthplace": "Indiana"
@@ -2052,6 +1838,7 @@
     "Givenname": "Lars Jacob",
     "Surname": "Nelsen"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1875",
     "birthplace": "Norway"
@@ -2064,6 +1851,7 @@
     "Givenname": "Thomas Alleta",
     "Surname": "Doppke"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1940",
     "birthplace": "Illinois"
@@ -2076,6 +1864,7 @@
     "Givenname": "Robert",
     "Surname": "Doppke"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1939",
     "birthplace": "Illinois"
@@ -2088,6 +1877,7 @@
     "Givenname": "Bernard",
     "Surname": "Grothouse"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1901",
     "birthplace": "Indiana"
@@ -2100,6 +1890,7 @@
     "Givenname": "Willie L.",
     "Surname": "Lanam"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "26 March 1862",
     "birthplace": "Ohio"
@@ -2113,18 +1904,13 @@
   },
   {
    "Id": "@P283@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Annie /Zillinger/",
      "Givenname": "Annie",
      "Surname": "Zillinger"
     },
-    {
-     "Value": "Anna /Zillinger/",
-     "Givenname": "Anna",
-     "Surname": "Zillinger"
-    }
-   ],
+   "sex": "F",
    "Birth": {
     "birthdate": "abt 1865",
     "birthplace": "Illinois"
@@ -2140,6 +1926,7 @@
     "Givenname": "Ludwig",
     "Surname": "Roeder"
    },
+   "sex": "M",
    "Birth": {
     "birthplace": "Poland"
    }
@@ -2151,6 +1938,7 @@
     "Givenname": "Walter",
     "Surname": "Manske"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "29 APR 1901",
     "birthplace": "Illinois"
@@ -2166,6 +1954,7 @@
     "Givenname": "Richard William",
     "Surname": "Doppke"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "14 July 1944",
     "birthplace": "Chicago,,Cook Co.,Illinois"
@@ -2181,6 +1970,7 @@
     "Givenname": "Bernice A Clark",
     "Surname": "Doppke"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "15 Mar 1906",
     "birthplace": "Illinois"
@@ -2196,6 +1986,7 @@
     "Givenname": "Arathusa",
     "Surname": "Ogle"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "29 February 1816",
     "birthplace": "Ohio"
@@ -2209,52 +2000,18 @@
   },
   {
    "Id": "@P241@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Charlotta /Hansen/",
      "Givenname": "Charlotta",
      "Surname": "Hansen"
     },
-    {
-     "Value": "Carlotte Hansine /Nilsdatter/",
-     "Givenname": "Carlotte Hansine",
-     "Surname": "Nilsdatter"
-    },
-    {
-     "Value": "Charlotte H /Nelsen/",
-     "Givenname": "Charlotte H",
-     "Surname": "Nelsen"
-    },
-    {
-     "Value": "Charlotte H /Nelsen/",
-     "Givenname": "Charlotte H",
-     "Surname": "Nelsen"
-    },
-    {
-     "Value": "Carlotte Hansine /Nilsdatter/",
-     "Givenname": "Carlotte Hansine",
-     "Surname": "Nilsdatter"
-    },
-    {
-     "Value": "Charlotte /Nelsen/",
-     "Givenname": "Charlotte",
-     "Surname": "Nelsen"
-    },
-    {
-     "Value": "Charlotte H /Nelson/",
-     "Givenname": "Charlotte H",
-     "Surname": "Nelson"
-    }
-   ],
+   "sex": "F",
    "Birth": {
-    "birthdate": [
+    "birthdate":
      "5 Feb 1887",
-     "5 Feb 1887"
-    ],
-    "birthplace": [
+    "birthplace":
      "Stathelle",
-     "BrevikNorway"
-    ]
    },
    "death": {
     "date": "1964"
@@ -2270,6 +2027,7 @@
     "Givenname": "Elizabeth",
     "Surname": "Dunn"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "1862",
     "birthplace": "Pulaski Co.Indiana"
@@ -2280,32 +2038,18 @@
   },
   {
    "Id": "@P376@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Marie /Dusatke/",
      "Givenname": "Marie",
      "Surname": "Dusatke"
     },
-    {
-     "Value": "Mary /Christensen/",
-     "Givenname": "Mary",
-     "Surname": "Christensen"
-    },
-    {
-     "Value": "Mae /Christensen/",
-     "Givenname": "Mae",
-     "Surname": "Christensen"
-    }
-   ],
+   "sex": "F",
    "Birth": {
-    "birthdate": [
+    "birthdate":
      "abt 1897",
-     "abt 1899"
-    ],
-    "birthplace": [
+    "birthplace":
      "Illinois",
-     "Illinois"
-    ]
    }
   },
   {
@@ -2315,6 +2059,7 @@
     "Givenname": "Olive",
     "Surname": "Hansen"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "abt 1912",
     "birthplace": "Illinois"
@@ -2327,6 +2072,7 @@
     "Givenname": "Alace",
     "Surname": "Doppke"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "abt 1931",
     "birthplace": "Illinois"
@@ -2339,6 +2085,7 @@
     "Givenname": "living",
     "Surname": "Doppke"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "11/5/1942",
     "birthplace": "ChicagoIllinois"
@@ -2351,6 +2098,7 @@
     "Givenname": "Adda Mae",
     "Surname": "Lanam"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "11 Jul 1862",
     "birthplace": "Pulaski Co.Indiana"
@@ -2366,6 +2114,7 @@
     "Givenname": "John",
     "Surname": "Lanham"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "14 Aug 1712",
     "birthplace": "King Georges Parish,Prince George's County,Maryland,USA"
@@ -2378,6 +2127,7 @@
     "Givenname": "Julia",
     "Surname": "Dunn"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "1860",
     "birthplace": "Pulaski Co.Ind"
@@ -2390,7 +2140,8 @@
     "Value": "Iris /Roeder/",
     "Givenname": "Iris",
     "Surname": "Roeder"
-   }
+   },
+   "sex": "F"
   },
   {
    "Id": "@P189@",
@@ -2399,6 +2150,7 @@
     "Givenname": "Helen",
     "Surname": "Rosinke"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "Sep 1883",
     "birthplace": "Germany"
@@ -2411,6 +2163,7 @@
     "Givenname": "Marion",
     "Surname": "Doppke"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "abt 1934",
     "birthplace": "Illinois"
@@ -2423,6 +2176,7 @@
     "Givenname": "Minnie",
     "Surname": "Zillinger Janesovsky"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "abt 1859",
     "birthplace": "Illinois"
@@ -2437,7 +2191,8 @@
     "Value": "Augusta /Herman/",
     "Givenname": "Augusta",
     "Surname": "Herman"
-   }
+   },
+   "sex": "F"
   },
   {
    "Id": "@P410@",
@@ -2445,7 +2200,8 @@
     "Value": "William /Lanham/",
     "Givenname": "William",
     "Surname": "Lanham"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@P112@",
@@ -2454,6 +2210,7 @@
     "Givenname": "Ann",
     "Surname": "Buck"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "BET 1775 AND 1784"
    },
@@ -2461,23 +2218,13 @@
   },
   {
    "Id": "@P225@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "William Arthur /Johnson/",
      "Givenname": "William Arthur",
      "Surname": "Johnson"
     },
-    {
-     "Value": "Wm /Johnson/",
-     "Givenname": "Wm",
-     "Surname": "Johnson"
-    },
-    {
-     "Value": "Willie /Johnson/",
-     "Givenname": "Willie",
-     "Surname": "Johnson"
-    }
-   ],
+   "sex": "M",
    "Birth": {
     "birthdate": "21 Mar 1892",
     "birthplace": "Chicago,Cook,Illinois,USA"
@@ -2488,28 +2235,13 @@
   },
   {
    "Id": "@P56@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Catherine /Shanesy/",
      "Givenname": "Catherine",
      "Surname": "Shanesy"
     },
-    {
-     "Value": "Katherine /Dunn/",
-     "Givenname": "Katherine",
-     "Surname": "Dunn"
-    },
-    {
-     "Value": "Catharine /Dunn/",
-     "Givenname": "Catharine",
-     "Surname": "Dunn"
-    },
-    {
-     "Value": "Catherine /Dunn/",
-     "Givenname": "Catherine",
-     "Surname": "Dunn"
-    }
-   ],
+   "sex": "F",
    "Birth": {
     "birthdate": "1 Nov 1828",
     "birthplace": "Ireland"
@@ -2528,6 +2260,7 @@
     "Givenname": "Shurman",
     "Surname": "Mc Cay"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "Abt 1876",
     "birthplace": "Indiana"
@@ -2535,23 +2268,13 @@
   },
   {
    "Id": "@P23@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Francis /Amour/",
      "Givenname": "Francis",
      "Surname": "Amour"
     },
-    {
-     "Value": "Frank /Amore/",
-     "Givenname": "Frank",
-     "Surname": "Amore"
-    },
-    {
-     "Value": "Francis /Amore/",
-     "Givenname": "Francis",
-     "Surname": "Amore"
-    }
-   ],
+   "sex": "M",
    "Birth": {
     "birthdate": "1797",
     "birthplace": "France"
@@ -2570,6 +2293,7 @@
     "Givenname": "Audrey",
     "Surname": "Manske"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "abt 1938",
     "birthplace": "Illinois"
@@ -2577,28 +2301,13 @@
   },
   {
    "Id": "@P13@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Hanorah A. /Dunn/",
      "Givenname": "Hanorah A.",
      "Surname": "Dunn"
     },
-    {
-     "Value": "Hanna /Lanam/",
-     "Givenname": "Hanna",
-     "Surname": "Lanam"
-    },
-    {
-     "Value": "Hamara /Dunn/",
-     "Givenname": "Hamara",
-     "Surname": "Dunn"
-    },
-    {
-     "Value": "Honora /Dunn/",
-     "Givenname": "Honora",
-     "Surname": "Dunn"
-    }
-   ],
+   "sex": "F",
    "Birth": {
     "birthdate": "24 AUG 1854",
     "birthplace": "MedaryvillePulaski Co. Indiana"
@@ -2617,6 +2326,7 @@
     "Givenname": "Burton",
     "Surname": "Johnson"
    },
+   "sex": "M",
    "Birth": {
     "birthplace": "ChicagoIllinois"
    }
@@ -2627,22 +2337,18 @@
     "Value": "Arthur S. /Tyrrell/",
     "Givenname": "Arthur S.",
     "Surname": "Tyrrell"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@P267@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Louise Ellen /Zillinger/",
      "Givenname": "Louise Ellen",
      "Surname": "Zillinger"
     },
-    {
-     "Value": "Louise /Steel/",
-     "Givenname": "Louise",
-     "Surname": "Steel"
-    }
-   ],
+   "sex": "F",
    "Birth": {
     "birthdate": "26 Nov 1895",
     "birthplace": "Chicago,,Cook,Illinois"
@@ -2658,6 +2364,7 @@
     "Givenname": "Elise",
     "Surname": "Garbe"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "1837",
     "birthplace": "Germany"
@@ -2665,23 +2372,13 @@
   },
   {
    "Id": "@P281@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "John B /Zillinger/",
      "Givenname": "John B",
      "Surname": "Zillinger"
     },
-    {
-     "Value": "John /Sielenga/",
-     "Givenname": "John",
-     "Surname": "Sielenga"
-    },
-    {
-     "Value": "John /Zellinger/",
-     "Givenname": "John",
-     "Surname": "Zellinger"
-    }
-   ],
+   "sex": "M",
    "Birth": {
     "birthdate": "Sep 1860",
     "birthplace": "Illinois"
@@ -2697,6 +2394,7 @@
     "Givenname": "Arthur O",
     "Surname": "Roeder"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "1920",
     "birthplace": "Wisconsin"
@@ -2712,15 +2410,12 @@
     "Givenname": "Lars",
     "Surname": "Bowman"
    },
+   "sex": "M",
    "Birth": {
-    "birthdate": [
+    "birthdate": 
      "Abt 1826",
-     "abt 1828"
-    ],
-    "birthplace": [
+    "birthplace": 
      "Sweden",
-     "Sweden"
-    ]
    },
    "death": {
     "date": "18 May 1885"
@@ -2736,6 +2431,7 @@
     "Givenname": "John",
     "Surname": "Frankhardt"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "Dec 1881",
     "birthplace": "Illinois"
@@ -2743,23 +2439,13 @@
   },
   {
    "Id": "@P244@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Kittel /Nilsen/",
      "Givenname": "Kittel",
      "Surname": "Nilsen"
     },
-    {
-     "Value": "Kittil /Nielsen/",
-     "Givenname": "Kittil",
-     "Surname": "Nielsen"
-    },
-    {
-     "Value": "Kittel /Nielsen/",
-     "Givenname": "Kittel",
-     "Surname": "Nielsen"
-    }
-   ],
+   "sex": "M",
    "Birth": {
     "birthdate": "07 Oct 1810"
    }
@@ -2771,6 +2457,7 @@
     "Givenname": "Ray",
     "Surname": "Manske"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1931",
     "birthplace": "Illinois"
@@ -2783,6 +2470,7 @@
     "Givenname": "Elisabeth Gertraud",
     "Surname": "Homrighausen"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "15 Aug 1734",
     "birthplace": "Wunderthausen,Siegen-Wittgenstein,Nordrhein-Westfalen,Germany"
@@ -2798,6 +2486,7 @@
     "Givenname": "Emma",
     "Surname": "Meyer"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "abt 1878",
     "birthplace": "Illinois"
@@ -2810,6 +2499,7 @@
     "Givenname": "Infant Daughter",
     "Surname": "Lanam"
    },
+   "sex": "U",
    "Birth": {
     "birthdate": "10 November 1853"
    },
@@ -2825,8 +2515,9 @@
    "Fullname": {
     "Value": "Michele Louise /Doppke/",
     "Givenname": "Michele Louise",
-    "Surname": "Doppke"
+    "Surname": "Von Behren"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "19 Sep 1963",
     "birthplace": "Waukegan,,Lake Co.,Illinois"
@@ -2837,7 +2528,8 @@
    "Fullname": {
     "Value": "/Cassandra/",
     "Surname": "Cassandra"
-   }
+   },
+   "sex": "F"
   },
   {
    "Id": "@P137@",
@@ -2846,6 +2538,7 @@
     "Givenname": "Alvin",
     "Surname": "Herman"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "1917",
     "birthplace": "Illinois"
@@ -2858,6 +2551,7 @@
     "Givenname": "Mary",
     "Surname": "Taylor"
    },
+   "sex": "U",
    "Birth": {
     "birthdate": "5 April 1850",
     "birthplace": "OhioUnited States of America"
@@ -2876,6 +2570,7 @@
     "Givenname": "Charles F",
     "Surname": "McCay"
    },
+   "sex": "U",
    "Birth": {
     "birthdate": "21 December 1859",
     "birthplace": "Pulaski County,,Indiana,United States of America"
@@ -2889,32 +2584,17 @@
   },
   {
    "Id": "@P129@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Julius Willhelm /Roeder/",
      "Givenname": "Julius Willhelm",
      "Surname": "Roeder"
     },
-    {
-     "Value": "J. William /Ludwig/",
-     "Givenname": "J. William",
-     "Surname": "Ludwig"
-    },
-    {
-     "Value": "Julian W /Roeder/",
-     "Givenname": "Julian W",
-     "Surname": "Roeder"
-    }
-   ],
+   "sex": "M",
    "Birth": {
-    "birthdate": [
-     "1911",
-     "abt 1911"
-    ],
-    "birthplace": [
+    "birthdate": "1911",
+    "birthplace":
      "Illinois",
-     "Illinois"
-    ]
    },
    "death": {
     "date": "22 Feb 1973"
@@ -2927,6 +2607,7 @@
     "Givenname": "Elsie",
     "Surname": "Doppke"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "1905",
     "birthplace": "Illinois"
@@ -2939,6 +2620,7 @@
     "Givenname": "Keith",
     "Surname": "Gordon"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1939",
     "birthplace": "Illinois"
@@ -2951,6 +2633,7 @@
     "Givenname": "Frances",
     "Surname": "Carter"
    },
+   "sex": "U",
    "Birth": {
     "birthdate": "1 December 1839"
    },
@@ -2968,6 +2651,7 @@
     "Givenname": "Melvin Lawrence",
     "Surname": "Tyrrell"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "15 Jan 1919",
     "birthplace": "West Point,White,Indiana,USA"
@@ -2975,23 +2659,13 @@
   },
   {
    "Id": "@P282@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Lena /Zillinger/",
      "Givenname": "Lena",
      "Surname": "Zillinger"
     },
-    {
-     "Value": "Lena /Kelly/",
-     "Givenname": "Lena",
-     "Surname": "Kelly"
-    },
-    {
-     "Value": "Lena /Sielenga/",
-     "Givenname": "Lena",
-     "Surname": "Sielenga"
-    }
-   ],
+   "sex": "F",
    "Birth": {
     "birthdate": "14 Mar 1861",
     "birthplace": "AmsterdamHolland"
@@ -3007,6 +2681,7 @@
     "Givenname": "Patrick",
     "Surname": "Shanesy"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "1782",
     "birthplace": "Ireland"
@@ -3022,6 +2697,7 @@
     "Givenname": "Martin",
     "Surname": "Gundlach"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "11 Feb 1919",
     "birthplace": "Chicago city,,Cook,Illinois"
@@ -3034,6 +2710,7 @@
     "Givenname": "Francis",
     "Surname": "Amore"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "7 SEP 1840",
     "birthplace": "Ohio"
@@ -3052,6 +2729,7 @@
     "Givenname": "Emil",
     "Surname": "Roeder"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "3/28/1921",
     "birthplace": "Glidden,Ashland,Wisconsin,USA"
@@ -3070,6 +2748,7 @@
     "Givenname": "Timothy",
     "Surname": "O'CONNOR"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "AFT 1861",
     "birthplace": "Indiana"
@@ -3085,6 +2764,7 @@
     "Givenname": "Bracken",
     "Surname": "Lanam"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "Aug 1878",
     "birthplace": "Indiana"
@@ -3097,6 +2777,7 @@
     "Givenname": "Gustav",
     "Surname": "Meyer"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1876",
     "birthplace": "Illinois"
@@ -3109,6 +2790,7 @@
     "Givenname": "Ingeborg Elise",
     "Surname": "Sørensen"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "1844",
     "birthplace": "Ejdanger"
@@ -3116,18 +2798,13 @@
   },
   {
    "Id": "@P289@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "John /Kelley/",
      "Givenname": "John",
      "Surname": "Kelley"
     },
-    {
-     "Value": "John /Kelly/",
-     "Givenname": "John",
-     "Surname": "Kelly"
-    }
-   ],
+   "sex": "M",
    "Birth": {
     "birthdate": "Oct 1856",
     "birthplace": "Illinois"
@@ -3140,6 +2817,7 @@
     "Givenname": "John",
     "Surname": "Rosinke"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "JAN 1876",
     "birthplace": "Germany"
@@ -3152,6 +2830,7 @@
     "Givenname": "Calvin",
     "Surname": "McCay"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "25 August 1835",
     "birthplace": "Boone County,,Indiana,United States of America"
@@ -3170,6 +2849,7 @@
     "Givenname": "Roberta Ann",
     "Surname": "Amore"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "9 Dec 1942",
     "birthplace": "Chicago,,Cook Co.,Illinois"
@@ -3182,6 +2862,7 @@
     "Givenname": "Hilda",
     "Surname": "Bowman"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "Abt 1878",
     "birthplace": "Illinois"
@@ -3194,6 +2875,7 @@
     "Givenname": "Scott",
     "Surname": "Lanam"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "Aug 1888",
     "birthplace": "Indiana"
@@ -3205,7 +2887,8 @@
     "Value": "Corrine /Manske/",
     "Givenname": "Corrine",
     "Surname": "Manske"
-   }
+   },
+   "sex": "F"
   },
   {
    "Id": "@P275@",
@@ -3214,6 +2897,7 @@
     "Givenname": "Louisa",
     "Surname": "Frankard"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "Abt 1878",
     "birthplace": "Illinois"
@@ -3229,6 +2913,7 @@
     "Givenname": "Daniel",
     "Surname": "McBride"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "1798",
     "birthplace": "New JerseyUnited States of America"
@@ -3247,6 +2932,7 @@
     "Givenname": "Albert",
     "Surname": "Rosinke"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "Jan 1874",
     "birthplace": "Germany"
@@ -3259,6 +2945,7 @@
     "Givenname": "William",
     "Surname": "Lanam"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "27 November 1807",
     "birthplace": "District of Columbia"
@@ -3277,6 +2964,7 @@
     "Givenname": "Elizabeth",
     "Surname": "Lanham"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "9/22/1720",
     "birthplace": "King Georges Parish,Prince George's County,Maryland,USA"
@@ -3289,6 +2977,7 @@
     "Givenname": "Peter",
     "Surname": "Zillinger"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1851",
     "birthplace": "Holland"
@@ -3299,27 +2988,18 @@
    "Fullname": {
     "Value": "/Kate/",
     "Surname": "Kate"
-   }
+   },
+   "sex": "F"
   },
   {
    "Id": "@P107@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Charlotte /Wheeler/",
      "Givenname": "Charlotte",
      "Surname": "Wheeler"
     },
-    {
-     "Value": "Charlotte /McCay/",
-     "Givenname": "Charlotte",
-     "Surname": "McCay"
-    },
-    {
-     "Value": "Sharlotte /Wheeler/",
-     "Givenname": "Sharlotte",
-     "Surname": "Wheeler"
-    }
-   ],
+   "sex": "F",
    "Birth": {
     "birthdate": "1838",
     "birthplace": "Ohio"
@@ -3337,7 +3017,8 @@
     "Value": "Christoph /Herman/",
     "Givenname": "Christoph",
     "Surname": "Herman"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@P247@",
@@ -3346,6 +3027,7 @@
     "Givenname": "George Edward",
     "Surname": "Hansen"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "30 May 1917",
     "birthplace": "Chicago,,Cook,Illinois"
@@ -3361,6 +3043,7 @@
     "Givenname": "Alma",
     "Surname": "Manske"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "31 MAR 1899",
     "birthplace": "Illinois"
@@ -3371,27 +3054,18 @@
   },
   {
    "Id": "@P338@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Charles /Bowman/",
      "Givenname": "Charles",
      "Surname": "Bowman"
     },
-    {
-     "Value": "Charles /Boman/",
-     "Givenname": "Charles",
-     "Surname": "Boman"
-    }
-   ],
+   "sex": "M",
    "Birth": {
-    "birthdate": [
+    "birthdate":
      "abt 1869",
-     "Abt 1870"
-    ],
-    "birthplace": [
+    "birthplace":
      "Illinois",
-     "Illinois"
-    ]
    }
   },
   {
@@ -3401,6 +3075,7 @@
     "Givenname": "Hans Adelus",
     "Surname": "Hansen"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1848",
     "birthplace": "Stathelle"
@@ -3408,32 +3083,17 @@
   },
   {
    "Id": "@P246@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Arndt Nichols /Hansen/",
      "Givenname": "Arndt Nichols",
      "Surname": "Hansen"
     },
-    {
-     "Value": "Arnt Nikolay /Nilsen/",
-     "Givenname": "Arnt Nikolay",
-     "Surname": "Nilsen"
-    },
-    {
-     "Value": "Arnt Nikolay /Nilsen/",
-     "Givenname": "Arnt Nikolay",
-     "Surname": "Nilsen"
-    }
-   ],
+   "sex": "M",
    "Birth": {
-    "birthdate": [
+    "birthdate": 
      "31 Dec 1882",
-     "31 Dec 1882"
-    ],
-    "birthplace": [
-     "Stathell",
-     "BrevikNorway"
-    ]
+    "birthplace": "Stathell",
    },
    "death": {
     "date": "Apr 1973"
@@ -3446,6 +3106,7 @@
     "Givenname": "Elizabeth",
     "Surname": "Wheeler"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "1835",
     "birthplace": "Ohio"
@@ -3459,17 +3120,13 @@
   },
   {
    "Id": "@P12@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Moses /Amore/",
      "Givenname": "Moses",
      "Surname": "Amore"
     },
-    {
-     "Value": "/Moses Amour/",
-     "Surname": "Moses Amour"
-    }
-   ],
+   "sex": "M",
    "Birth": {
     "birthdate": "20 OCT 1843",
     "birthplace": "Ohio"
@@ -3488,6 +3145,7 @@
     "Givenname": "Mary",
     "Surname": "Amore"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "11 AUG 1881",
     "birthplace": "Indiana"
@@ -3501,22 +3159,13 @@
   },
   {
    "Id": "@P1@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Owen Virgil /Amore/",
      "Givenname": "Owen Virgil",
      "Surname": "Amore"
     },
-    {
-     "Value": "Owen V /Amore/",
-     "Givenname": "Owen V",
-     "Surname": "Amore"
-    },
-    {
-     "Value": "/Owen/",
-     "Surname": "Owen"
-    }
-   ],
+   "sex": "M",
    "Birth": {
     "birthdate": "16 NOV 1916",
     "birthplace": "Chicago,,Cook Co.,Illinois"
@@ -3535,6 +3184,7 @@
     "Givenname": "Nancy",
     "Surname": "Lyle"
    },
+   "sex": "U",
    "Birth": {
     "birthdate": "17 December 1847",
     "birthplace": "Noble County,,Ohio,United States of America"
@@ -3553,6 +3203,7 @@
     "Givenname": "Marie",
     "Surname": "Mary Magdalene"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "23 Mar 1756",
     "birthplace": "Wunderthausen,Siegen-Wittgenstein,Nordrhein-Westfalen,Germany"
@@ -3571,36 +3222,28 @@
     "Givenname": "Ludwig",
     "Surname": "Herman"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "3 Nov 1886",
     "birthplace": "Russia"
    },
    "death": {
-    "date": [
+    "date":
      "4 Mar 1971",
-     "4 Mar 1971"
-    ]
    }
   },
   {
    "Id": "@P111@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Barnabas /McCall/",
      "Givenname": "Barnabas",
      "Surname": "McCall"
     },
-    {
-     "Value": "Burney /Mccall/",
-     "Givenname": "Burney",
-     "Surname": "Mccall"
-    }
-   ],
+   "sex": "M",
    "Birth": {
-    "birthdate": [
+    "birthdate":
      "1758",
-     "1775"
-    ]
    },
    "death": {
     "Value": "Linden Cemetery",
@@ -3617,6 +3260,7 @@
     "Givenname": "Jacob B",
     "Surname": "Nelson"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1876",
     "birthplace": "Norway"
@@ -3629,6 +3273,7 @@
     "Givenname": "Bridget",
     "Surname": "Dunne"
    },
+   "sex": "F",
    "death": {
     "date": "Bef. 1847"
    }
@@ -3639,7 +3284,8 @@
     "Value": "Bertha /Röder/",
     "Givenname": "Bertha",
     "Surname": "Röder"
-   }
+   },
+   "sex": "F"
   },
   {
    "Id": "@P140@",
@@ -3648,6 +3294,7 @@
     "Givenname": "Olga",
     "Surname": "Zulke"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "1894",
     "birthplace": "Poland"
@@ -3660,6 +3307,7 @@
     "Givenname": "Gladys",
     "Surname": "Manske"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "10 NOV 1917",
     "birthplace": "Chicago,,Cook Co.,Illinois"
@@ -3675,6 +3323,7 @@
     "Givenname": "Bernice",
     "Surname": "Manske"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "abt 1911",
     "birthplace": "Illinois"
@@ -3686,7 +3335,8 @@
     "Value": "Ludwig /Katzberg/",
     "Givenname": "Ludwig",
     "Surname": "Katzberg"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@P233@",
@@ -3695,6 +3345,7 @@
     "Givenname": "Arthur Melvill",
     "Surname": "Hansen"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "20 Feb 1904",
     "birthplace": "Chicago,,Cook,Illinois"
@@ -3707,6 +3358,7 @@
     "Givenname": "Ellen",
     "Surname": "O'CONNOR"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "21 SEP 1853",
     "birthplace": "Ohio"
@@ -3725,6 +3377,7 @@
     "Givenname": "Thomas",
     "Surname": "Dunn"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "1870",
     "birthplace": "Pulaski Co.Indiana"
@@ -3741,6 +3394,7 @@
     "Givenname": "Lawrence",
     "Surname": "Grothouse"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1907",
     "birthplace": "Indiana"
@@ -3753,6 +3407,7 @@
     "Givenname": "Lloyd Conrad",
     "Surname": "Christensen"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "13 May 1904",
     "birthplace": "Chicago,,Illinois,USA"
@@ -3766,18 +3421,13 @@
   },
   {
    "Id": "@P7@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Olga Amalie /Roeder/",
      "Givenname": "Olga Amalie",
      "Surname": "Roeder"
     },
-    {
-     "Value": "Olga Mollie /Roeder/",
-     "Givenname": "Olga Mollie",
-     "Surname": "Roeder"
-    }
-   ],
+   "sex": "F",
    "Birth": {
     "birthdate": "20 Dec 1914",
     "birthplace": "ChicagoIllinois"
@@ -3796,6 +3446,7 @@
     "Givenname": "Theodor",
     "Surname": "Dopke"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "JAN 1872",
     "birthplace": "Germany"
@@ -3808,6 +3459,7 @@
     "Givenname": "Clara",
     "Surname": "Meyer"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "May 1888",
     "birthplace": "Illinois"
@@ -3820,6 +3472,7 @@
     "Givenname": "Martha",
     "Surname": "Lanham"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "11/3/1745",
     "birthplace": "King Georges Parish,Prince George's County,Maryland,USA"
@@ -3831,7 +3484,8 @@
     "Value": "Bridget /Shanesy/",
     "Givenname": "Bridget",
     "Surname": "Shanesy"
-   }
+   },
+   "sex": "F"
   },
   {
    "Id": "@P16@",
@@ -3840,6 +3494,7 @@
     "Givenname": "John J.",
     "Surname": "AMORE"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "1879",
     "birthplace": "Whitepost TwpPulaski Co. Indiana"
@@ -3850,33 +3505,13 @@
   },
   {
    "Id": "@P59@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Brooks /Lanham/",
      "Givenname": "Brooks",
      "Surname": "Lanham"
     },
-    {
-     "Value": "Brooks /Lannam/",
-     "Givenname": "Brooks",
-     "Surname": "Lannam"
-    },
-    {
-     "Value": "Brooks /Lanam/",
-     "Givenname": "Brooks",
-     "Surname": "Lanam"
-    },
-    {
-     "Value": "Brooks /Lanam/",
-     "Givenname": "Brooks",
-     "Surname": "Lanam"
-    },
-    {
-     "Value": "Brooks /Lanum/",
-     "Givenname": "Brooks",
-     "Surname": "Lanum"
-    }
-   ],
+   "sex": "M",
    "Birth": {
     "birthdate": "10 Jan 1795",
     "birthplace": "Washington,,District of Columbia,USA"
@@ -3890,36 +3525,18 @@
   },
   {
    "Id": "@P308@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Josephina /Bowman/",
      "Givenname": "Josephina",
      "Surname": "Bowman"
     },
-    {
-     "Value": "Josephine /Bowman/",
-     "Givenname": "Josephine",
-     "Surname": "Bowman"
-    },
-    {
-     "Value": "Josephine /Bowman/",
-     "Givenname": "Josephine",
-     "Surname": "Bowman"
-    }
-   ],
+   "sex": "F",
    "Birth": {
-    "birthdate": [
+    "birthdate": 
      "abt 1838",
-     "Abt 1838",
-     "Sep 1838",
-     "abt 1839"
-    ],
-    "birthplace": [
+    "birthplace":
      "Sweden",
-     "Sweden",
-     "Sweden",
-     "Sweden"
-    ]
    },
    "death": {
     "date": "1 Sep 1917"
@@ -3935,6 +3552,7 @@
     "Givenname": "Thomas",
     "Surname": "Lanam"
    },
+   "sex": "U",
    "Birth": {
     "birthdate": "1836"
    },
@@ -3951,7 +3569,8 @@
     "Value": "Joh. Jac. /Homerigh./",
     "Givenname": "Joh. Jac.",
     "Surname": "Homerigh."
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@P220@",
@@ -3960,6 +3579,7 @@
     "Givenname": "Delwyn Leonard",
     "Surname": "Hansen"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "23 Sep 1921",
     "birthplace": "Chicago,,Cook,Illinois"
@@ -3978,6 +3598,7 @@
     "Givenname": "John",
     "Surname": "O'CONNOR"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "1873",
     "birthplace": "ChicagoIllinois"
@@ -3993,6 +3614,7 @@
     "Givenname": "Clara",
     "Surname": "AMORE"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "3 APR 1887"
    },
@@ -4007,6 +3629,7 @@
     "Givenname": "Blanch E",
     "Surname": "Lanam"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "Sep 1880",
     "birthplace": "Indiana"
@@ -4019,6 +3642,7 @@
     "Givenname": "Alfred A",
     "Surname": "Doppke"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "6 SEP 1902",
     "birthplace": "Chicago"
@@ -4034,6 +3658,7 @@
     "Givenname": "Paul Herman",
     "Surname": "Dopke"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "30 Jan 1905",
     "birthplace": "Cook,,Illinois,United States"
@@ -4048,7 +3673,8 @@
     "Value": "Robert /Lanham/",
     "Givenname": "Robert",
     "Surname": "Lanham"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@P160@",
@@ -4057,6 +3683,7 @@
     "Givenname": "Joseph",
     "Surname": "Doppke"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "16 JUL 1910",
     "birthplace": "ChicagoIllinois"
@@ -4072,6 +3699,7 @@
     "Givenname": "John",
     "Surname": "Wheeler"
    },
+   "sex": "M",
    "Birth": {
     "birthplace": "England"
    },
@@ -4081,28 +3709,13 @@
   },
   {
    "Id": "@P64@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Tabitha /McCall/",
      "Givenname": "Tabitha",
      "Surname": "McCall"
     },
-    {
-     "Value": "Tabitha Wheeler /McBride/",
-     "Givenname": "Tabitha Wheeler",
-     "Surname": "McBride"
-    },
-    {
-     "Value": "Tabitha Wheeler /McBride/",
-     "Givenname": "Tabitha Wheeler",
-     "Surname": "McBride"
-    },
-    {
-     "Value": "Tabitha /Wheeler/",
-     "Givenname": "Tabitha",
-     "Surname": "Wheeler"
-    }
-   ],
+   "sex": "F",
    "Birth": {
     "birthdate": "1800",
     "birthplace": "Virginia"
@@ -4121,6 +3734,7 @@
     "Givenname": "Patrick",
     "Surname": "Shanesy"
    },
+   "sex": "M",
    "death": {
     "date": "1867"
    }
@@ -4132,6 +3746,7 @@
     "Givenname": "Lidia Paulin",
     "Surname": "Roeder"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "1/27/1917",
     "birthplace": "Chicago,,Cook Co.,Illinois"
@@ -4148,6 +3763,7 @@
     "Givenname": "James",
     "Surname": "Dunn"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "1856",
     "birthplace": "Pulaski Co.Indiana"
@@ -4166,6 +3782,7 @@
     "Givenname": "Infant",
     "Surname": "Lanum"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "1862",
     "birthplace": "Pulaski co. Indiana"
@@ -4176,33 +3793,22 @@
   },
   {
    "Id": "@P52@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Julia /LANAM/",
      "Givenname": "Julia",
      "Surname": "LANAM"
     },
-    {
-     "Value": "Julia Hanora /Wabol/",
-     "Givenname": "Julia Hanora",
-     "Surname": "Wabol"
-    }
-   ],
+   "sex": "F",
    "Birth": {
-    "birthdate": [
+    "birthdate": 
      "2 APR 1894",
-     "2 April 1894"
-    ],
-    "birthplace": [
+    "birthplace": 
      "Indiana",
-     "Medaryville,Pulaski County,Indiana,United States of America"
-    ]
    },
    "death": {
-    "date": [
+    "date": 
      "8 April 1987",
-     "8 APR 1987"
-    ]
    },
    "burial": {
     "burial": "Winamac,Pulaski County,Indiana,United States of America"
@@ -4215,6 +3821,7 @@
     "Givenname": "Brooks",
     "Surname": "Lanam"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "FEB 1854",
     "birthplace": "Pulaski Co.Indiana"
@@ -4230,6 +3837,7 @@
     "Givenname": "Joseph",
     "Surname": "Zillinger"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "Aug 1869",
     "birthplace": "Illinois"
@@ -4248,6 +3856,7 @@
     "Givenname": "Arthur McKinley",
     "Surname": "Thompson"
    },
+   "sex": "U",
    "Birth": {
     "birthdate": "4 Aug 1908",
     "birthplace": "Geneva,Kane County,Illinois,United States of America"
@@ -4261,18 +3870,13 @@
   },
   {
    "Id": "@P100@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Jane /Amour/",
      "Givenname": "Jane",
      "Surname": "Amour"
     },
-    {
-     "Value": "Eugenia /Nichols/",
-     "Givenname": "Eugenia",
-     "Surname": "Nichols"
-    }
-   ],
+   "sex": "F",
    "Birth": {
     "birthdate": "September 1841",
     "birthplace": "Coshocton County,,Ohio,United States of America"
@@ -4292,6 +3896,7 @@
     "Givenname": "Mary Alice",
     "Surname": "Amore"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "29 MAY 1907",
     "birthplace": "ReynoldsIndiana"
@@ -4307,6 +3912,7 @@
     "Givenname": "James Alfred",
     "Surname": "Doppke"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1936",
     "birthplace": "Illinois"
@@ -4319,6 +3925,7 @@
     "Givenname": "Michael",
     "Surname": "Dunn"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "1858",
     "birthplace": "Pulaski Co.Ind"
@@ -4327,30 +3934,21 @@
   },
   {
    "Id": "@P54@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Catherine /LANAM/",
      "Givenname": "Catherine",
      "Surname": "LANAM"
     },
-    {
-     "Value": "Katherine /Shorter/",
-     "Givenname": "Katherine",
-     "Surname": "Shorter"
-    }
-   ],
+   "sex": "F",
    "Birth": {
-    "birthdate": [
+    "birthdate": 
      "1 October 1882",
-     "OCT 1882"
-    ],
     "birthplace": "IndianaUnited States of America"
    },
    "death": {
-    "date": [
+    "date":
      "24 October 1959",
-     "OCT 1959"
-    ]
    },
    "burial": {
     "burial": "North Judson,Starke County,Indiana,United States of America"
@@ -4363,6 +3961,7 @@
     "Givenname": "Søren",
     "Surname": "Hansen Saga"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "1812",
     "birthplace": "Brevik,,Telemark,Norway"
@@ -4375,6 +3974,7 @@
     "Givenname": "Mabel",
     "Surname": "Hanson"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "Aug 1899",
     "birthplace": "Illinois"
@@ -4387,6 +3987,7 @@
     "Givenname": "Francis J.",
     "Surname": "AMORE"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "DEC 1873",
     "birthplace": "Whitepost TwpPulaski Co. Indiana"
@@ -4400,23 +4001,13 @@
   },
   {
    "Id": "@P255@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Louis M /Christman/",
      "Givenname": "Louis M",
      "Surname": "Christman"
     },
-    {
-     "Value": "Louis /Christensen/",
-     "Givenname": "Louis",
-     "Surname": "Christensen"
-    },
-    {
-     "Value": "Lauritz /Christianson/",
-     "Givenname": "Lauritz",
-     "Surname": "Christianson"
-    }
-   ],
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1876",
     "birthplace": "Norway"
@@ -4424,18 +4015,13 @@
   },
   {
    "Id": "@P232@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Mabel /Johnson/",
      "Givenname": "Mabel",
      "Surname": "Johnson"
     },
-    {
-     "Value": "Mabel /Hansen/",
-     "Givenname": "Mabel",
-     "Surname": "Hansen"
-    }
-   ],
+   "sex": "F",
    "Birth": {
     "birthdate": "Abt 1881",
     "birthplace": "Norway"
@@ -4449,18 +4035,13 @@
   },
   {
    "Id": "@P19@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Theresa /AMORE/",
      "Givenname": "Theresa",
      "Surname": "AMORE"
     },
-    {
-     "Value": "Teresa /Weiler/",
-     "Givenname": "Teresa",
-     "Surname": "Weiler"
-    }
-   ],
+   "sex": "F",
    "Birth": {
     "birthdate": "9 MAY 1899",
     "birthplace": "Indiana"
@@ -4478,31 +4059,23 @@
     "Value": "Edwin G. /Tyrrell/",
     "Givenname": "Edwin G.",
     "Surname": "Tyrrell"
-   }
+   },
+   "sex": "U"
   },
   {
    "Id": "@P239@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Augusta \"Gussie\" /Frankard/",
      "Givenname": "Augusta \"Gussie\"",
      "Surname": "Frankard"
     },
-    {
-     "Value": "Gustine /Frankard/",
-     "Givenname": "Gustine",
-     "Surname": "Frankard"
-    }
-   ],
+   "sex": "F",
    "Birth": {
-    "birthdate": [
-     "Abt 1871",
-     "Oct 1874"
-    ],
-    "birthplace": [
+    "birthdate": 
+     "Oct 1874",
+    "birthplace": 
      "Illinois",
-     "Illinois"
-    ]
    }
   },
   {
@@ -4512,6 +4085,7 @@
     "Givenname": "Karl",
     "Surname": "Manske"
    },
+   "sex": "M",
    "Birth": {
     "birthplace": "Germany"
    }
@@ -4523,6 +4097,7 @@
     "Givenname": "Elva J",
     "Surname": "Lanam"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "Apr 1853",
     "birthplace": "Ohio"
@@ -4533,18 +4108,13 @@
   },
   {
    "Id": "@P277@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Niels /Sørensen Saga/",
      "Givenname": "Niels",
      "Surname": "Sørensen Saga"
     },
-    {
-     "Value": "Nils /Sorensen/",
-     "Givenname": "Nils",
-     "Surname": "Sorensen"
-    }
-   ],
+   "sex": "M",
    "Birth": {
     "birthdate": "Abt. 1781"
    }
@@ -4556,6 +4126,7 @@
     "Givenname": "George",
     "Surname": "Doppke"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "6 OCT 1915",
     "birthplace": "Cook,,Illinois,United States"
@@ -4570,7 +4141,8 @@
     "Value": "Richard /Lanham/",
     "Givenname": "Richard",
     "Surname": "Lanham"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@P223@",
@@ -4579,6 +4151,7 @@
     "Givenname": "Jeri Lynn",
     "Surname": "Hansen"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "17 April 1949",
     "birthplace": "Waukegan,Lake County,Illinois,United States of America"
@@ -4592,18 +4165,13 @@
   },
   {
    "Id": "@P297@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Maren /Jonsdr/",
      "Givenname": "Maren",
      "Surname": "Jonsdr"
     },
-    {
-     "Value": "Mari /Jonsdr/",
-     "Givenname": "Mari",
-     "Surname": "Jonsdr"
-    }
-   ]
+   "sex": "F"
   },
   {
    "Id": "@P171@",
@@ -4612,6 +4180,7 @@
     "Givenname": "Mary",
     "Surname": "Doppke"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "abt 1914",
     "birthplace": "Illinois"
@@ -4624,6 +4193,7 @@
     "Givenname": "Martha L",
     "Surname": "Forner"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "abt 1928",
     "birthplace": "Washington"
@@ -4636,6 +4206,7 @@
     "Givenname": "Marinda J.",
     "Surname": "Lanam Mitchell"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "9 Feb 1838",
     "birthplace": "Ohio"
@@ -4654,6 +4225,7 @@
     "Givenname": "Julius",
     "Surname": "Meyer"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "Feb 1849",
     "birthplace": "Poland"
@@ -4669,6 +4241,7 @@
     "Givenname": "Joseph",
     "Surname": "Gordon"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1912",
     "birthplace": "Illinois"
@@ -4681,6 +4254,7 @@
     "Givenname": "Anna",
     "Surname": "Meyer"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "abt 1872",
     "birthplace": "Prussia"
@@ -4692,6 +4266,7 @@
     "Value": "/Hedevig/",
     "Surname": "Hedevig"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "Abt. 1801",
     "birthplace": "Eidanger,,Telemark,Norway"
@@ -4707,6 +4282,7 @@
     "Givenname": "Nanna",
     "Surname": "Sørensen"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "20 Oct 1892",
     "birthplace": "Brevik"
@@ -4714,23 +4290,13 @@
   },
   {
    "Id": "@P235@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Tellemine /Gundersen/",
      "Givenname": "Tellemine",
      "Surname": "Gundersen"
     },
-    {
-     "Value": "Tellefmine /Gundusen/",
-     "Givenname": "Tellefmine",
-     "Surname": "Gundusen"
-    },
-    {
-     "Value": "Tellemine /Gundersdatter/",
-     "Givenname": "Tellemine",
-     "Surname": "Gundersdatter"
-    }
-   ],
+   "sex": "F",
    "Birth": {
     "birthdate": "21 Feb 1851",
     "birthplace": "Stathelle Brb"
@@ -4742,27 +4308,18 @@
     "Value": "Susan /Lanham/",
     "Givenname": "Susan",
     "Surname": "Lanham"
-   }
+   },
+   "sex": "F"
   },
   {
    "Id": "@P315@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Sophie /Sørensen/",
      "Givenname": "Sophie",
      "Surname": "Sørensen"
     },
-    {
-     "Value": "Sofie /Sørensen/",
-     "Givenname": "Sofie",
-     "Surname": "Sørensen"
-    },
-    {
-     "Value": "Sofie /Sørensen/",
-     "Givenname": "Sofie",
-     "Surname": "Sørensen"
-    }
-   ],
+   "sex": "F",
    "Birth": {
     "birthdate": "14 Jul 1875",
     "birthplace": "Brevik"
@@ -4775,6 +4332,7 @@
     "Givenname": "Kenneth",
     "Surname": "Grothouse"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1920",
     "birthplace": "Indiana"
@@ -4786,7 +4344,8 @@
     "Value": "Mary Ellen /Stenhouse/",
     "Givenname": "Mary Ellen",
     "Surname": "Stenhouse"
-   }
+   },
+   "sex": "F"
   },
   {
    "Id": "@P326@",
@@ -4795,6 +4354,7 @@
     "Givenname": "Søren",
     "Surname": "Sørensen"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "26 Mar 1851",
     "birthplace": "Brevig,Brevik,Telemark,Norge"
@@ -4806,7 +4366,8 @@
     "Value": "Lee /Weiler/",
     "Givenname": "Lee",
     "Surname": "Weiler"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@P356@",
@@ -4815,6 +4376,7 @@
     "Givenname": "Peter",
     "Surname": "Mitchell"
    },
+   "sex": "U",
    "Birth": {
     "birthdate": "1855"
    },
@@ -4832,6 +4394,7 @@
     "Givenname": "Howard",
     "Surname": "Hanson"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1903",
     "birthplace": "Illinois"
@@ -4844,6 +4407,7 @@
     "Givenname": "Sylvia",
     "Surname": "Lanam"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "Dec 1890",
     "birthplace": "Indiana"
@@ -4856,6 +4420,7 @@
     "Givenname": "Martha",
     "Surname": "Rosinke"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "1874",
     "birthplace": "New York"
@@ -4863,18 +4428,13 @@
   },
   {
    "Id": "@P276@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Karen /Kittilsdr/",
      "Givenname": "Karen",
      "Surname": "Kittilsdr"
     },
-    {
-     "Value": "Karen /Kittelsdr/",
-     "Givenname": "Karen",
-     "Surname": "Kittelsdr"
-    }
-   ]
+   "sex": "F"
   },
   {
    "Id": "@P161@",
@@ -4883,6 +4443,7 @@
     "Givenname": "August",
     "Surname": "Dopke"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "1840",
     "birthplace": "Germany"
@@ -4898,6 +4459,7 @@
     "Givenname": "Hans",
     "Surname": "Sørensen"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "17 Dec 1848",
     "birthplace": "Brevik,,Telemark,Norway"
@@ -4912,6 +4474,7 @@
     "Value": "/Hans/",
     "Surname": "Hans"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "10 Apr 1819"
    }
@@ -4923,6 +4486,7 @@
     "Givenname": "Edward",
     "Surname": "Dopke"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "Dec 1897",
     "birthplace": "Illinois"
@@ -4935,6 +4499,7 @@
     "Givenname": "Clara A",
     "Surname": "Doppke"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "1902",
     "birthplace": "Illinois"
@@ -4947,6 +4512,7 @@
     "Givenname": "Latery R.",
     "Surname": "Mc Cay"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "Abt 1869",
     "birthplace": "Indiana"
@@ -4959,6 +4525,7 @@
     "Givenname": "Ida",
     "Surname": "Meyer"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "21 Aug 1879",
     "birthplace": "Cook CountyIL"
@@ -4974,6 +4541,7 @@
     "Givenname": "Lucille",
     "Surname": "Janesovsky"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "abt 1909",
     "birthplace": "Illinois"
@@ -4986,6 +4554,7 @@
     "Givenname": "Hans",
     "Surname": "Sørensen"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "1876",
     "birthplace": "Brevik kjøpstad"
@@ -4998,6 +4567,7 @@
     "Givenname": "Oliver",
     "Surname": "Hansen"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1912",
     "birthplace": "Illinois"
@@ -5010,6 +4580,7 @@
     "Givenname": "William Buck",
     "Surname": "Shackleford"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "1759",
     "birthplace": "Virginia"
@@ -5021,7 +4592,8 @@
     "Value": "Eugene /Lehman/",
     "Givenname": "Eugene",
     "Surname": "Lehman"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@P350@",
@@ -5030,6 +4602,7 @@
     "Givenname": "Thomas",
     "Surname": "Lanham"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "3/7/1709",
     "birthplace": "MarylandUnited States of America"
@@ -5045,6 +4618,7 @@
     "Givenname": "Josephine",
     "Surname": "Hummel"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "AUG 1852",
     "birthplace": "Germany"
@@ -5057,6 +4631,7 @@
     "Givenname": "Elmer",
     "Surname": "Manske"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "29 APR 1906",
     "birthplace": "Illinois"
@@ -5072,6 +4647,7 @@
     "Givenname": "Infant Son",
     "Surname": "Lanam"
    },
+   "sex": "U",
    "Birth": {
     "birthdate": "October 1852"
    },
@@ -5089,6 +4665,7 @@
     "Givenname": "Margaret Lee",
     "Surname": "Lanham"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "7 Feb 1762",
     "birthplace": "King Georges Parish,Prince George's County,Maryland,USA"
@@ -5099,36 +4676,23 @@
    "Fullname": {
     "Value": "/Margaret/",
     "Surname": "Margaret"
-   }
+   },
+   "sex": "F"
   },
   {
    "Id": "@P124@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Helen K /Roeder/",
      "Givenname": "Helen K",
      "Surname": "Roeder"
     },
-    {
-     "Value": "Helen /Thompson/",
-     "Givenname": "Helen",
-     "Surname": "Thompson"
-    },
-    {
-     "Value": "Karoline /Röder/",
-     "Givenname": "Karoline",
-     "Surname": "Röder"
-    }
-   ],
+   "sex": "F",
    "Birth": {
-    "birthdate": [
+    "birthdate":
      "9 Nov 1912",
-     "1913"
-    ],
-    "birthplace": [
+    "birthplace":
      "Illinois",
-     "Illinois"
-    ]
    },
    "death": {
     "date": "9 Nov 1992"
@@ -5139,18 +4703,13 @@
   },
   {
    "Id": "@P55@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Thomas /Dunn/",
      "Givenname": "Thomas",
      "Surname": "Dunn"
     },
-    {
-     "Value": "Thomas /Dunne/",
-     "Givenname": "Thomas",
-     "Surname": "Dunne"
-    }
-   ],
+   "sex": "M",
    "Birth": {
     "birthdate": "1 May 1813",
     "birthplace": "Kilkenny Co.Ireland"
@@ -5169,6 +4728,7 @@
     "Givenname": "Ruth",
     "Surname": "Christensen"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "abt 1932",
     "birthplace": "Illinois"
@@ -5180,7 +4740,8 @@
     "Value": "Anne /Hansdr/",
     "Givenname": "Anne",
     "Surname": "Hansdr"
-   }
+   },
+   "sex": "F"
   },
   {
    "Id": "@P375@",
@@ -5188,7 +4749,8 @@
     "Value": "Elias /Mccall/",
     "Givenname": "Elias",
     "Surname": "Mccall"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@P139@",
@@ -5197,6 +4759,7 @@
     "Givenname": "Eldor",
     "Surname": "Herman"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "1920",
     "birthplace": "Wisconsin"
@@ -5204,18 +4767,13 @@
   },
   {
    "Id": "@P257@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Pearl /Christman/",
      "Givenname": "Pearl",
      "Surname": "Christman"
     },
-    {
-     "Value": "Pearl G /Forner/",
-     "Givenname": "Pearl G",
-     "Surname": "Forner"
-    }
-   ],
+   "sex": "F",
    "Birth": {
     "birthdate": "abt 1906",
     "birthplace": "Illinois"
@@ -5228,6 +4786,7 @@
     "Givenname": "Hans",
     "Surname": "Nilsen"
    },
+   "sex": "M",
    "death": {
     "date": "Bef. 1865"
    }
@@ -5239,6 +4798,7 @@
     "Givenname": "Hans",
     "Surname": "Sørensen Saga"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "1780"
    },
@@ -5248,47 +4808,18 @@
   },
   {
    "Id": "@P242@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Carrie N. /Hansen/",
      "Givenname": "Carrie N.",
      "Surname": "Hansen"
     },
-    {
-     "Value": "Carrie /Olsen/",
-     "Givenname": "Carrie",
-     "Surname": "Olsen"
-    },
-    {
-     "Value": "Karitta Nikoline /Nilsdottr/",
-     "Givenname": "Karitta Nikoline",
-     "Surname": "Nilsdottr"
-    },
-    {
-     "Value": "Carrie /Christman/",
-     "Givenname": "Carrie",
-     "Surname": "Christman"
-    },
-    {
-     "Value": "Karitta Nikoline /Nilsdottr/",
-     "Givenname": "Karitta Nikoline",
-     "Surname": "Nilsdottr"
-    },
-    {
-     "Value": "Carrie /Christenson/",
-     "Givenname": "Carrie",
-     "Surname": "Christenson"
-    }
-   ],
+   "sex": "F",
    "Birth": {
-    "birthdate": [
+    "birthdate": 
      "Oct 1878",
-     "1881"
-    ],
-    "birthplace": [
+    "birthplace": 
      "BrevikNorway",
-     "Stathell"
-    ]
    },
    "death": {
     "date": "14 Jun 1943"
@@ -5304,6 +4835,7 @@
     "Givenname": "Elizabeth",
     "Surname": "Lanham"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "4/10/1732",
     "birthplace": "King Georges Parish,Prince George's County,Maryland,USA"
@@ -5316,6 +4848,7 @@
     "Givenname": "Jolimca",
     "Surname": "Tensick"
    },
+   "sex": "F",
    "Birth": {
     "birthplace": "Germany"
    }
@@ -5327,6 +4860,7 @@
     "Givenname": "Albert",
     "Surname": "Doppke"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "JUL 1875",
     "birthplace": "Germany"
@@ -5339,6 +4873,7 @@
     "Givenname": "Cora L",
     "Surname": "Lanam"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "Oct 1886",
     "birthplace": "Indiana"
@@ -5350,24 +4885,20 @@
     "Value": "/Maren Sorine/",
     "Surname": "Maren Sorine"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "Abt. 1806"
    }
   },
   {
    "Id": "@P268@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Ellen /Zillinger/",
      "Givenname": "Ellen",
      "Surname": "Zillinger"
     },
-    {
-     "Value": "Ellen /Sielenga/",
-     "Givenname": "Ellen",
-     "Surname": "Sielenga"
-    }
-   ],
+   "sex": "F",
    "Birth": {
     "birthdate": "abt 1826",
     "birthplace": "Holland"
@@ -5383,6 +4914,7 @@
     "Givenname": "Mary",
     "Surname": "Lanham"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "3 Jan 1714",
     "birthplace": "King Georges Parish,Prince George's County,Maryland,USA"
@@ -5395,6 +4927,7 @@
     "Givenname": "Catherine",
     "Surname": "O'CONNOR"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "AFT 1861",
     "birthplace": "Indiana"
@@ -5405,18 +4938,13 @@
   },
   {
    "Id": "@P346@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Jesse /Lanham/",
      "Givenname": "Jesse",
      "Surname": "Lanham"
     },
-    {
-     "Value": "Jesse /Lanam/",
-     "Givenname": "Jesse",
-     "Surname": "Lanam"
-    }
-   ],
+   "sex": "M",
    "Birth": {
     "birthdate": "1792",
     "birthplace": "Maryland"
@@ -5432,6 +4960,7 @@
     "Givenname": "Jesse H",
     "Surname": "Lanam"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "9 November 1847",
     "birthplace": "OhioUnited States of America"
@@ -5450,6 +4979,7 @@
     "Givenname": "George",
     "Surname": "Mitchell"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "7 January 1820",
     "birthplace": "Ohio"
@@ -5468,6 +4998,7 @@
     "Givenname": "Johan Alfred",
     "Surname": "Boman"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "7 Oct 1874",
     "birthplace": "Chicago,,Cook Co.,Illinois"
@@ -5480,6 +5011,7 @@
     "Givenname": "Louise",
     "Surname": "Kelley"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "abt 1896",
     "birthplace": "Illinois"
@@ -5492,6 +5024,7 @@
     "Givenname": "Lillie Esther",
     "Surname": "Johnson"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "7 Aug 1887",
     "birthplace": "Illinois"
@@ -5506,6 +5039,7 @@
     "Value": "/Hulda/",
     "Surname": "Hulda"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "6 May 1884"
    }
@@ -5517,6 +5051,7 @@
     "Givenname": "Thomas Hunter Piles",
     "Surname": "Lanham"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "24 Nov 1765",
     "birthplace": "St Johns Parish,Prince George,Maryland,USA"
@@ -5535,6 +5070,7 @@
     "Givenname": "Mary Ellen",
     "Surname": "Grothouse"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "abt 1912",
     "birthplace": "Indiana"
@@ -5542,17 +5078,13 @@
   },
   {
    "Id": "@P311@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Fred /Gundlach/",
      "Givenname": "Fred",
      "Surname": "Gundlach"
     },
-    {
-     "Value": "/Gundlach/",
-     "Surname": "Gundlach"
-    }
-   ],
+   "sex": "M",
    "Birth": {
     "birthdate": "Abt 1899",
     "birthplace": "ChicagoIllinois"
@@ -5565,6 +5097,7 @@
     "Givenname": "John Dickinson",
     "Surname": "Lanham"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "12/25/1748",
     "birthplace": "King Georges Parish,Prince George's County,Maryland,USA"
@@ -5577,6 +5110,7 @@
     "Givenname": "John L",
     "Surname": "Lanam"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "3 NOV 1890",
     "birthplace": "Indiana"
@@ -5595,6 +5129,7 @@
     "Givenname": "living",
     "Surname": "Doppke"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "4/19/1950",
     "birthplace": "ChicagoIllinois"
@@ -5607,6 +5142,7 @@
     "Givenname": "Mary M.",
     "Surname": "Lanam"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "1851",
     "birthplace": "Indiana"
@@ -5625,6 +5161,7 @@
     "Givenname": "James",
     "Surname": "O'CONNOR"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "1870",
     "birthplace": "ChicagoIllinois"
@@ -5640,6 +5177,7 @@
     "Givenname": "Clarance",
     "Surname": "Manske"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "14 NOV 1903",
     "birthplace": "Illinois"
@@ -5654,31 +5192,22 @@
     "Value": "Elizabeth /Dickinson/",
     "Givenname": "Elizabeth",
     "Surname": "Dickinson"
-   }
+   },
+   "sex": "F"
   },
   {
    "Id": "@P128@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Adeline /Roeder/",
      "Givenname": "Adeline",
      "Surname": "Roeder"
     },
-    {
-     "Value": "Adeline /Weinberg/",
-     "Givenname": "Adeline",
-     "Surname": "Weinberg"
-    }
-   ],
+   "sex": "F",
    "Birth": {
-    "birthdate": [
+    "birthdate": 
      "1925",
-     "abt 1926"
-    ],
-    "birthplace": [
-     "Wisconsin",
-     "Wisconsin"
-    ]
+    "birthplace": "Wisconsin",
    }
   },
   {
@@ -5688,6 +5217,7 @@
     "Givenname": "Jennie",
     "Surname": "AMORE"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "FEB 1886",
     "birthplace": "Pulaski  Co. Indiana"
@@ -5702,14 +5232,16 @@
     "Value": "John /Dunn/",
     "Givenname": "John",
     "Surname": "Dunn"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@P32@",
    "Fullname": {
     "Value": "/Leonard/",
     "Surname": "Leonard"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@P264@",
@@ -5718,6 +5250,7 @@
     "Givenname": "Inga",
     "Surname": "Hanson"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "Jul 1875",
     "birthplace": "Norway"
@@ -5730,6 +5263,7 @@
     "Givenname": "Hamilton",
     "Surname": "McCay"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "9 Aug 1810",
     "birthplace": "Champaign,,Ohio,USA"
@@ -5745,6 +5279,7 @@
     "Givenname": "Paulina",
     "Surname": "Rosinke"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "22 Jul 1880",
     "birthplace": "Germany"
@@ -5759,7 +5294,8 @@
     "Value": "Hans /Hansen/",
     "Givenname": "Hans",
     "Surname": "Hansen"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@P310@",
@@ -5768,6 +5304,7 @@
     "Givenname": "Edward",
     "Surname": "May"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1876",
     "birthplace": "Kentucky"
@@ -5780,6 +5317,7 @@
     "Givenname": "--enma",
     "Surname": "Lanham"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "4/3/1745",
     "birthplace": "King Georges Parish,Prince George's County,Maryland,USA"
@@ -5787,23 +5325,13 @@
   },
   {
    "Id": "@P245@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Herman /Hansen/",
      "Givenname": "Herman",
      "Surname": "Hansen"
     },
-    {
-     "Value": "Herman K. /Nilsen/",
-     "Givenname": "Herman K.",
-     "Surname": "Nilsen"
-    },
-    {
-     "Value": "Herman K. /Nilsen/",
-     "Givenname": "Herman K.",
-     "Surname": "Nilsen"
-    }
-   ],
+   "sex": "M",
    "Birth": {
     "birthdate": "26 NOV 1873",
     "birthplace": "Stathelle,,Telemark,Norway"
@@ -5818,7 +5346,8 @@
     "Value": "John /Palmer/",
     "Givenname": "John",
     "Surname": "Palmer"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@P393@",
@@ -5827,6 +5356,7 @@
     "Givenname": "Mary",
     "Surname": "Lanham"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "2/17/1736",
     "birthplace": "King Georges Parish,Prince George's County,Maryland,USA"
@@ -5838,36 +5368,23 @@
     "Value": "Tabitha /Nance Buck/",
     "Givenname": "Tabitha",
     "Surname": "Nance Buck"
-   }
+   },
+   "sex": "F"
   },
   {
    "Id": "@P125@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Ludwig Adolph /Roeder/",
      "Givenname": "Ludwig Adolph",
      "Surname": "Roeder"
     },
-    {
-     "Value": "Ludwig /Röder/",
-     "Givenname": "Ludwig",
-     "Surname": "Röder"
-    },
-    {
-     "Value": "Louis /Roeder/",
-     "Givenname": "Louis",
-     "Surname": "Roeder"
-    }
-   ],
+   "sex": "M",
    "Birth": {
-    "birthdate": [
+    "birthdate": 
      "14 Dec 1908",
-     "1909"
-    ],
-    "birthplace": [
-     "ChicagoIllinois",
-     "Illinois"
-    ]
+    "birthplace": 
+     "Chicago, Illinois",
    },
    "death": {
     "date": "3 September 1969"
@@ -5875,69 +5392,32 @@
   },
   {
    "Id": "@P120@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Emil /Roeder/",
      "Givenname": "Emil",
      "Surname": "Roeder"
     },
-    {
-     "Value": "Emil /Röder/",
-     "Givenname": "Emil",
-     "Surname": "Röder"
-    },
-    {
-     "Value": "Emil /Roder/",
-     "Givenname": "Emil",
-     "Surname": "Roder"
-    }
-   ],
+   "sex": "M",
    "Birth": {
     "Value": "This part of Poland was in Russia",
     "birthdate": "15 Jul 1883",
     "birthplace": "ZakrsewoPoland"
    },
    "death": {
-    "date": [
+    "date":
      "17 Sep 1964",
-     "Sep 1964"
-    ]
    }
   },
   {
    "Id": "@P224@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Hulda /Sørensen/",
      "Givenname": "Hulda",
      "Surname": "Sørensen"
     },
-    {
-     "Value": "Hulda /Hansen/",
-     "Givenname": "Hulda",
-     "Surname": "Hansen"
-    },
-    {
-     "Value": "Hilda /Sorensen/",
-     "Givenname": "Hilda",
-     "Surname": "Sorensen"
-    },
-    {
-     "Value": "Hulda /Hansen/",
-     "Givenname": "Hulda",
-     "Surname": "Hansen"
-    },
-    {
-     "Value": "Hulda /Sørensen/",
-     "Givenname": "Hulda",
-     "Surname": "Sørensen"
-    },
-    {
-     "Value": "Hilda /Sorensen/",
-     "Givenname": "Hilda",
-     "Surname": "Sorensen"
-    }
-   ],
+   "sex": "F",
    "Birth": {
     "birthdate": "27 Mar 1889",
     "birthplace": "BrevikNorway"
@@ -5956,6 +5436,7 @@
     "Givenname": "John",
     "Surname": "Rosinke"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "AUG 1852",
     "birthplace": "Germany"
@@ -5970,21 +5451,18 @@
     "Value": "Roy A. /Christensen/",
     "Givenname": "Roy A.",
     "Surname": "Christensen"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@P339@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "August /Bowman/",
      "Givenname": "August",
      "Surname": "Bowman"
     },
-    {
-     "Value": "/August/",
-     "Surname": "August"
-    }
-   ],
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1860",
     "birthplace": "Sweden"
@@ -5992,18 +5470,13 @@
   },
   {
    "Id": "@P93@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Johanah /O'CONNOR/",
      "Givenname": "Johanah",
      "Surname": "O'CONNOR"
     },
-    {
-     "Value": "Hannah /Connor/",
-     "Givenname": "Hannah",
-     "Surname": "Connor"
-    }
-   ],
+   "sex": "F",
    "Birth": {
     "birthdate": "1860",
     "birthplace": "Pulaski co. Indiana"
@@ -6018,7 +5491,8 @@
     "Value": "Henry /Grothouse/",
     "Givenname": "Henry",
     "Surname": "Grothouse"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@P248@",
@@ -6027,6 +5501,7 @@
     "Givenname": "Leroy",
     "Surname": "Hansen"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1912",
     "birthplace": "Illinois"
@@ -6039,6 +5514,7 @@
     "Givenname": "Minnie",
     "Surname": "Rosinke"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "1876",
     "birthplace": "Illinois"
@@ -6051,6 +5527,7 @@
     "Givenname": "Raymond",
     "Surname": "Janesovsky"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1902",
     "birthplace": "Illinois"
@@ -6058,18 +5535,13 @@
   },
   {
    "Id": "@P380@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Grace M /Christersen/",
      "Givenname": "Grace M",
      "Surname": "Christersen"
     },
-    {
-     "Value": "Grace C. /Wielock/",
-     "Givenname": "Grace C.",
-     "Surname": "Wielock"
-    }
-   ],
+   "sex": "F",
    "Birth": {
     "birthdate": "abt 1939",
     "birthplace": "Illinois"
@@ -6082,6 +5554,7 @@
     "Givenname": "Donna Jean",
     "Surname": "Amore"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "24 Apr 1938",
     "birthplace": "Chicago,,Cook Co.,Illinois"
@@ -6092,18 +5565,13 @@
   },
   {
    "Id": "@P58@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Margaret /McCall/",
      "Givenname": "Margaret",
      "Surname": "McCall"
     },
-    {
-     "Value": "Margaret /Lanham/",
-     "Givenname": "Margaret",
-     "Surname": "Lanham"
-    }
-   ],
+   "sex": "F",
    "Birth": {
     "birthdate": "04 May 1802",
     "birthplace": "VirginiaUSA"
@@ -6120,6 +5588,7 @@
     "Givenname": "Anna Catharina",
     "Surname": "Strackbein"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "07 Jan 1712",
     "birthplace": "Wunderthausen,Siegen-Wittgenstein,Nordrhein-Westfalen,Germany"
@@ -6135,6 +5604,7 @@
     "Givenname": "Delwyn Leonard",
     "Surname": "Hansen"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "06/26/1943",
     "birthplace": "Chicago,,Cook,Illinois"
@@ -6147,6 +5617,7 @@
     "Givenname": "Martha",
     "Surname": "Rosinke"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "1874",
     "birthplace": "New York"
@@ -6154,57 +5625,18 @@
   },
   {
    "Id": "@P230@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Karen /Kittelsen/",
      "Givenname": "Karen",
      "Surname": "Kittelsen"
     },
-    {
-     "Value": "Karen /Hansen/",
-     "Givenname": "Karen",
-     "Surname": "Hansen"
-    },
-    {
-     "Value": "Karen /Hansen/",
-     "Givenname": "Karen",
-     "Surname": "Hansen"
-    },
-    {
-     "Value": "Karen /Kittelsdatter/",
-     "Givenname": "Karen",
-     "Surname": "Kittelsdatter"
-    },
-    {
-     "Value": "Karen /Kittelsen/",
-     "Givenname": "Karen",
-     "Surname": "Kittelsen"
-    },
-    {
-     "Value": "Karen L /Kristensdttr/",
-     "Givenname": "Karen L",
-     "Surname": "Kristensdttr"
-    },
-    {
-     "Value": "Karen /Kittelsen/",
-     "Givenname": "Karen",
-     "Surname": "Kittelsen"
-    },
-    {
-     "Value": "Karen /Hansen/",
-     "Givenname": "Karen",
-     "Surname": "Hansen"
-    }
-   ],
+   "sex": "F",
    "Birth": {
-    "birthdate": [
+    "birthdate":
      "30 Mar 1850",
-     "1850"
-    ],
-    "birthplace": [
+    "birthplace":
      "Brevik,,Telemark,Norway",
-     "BrevigNorway"
-    ]
    },
    "death": {
     "date": "28 Dec 1944"
@@ -6221,6 +5653,7 @@
     "Givenname": "Mary",
     "Surname": "O'CONNOR"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "1857",
     "birthplace": "Indiana"
@@ -6234,6 +5667,7 @@
     "Givenname": "Clara",
     "Surname": "Dopke"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "Jun 1875",
     "birthplace": "Illinois"
@@ -6246,6 +5680,7 @@
     "Givenname": "Margaret",
     "Surname": "O'CONNOR"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "1876",
     "birthplace": "ChicagoIllinois"
@@ -6256,48 +5691,13 @@
   },
   {
    "Id": "@P320@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Ingeborg Marie /Tellevsen/",
      "Givenname": "Ingeborg Marie",
      "Surname": "Tellevsen"
     },
-    {
-     "Value": "Ingeberg Marie /Hansen/",
-     "Givenname": "Ingeberg Marie",
-     "Surname": "Hansen"
-    },
-    {
-     "Value": "Ingeborg Marie /Tellefsdr/",
-     "Givenname": "Ingeborg Marie",
-     "Surname": "Tellefsdr"
-    },
-    {
-     "Value": "Ingeborg Maria /Tollefsdr/",
-     "Givenname": "Ingeborg Maria",
-     "Surname": "Tollefsdr"
-    },
-    {
-     "Value": "Ingeborg Marie /Tellefsen/",
-     "Givenname": "Ingeborg Marie",
-     "Surname": "Tellefsen"
-    },
-    {
-     "Value": "Ingeborg Marie /Tellefsdr/",
-     "Givenname": "Ingeborg Marie",
-     "Surname": "Tellefsdr"
-    },
-    {
-     "Value": "Ingeborg Maria /Tollefsdr/",
-     "Givenname": "Ingeborg Maria",
-     "Surname": "Tollefsdr"
-    },
-    {
-     "Value": "Ingeborg Marie /Tellefsdr/",
-     "Givenname": "Ingeborg Marie",
-     "Surname": "Tellefsdr"
-    }
-   ],
+   "sex": "F",
    "Birth": {
     "birthdate": "1821",
     "birthplace": "Stathelle"
@@ -6310,6 +5710,7 @@
     "Givenname": "Florence",
     "Surname": "Manske"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "1904",
     "birthplace": "Illinois"
@@ -6317,18 +5718,13 @@
   },
   {
    "Id": "@P328@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Tharesius /Sørensen/",
      "Givenname": "Tharesius",
      "Surname": "Sørensen"
     },
-    {
-     "Value": "Toresius /Sørensen/",
-     "Givenname": "Toresius",
-     "Surname": "Sørensen"
-    }
-   ],
+   "sex": "M",
    "Birth": {
     "birthdate": "1881",
     "birthplace": "Brevik kjøpstad"
@@ -6341,6 +5737,7 @@
     "Givenname": "Martha",
     "Surname": "Dopke"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "Sep 1895",
     "birthplace": "Illinois"
@@ -6353,6 +5750,7 @@
     "Givenname": "Gusta",
     "Surname": "Sørensen"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "1878",
     "birthplace": "Brevig"
@@ -6364,7 +5762,8 @@
     "Value": "Babies2 /Dunn/",
     "Givenname": "Babies2",
     "Surname": "Dunn"
-   }
+   },
+   "sex": "F"
   },
   {
    "Id": "@P261@",
@@ -6373,6 +5772,7 @@
     "Givenname": "Inez",
     "Surname": "Hanson"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "abt 1905",
     "birthplace": "Illinois"
@@ -6385,6 +5785,7 @@
     "Givenname": "William",
     "Surname": "Doppke"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "11 Apr 1908",
     "birthplace": "ChicagoIllinois"
@@ -6400,6 +5801,7 @@
     "Givenname": "Joan",
     "Surname": "Doppke"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "abt 1938",
     "birthplace": "Illinois"
@@ -6412,6 +5814,7 @@
     "Givenname": "Hans",
     "Surname": "Gronsholt"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "Abt 1704",
     "birthplace": "Skien,,Telemark,Norway"
@@ -6422,23 +5825,13 @@
   },
   {
    "Id": "@P307@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Edna /Johnson/",
      "Givenname": "Edna",
      "Surname": "Johnson"
     },
-    {
-     "Value": "Edna /Gundlach/",
-     "Givenname": "Edna",
-     "Surname": "Gundlach"
-    },
-    {
-     "Value": "Edna /May/",
-     "Givenname": "Edna",
-     "Surname": "May"
-    }
-   ],
+   "sex": "F",
    "Birth": {
     "birthdate": "Aug 1899",
     "birthplace": "Illinois"
@@ -6446,32 +5839,13 @@
   },
   {
    "Id": "@P228@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Caroline /Bowman/",
      "Givenname": "Caroline",
      "Surname": "Bowman"
     },
-    {
-     "Value": "/Carrie/",
-     "Surname": "Carrie"
-    },
-    {
-     "Value": "Carolina /Johnson/",
-     "Givenname": "Carolina",
-     "Surname": "Johnson"
-    },
-    {
-     "Value": "Carrie /Johnson/",
-     "Givenname": "Carrie",
-     "Surname": "Johnson"
-    },
-    {
-     "Value": "Carrie /Johnson/",
-     "Givenname": "Carrie",
-     "Surname": "Johnson"
-    }
-   ],
+   "sex": "F",
    "Birth": {
     "birthdate": "abt 1862",
     "birthplace": "Sweden"
@@ -6484,6 +5858,7 @@
     "Givenname": "Adolph",
     "Surname": "Lehman"
    },
+   "sex": "M",
    "Birth": {
     "birthplace": "Poland"
    }
@@ -6495,6 +5870,7 @@
     "Givenname": "Levi",
     "Surname": "Lanam"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "10 January 1846",
     "birthplace": "Sarahsville,Noble County,Ohio,United States of America"
@@ -6513,6 +5889,7 @@
     "Givenname": "Hans Andreas",
     "Surname": "Kittelsen"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "31 Aug 1857"
    }
@@ -6523,22 +5900,18 @@
     "Value": "Rose /Dunn/",
     "Givenname": "Rose",
     "Surname": "Dunn"
-   }
+   },
+   "sex": "F"
   },
   {
    "Id": "@P337@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Frank /Bowman/",
      "Givenname": "Frank",
      "Surname": "Bowman"
     },
-    {
-     "Value": "Frank /Boman/",
-     "Givenname": "Frank",
-     "Surname": "Boman"
-    }
-   ],
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1873",
     "birthplace": "Illinois"
@@ -6550,7 +5923,8 @@
     "Value": "Dorothy /Shaw/",
     "Givenname": "Dorothy",
     "Surname": "Shaw"
-   }
+   },
+   "sex": "F"
   },
   {
    "Id": "@P388@",
@@ -6559,6 +5933,7 @@
     "Givenname": "John",
     "Surname": "Lanham"
    },
+   "sex": "M",
    "Birth": {
     "birthplace": "King Georges Parish,Prince George's County,Maryland,USA"
    }
@@ -6570,6 +5945,7 @@
     "Givenname": "Daniel",
     "Surname": "Lanam"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "8 APR 1856",
     "birthplace": "Indiana"
@@ -6583,41 +5959,18 @@
   },
   {
    "Id": "@P324@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Tholesius /Sørensen/",
      "Givenname": "Tholesius",
      "Surname": "Sørensen"
     },
-    {
-     "Value": "Tholerius /Sorensen/",
-     "Givenname": "Tholerius",
-     "Surname": "Sorensen"
-    },
-    {
-     "Value": "Taresius /Sørensen/",
-     "Givenname": "Taresius",
-     "Surname": "Sørensen"
-    },
-    {
-     "Value": "Toresius /Sørensen/",
-     "Givenname": "Toresius",
-     "Surname": "Sørensen"
-    },
-    {
-     "Value": "/Tholerius/",
-     "Surname": "Tholerius"
-    }
-   ],
+   "sex": "M",
    "Birth": {
-    "birthdate": [
+    "birthdate":
      "21 Mar 1844",
-     "21 Mar 1844"
-    ],
-    "birthplace": [
+    "birthplace":
      "Brevik kjøpstad",
-     "Brevik"
-    ]
    }
   },
   {
@@ -6627,6 +5980,7 @@
     "Givenname": "Mary A",
     "Surname": "McCay Reeves"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "11 July 1861",
     "birthplace": "IndianaUnited States of America"
@@ -6643,7 +5997,8 @@
    "Fullname": {
     "Value": "/Donna/",
     "Surname": "Donna"
-   }
+   },
+   "sex": "F"
   },
   {
    "Id": "@P325@",
@@ -6651,6 +6006,7 @@
     "Value": "/Hanne Gurine/",
     "Surname": "Hanne Gurine"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "15 Aug 1842"
    }
@@ -6662,6 +6018,7 @@
     "Givenname": "Frank A",
     "Surname": "Rosinke"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "1870",
     "birthplace": "Germany"
@@ -6674,10 +6031,12 @@
     "Givenname": "James",
     "Surname": "Connor"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1867",
     "birthplace": "Indiana"
    }
   }
  ]
-}
+
+ module.exports = michelleNames

@@ -1,19 +1,14 @@
-{
- "Individuals": [
+const vbNames = 
+[
   {
    "Id": "@I6862819516@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Michael /VON BEHREN/",
      "Givenname": "Michael",
      "Surname": "VON BEHREN"
     },
-    {
-     "Value": "Mike /Vonbehren/",
-     "Givenname": "Mike",
-     "Surname": "Vonbehren"
-    }
-   ],
+   "sex": "M",
    "Birth": {
     "birthdate": "12/13/1964",
     "birthplace": "Groton, New London, Connecticut, USA"
@@ -26,6 +21,7 @@
     "Givenname": "Erwin Henry",
     "Surname": "VON BEHREN"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "19 AUG 1940",
     "birthplace": "St. Louis, Missouri"
@@ -38,6 +34,7 @@
     "Givenname": "Georgia Elzona",
     "Surname": "Traxel"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "16 AUG 1942",
     "birthplace": "St. Louis, Missouri"
@@ -45,23 +42,15 @@
   },
   {
    "Id": "@I_1884986966@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "George Edward /Traxel/",
      "Givenname": "George Edward",
      "Surname": "Traxel"
     },
-    {
-     "Value": "George Edward /Traxel/",
-     "Givenname": "George Edward",
-     "Surname": "Traxel"
-    }
-   ],
+   "sex": "M",
    "Birth": {
-    "birthdate": [
-     "13 NOV 1911",
-     "13 NOV 1911"
-    ],
+    "birthdate": "13 NOV 1911",
     "birthplace": "Missouri"
    },
    "death": {
@@ -73,38 +62,19 @@
   },
   {
    "Id": "@I_1884986965@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Lucille Mary /Bujnak-NOBLOT/",
      "Givenname": "Lucille Mary",
      "Surname": "Bujnak-NOBLOT"
     },
-    {
-     "Value": "Lucille Mary /Bujnak-NOBLOT/",
-     "Givenname": "Lucille Mary",
-     "Surname": "Bujnak-NOBLOT"
-    },
-    {
-     "Value": "Lucille M /Byington/",
-     "Givenname": "Lucille M",
-     "Surname": "Byington"
-    }
-   ],
+   "sex": "F",
    "Birth": {
-    "birthdate": [
-     "9 SEP 1911",
-     "9 SEP 1911"
-    ],
-    "birthplace": [
-     "St. Louis, Missouri",
-     "St. Louis, Missouri"
-    ]
+    "birthdate": "9 SEP 1911",
+    "birthplace": "St. Louis, Missouri",
    },
    "death": {
-    "date": [
-     "22 JUL 1992",
-     "22 JUL 1992"
-    ]
+    "date": "22 JUL 1992",
    },
    "burial": {
     "burial": "Resurrection Cemetery, St. Louis"
@@ -117,6 +87,7 @@
     "Givenname": "Elzona",
     "Surname": "Traxel"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "20 APR 1934",
     "birthplace": "St Louis, Missouri"
@@ -127,17 +98,13 @@
   },
   {
    "Id": "@I_1884986963@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Jakeb /BUJNAK/",
      "Givenname": "Jakeb",
      "Surname": "BUJNAK"
     },
-    {
-     "Value": "Jacob or Jake //",
-     "Givenname": "Jacob or Jake"
-    }
-   ],
+   "sex": "M",
    "Birth": {
     "birthdate": "25 JUL 1876",
     "birthplace": "Austria-Hungary (Slovak Region)"
@@ -151,17 +118,13 @@
   },
   {
    "Id": "@I_1884986962@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Filomena /BRUNAT/",
      "Givenname": "Filomena",
      "Surname": "BRUNAT"
     },
-    {
-     "Value": "Mini //",
-     "Givenname": "Mini"
-    }
-   ],
+   "sex": "F",
    "Birth": {
     "birthdate": "6 JUN 1878",
     "birthplace": "Austria-Hungary (Bohemian Region)"
@@ -175,27 +138,16 @@
   },
   {
    "Id": "@I_1884986961@",
-   "Fullname": [
+   "Fullname": 
     {
      "Value": "Edward A. /Bujnak/",
      "Givenname": "Edward A.",
      "Surname": "Bujnak"
     },
-    {
-     "Value": "Eddie /Bujnak/",
-     "Givenname": "Eddie",
-     "Surname": "Bujnak"
-    }
-   ],
+   "sex": "M",
    "Birth": {
-    "birthdate": [
-     "8 FEB 1899",
-     "Feb 1898"
-    ],
-    "birthplace": [
-     "St Louis, , Missouri, USA",
-     "Missouri"
-    ]
+    "birthdate": "8 FEB 1899",
+    "birthplace": "St Louis, , Missouri, USA",
    },
    "death": {
     "date": "7 JUL 1963"
@@ -208,6 +160,7 @@
     "Givenname": "Irene",
     "Surname": "BUJNAK"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "12 MAR 1905",
     "birthplace": "St. Louis MO"
@@ -223,6 +176,7 @@
     "Givenname": "Helena",
     "Surname": "BUJNAK"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "27 JAN 1907",
     "birthplace": "St. Louis Missouri"
@@ -238,6 +192,7 @@
     "Givenname": "Joseph",
     "Surname": "NOBLOT"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "1 DEC 1858",
     "birthplace": "France"
@@ -251,18 +206,13 @@
   },
   {
    "Id": "@I_1884986957@",
-   "Fullname": [
+   "Fullname": 
     {
      "Value": "Anna /BRUNAT/",
      "Givenname": "Anna",
      "Surname": "BRUNAT"
     },
-    {
-     "Value": "Annie /Noblot/",
-     "Givenname": "Annie",
-     "Surname": "Noblot"
-    }
-   ],
+   "sex": "F",
    "Birth": {
     "birthdate": "12 SEP 1874",
     "birthplace": "Austria-Hungary (Bohemian Region)"
@@ -281,6 +231,7 @@
     "Givenname": "Martin",
     "Surname": "BRUNAT"
    },
+   "sex": "M",
    "Birth": {
     "birthplace": "Austria (Bohemia)"
    }
@@ -292,6 +243,7 @@
     "Givenname": "Annie",
     "Surname": "Burian"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "1840",
     "birthplace": "Austria-Hungary (Bohemian Region)"
@@ -310,6 +262,7 @@
     "Givenname": "Joseph",
     "Surname": "BRUNAT"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "19 SEP 1879",
     "birthplace": "Austria-Hungary (Bohemian Region)"
@@ -325,6 +278,7 @@
     "Givenname": "Rose",
     "Surname": "BRUNAT"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "MAR 1883",
     "birthplace": "Austria-Hungary (Bohemian Region)"
@@ -339,7 +293,8 @@
     "Value": "Frank /MASEK/",
     "Givenname": "Frank",
     "Surname": "MASEK"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@I_1884986951@",
@@ -348,6 +303,7 @@
     "Givenname": "Louise",
     "Surname": "NOBLOT"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "Mar 1899",
     "birthplace": "Missouri, USA"
@@ -360,6 +316,7 @@
     "Givenname": "Emil",
     "Surname": "NOBLOT"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "01/26/1898",
     "birthplace": "Missouri"
@@ -375,6 +332,7 @@
     "Givenname": "Rose",
     "Surname": "NOBLOT"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "abt 1901",
     "birthplace": "Missouri"
@@ -390,6 +348,7 @@
     "Givenname": "Mary",
     "Surname": "Krekel -Welky"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "abt 1878",
     "birthplace": "Austria"
@@ -405,6 +364,7 @@
     "Givenname": "Helen",
     "Surname": "BUJNAK"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "12 MAY 1913",
     "birthplace": "Illinois"
@@ -417,6 +377,7 @@
     "Givenname": "Fred",
     "Surname": "BUJNAK"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "7 JAN 1916",
     "birthplace": "Illinois"
@@ -431,7 +392,8 @@
     "Value": "John /HAMPTON/",
     "Givenname": "John",
     "Surname": "HAMPTON"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@I_1884986944@",
@@ -439,7 +401,8 @@
     "Value": "Louise /FLICKENSTEIN/",
     "Givenname": "Louise",
     "Surname": "FLICKENSTEIN"
-   }
+   },
+   "sex": "F"
   },
   {
    "Id": "@I_1884986943@",
@@ -447,7 +410,8 @@
     "Value": "Andrew /Bujnak/",
     "Givenname": "Andrew",
     "Surname": "Bujnak"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@I_1884986942@",
@@ -455,7 +419,8 @@
     "Value": "Mary /Slaphojan/",
     "Givenname": "Mary",
     "Surname": "Slaphojan"
-   }
+   },
+   "sex": "F"
   },
   {
    "Id": "@I_1884986941@",
@@ -464,6 +429,7 @@
     "Givenname": "Charles",
     "Surname": "BUJNAK"
    },
+   "sex": "M",
    "death": {
     "date": "AFT 1944"
    }
@@ -475,6 +441,7 @@
     "Givenname": "Andrew",
     "Surname": "BUJNAK"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "JUN 1871",
     "birthplace": "Austria-Hungary (Slovak Region)"
@@ -493,6 +460,7 @@
     "Givenname": "Veronica",
     "Surname": "Kolar"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "NOV 1875",
     "birthplace": "Hungary"
@@ -509,6 +477,7 @@
     "Givenname": "Steve Louis",
     "Surname": "BUJNAK"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "18 JUL 1894",
     "birthplace": "Missouri"
@@ -528,6 +497,7 @@
     "Givenname": "Tony",
     "Surname": "BUJNAK"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "1906",
     "birthplace": "Missouri"
@@ -540,6 +510,7 @@
     "Givenname": "Alois",
     "Surname": "BUJNAK"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "1910"
    }
@@ -551,6 +522,7 @@
     "Givenname": "Andrew",
     "Surname": "BUJNAK"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "13 Sep 1900",
     "birthplace": "Missouri"
@@ -566,6 +538,7 @@
     "Givenname": "Anna",
     "Surname": "MASEK"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "4 JUL 1903",
     "birthplace": "St Louis , Missouri"
@@ -582,6 +555,7 @@
     "Givenname": "Flora C.",
     "Surname": "Maul"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "8 FEB 1900"
    },
@@ -596,6 +570,7 @@
     "Givenname": "Delores",
     "Surname": "Bujnak"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "7 DEC 1922"
    },
@@ -610,6 +585,7 @@
     "Givenname": "Edward W.",
     "Surname": "Bujnak"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "24 DEC 1923"
    },
@@ -624,6 +600,7 @@
     "Givenname": "Delmar",
     "Surname": "Bujnak"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "17 APR 1928"
    },
@@ -638,6 +615,7 @@
     "Givenname": "Donald",
     "Surname": "Bujnak"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "25 JUN 1932"
    }
@@ -649,6 +627,7 @@
     "Givenname": "Charlotte",
     "Surname": "Bujnak"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "21 DEC 1933"
    },
@@ -663,6 +642,7 @@
     "Givenname": "Merlyn \"Butch\"",
     "Surname": "Bujnak"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "29 NOV 1934"
    }
@@ -674,6 +654,7 @@
     "Givenname": "Judith",
     "Surname": "Bujnak"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "11 JUN 1939"
    }
@@ -684,7 +665,8 @@
     "Value": "Wayne /Sarver/",
     "Givenname": "Wayne",
     "Surname": "Sarver"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@I_1884986924@",
@@ -693,6 +675,7 @@
     "Givenname": "Rose Mary",
     "Surname": "Macke"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "13 NOV 1922"
    }
@@ -704,6 +687,7 @@
     "Givenname": "David",
     "Surname": "Bujnak"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "26 JUL 1946"
    }
@@ -715,6 +699,7 @@
     "Givenname": "Kenneth",
     "Surname": "Bujnak"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "22 AUG 1947"
    },
@@ -729,6 +714,7 @@
     "Givenname": "Phyllis",
     "Surname": "Bujnak"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "7 JUL 1949"
    }
@@ -740,6 +726,7 @@
     "Givenname": "Pamela",
     "Surname": "Bujnak"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "28 OCT 1952"
    }
@@ -751,6 +738,7 @@
     "Givenname": "Cynthia",
     "Surname": "Bujnak"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "17 SEP 1954"
    }
@@ -762,6 +750,7 @@
     "Givenname": "Dennis",
     "Surname": "Bujnak"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "6 NOV 1956"
    }
@@ -773,6 +762,7 @@
     "Givenname": "Gary",
     "Surname": "Bujnak"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "16 OCT 1958"
    }
@@ -783,7 +773,8 @@
     "Value": "Helen /Halbe/",
     "Givenname": "Helen",
     "Surname": "Halbe"
-   }
+   },
+   "sex": "F"
   },
   {
    "Id": "@I_1884986915@",
@@ -792,6 +783,7 @@
     "Givenname": "Doris",
     "Surname": "Eltrich"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "12 AUG 1930"
    },
@@ -806,6 +798,7 @@
     "Givenname": "Beverly",
     "Surname": "Bujnak"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "23 FEB 1957"
    }
@@ -817,6 +810,7 @@
     "Givenname": "Mark",
     "Surname": "Bujnak"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "19 AUG 1958"
    }
@@ -828,6 +822,7 @@
     "Givenname": "Kevin",
     "Surname": "Bujnak"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "8 FEB 1963"
    }
@@ -839,6 +834,7 @@
     "Givenname": "Linda",
     "Surname": "Bujnak"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "7 SEP 1964"
    }
@@ -850,6 +846,7 @@
     "Givenname": "Donna",
     "Surname": "Bujnak"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "27 JAN 1967"
    }
@@ -861,6 +858,7 @@
     "Givenname": "Mary",
     "Surname": "Baumann"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "21 AUG 1940"
    }
@@ -872,6 +870,7 @@
     "Givenname": "Scott",
     "Surname": "Bujnak"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "4 MAR 1958"
    }
@@ -883,6 +882,7 @@
     "Givenname": "Lisa",
     "Surname": "Bujnak"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "26 MAR 1966"
    }
@@ -894,6 +894,7 @@
     "Givenname": "Lori",
     "Surname": "Bujnak"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "29 NOV 1967"
    }
@@ -905,6 +906,7 @@
     "Givenname": "Kathleen",
     "Surname": "Barkman"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "14 MAR 1958"
    }
@@ -916,6 +918,7 @@
     "Givenname": "Amanda",
     "Surname": "Bujnak"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "16 OCT 1981"
    }
@@ -927,6 +930,7 @@
     "Givenname": "Michelle",
     "Surname": "Bujnak"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "12 FEB 1988"
    }
@@ -938,6 +942,7 @@
     "Givenname": "Kelly",
     "Surname": "Guckes"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "25 SEP 1958"
    }
@@ -949,6 +954,7 @@
     "Givenname": "Michael",
     "Surname": "Bujnak"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "16 JAN 1982"
    }
@@ -960,6 +966,7 @@
     "Givenname": "Kyle",
     "Surname": "Bujnak"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "8 JAN 1985"
    }
@@ -970,7 +977,8 @@
     "Value": "Jacklyn /Kellet/",
     "Givenname": "Jacklyn",
     "Surname": "Kellet"
-   }
+   },
+   "sex": "F"
   },
   {
    "Id": "@I_1884986898@",
@@ -979,6 +987,7 @@
     "Givenname": "Misty",
     "Surname": "Bujnak"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "3 MAR 1974"
    }
@@ -990,6 +999,7 @@
     "Givenname": "Matthew",
     "Surname": "Bujnak"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "16 DEC 1980"
    }
@@ -1001,6 +1011,7 @@
     "Givenname": "Richard",
     "Surname": "Evans"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "2 DEC 1954"
    }
@@ -1012,6 +1023,7 @@
     "Givenname": "Eric",
     "Surname": "Evans"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "28 JAN 1980"
    }
@@ -1023,6 +1035,7 @@
     "Givenname": "Timothy",
     "Surname": "Evans"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "11 MAY 1982"
    }
@@ -1034,6 +1047,7 @@
     "Givenname": "Jill",
     "Surname": "Evans"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "1 MAR 1985"
    }
@@ -1044,7 +1058,8 @@
     "Value": "Valerie /Schrand/",
     "Givenname": "Valerie",
     "Surname": "Schrand"
-   }
+   },
+   "sex": "F"
   },
   {
    "Id": "@I_1884986891@",
@@ -1053,6 +1068,7 @@
     "Givenname": "Garard",
     "Surname": "Bujnak"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "16 NOV 1985"
    }
@@ -1074,7 +1090,8 @@
     "Value": "Kathleen /Renth/",
     "Givenname": "Kathleen",
     "Surname": "Renth"
-   }
+   },
+   "sex": "F"
   },
   {
    "Id": "@I_1884986888@",
@@ -1083,6 +1100,7 @@
     "Givenname": "Benjamin",
     "Surname": "Bujnak"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "22 APR 1984"
    }
@@ -1094,6 +1112,7 @@
     "Givenname": "Brennen",
     "Surname": "Bujnak"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "28 MAY 1988"
    }
@@ -1105,6 +1124,7 @@
     "Givenname": "Franklin",
     "Surname": "Kube"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "30 MAR 1934"
    }
@@ -1116,6 +1136,7 @@
     "Givenname": "Keith",
     "Surname": "Kube"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "16 NOV 1971"
    }
@@ -1126,7 +1147,8 @@
     "Value": "Albert /Kitchen/",
     "Givenname": "Albert",
     "Surname": "Kitchen"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@I_1884986883@",
@@ -1134,7 +1156,8 @@
     "Value": "Leatrice /Kitchen/",
     "Givenname": "Leatrice",
     "Surname": "Kitchen"
-   }
+   },
+   "sex": "F"
   },
   {
    "Id": "@I_1884986882@",
@@ -1143,6 +1166,7 @@
     "Givenname": "Robert",
     "Surname": "Kitchen"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1931",
     "birthplace": "Illinois"
@@ -1154,7 +1178,8 @@
     "Value": "Irene /Kitchen/",
     "Givenname": "Irene",
     "Surname": "Kitchen"
-   }
+   },
+   "sex": "F"
   },
   {
    "Id": "@I_1884986880@",
@@ -1162,14 +1187,16 @@
     "Value": "Ilene /Kitchen/",
     "Givenname": "Ilene",
     "Surname": "Kitchen"
-   }
+   },
+   "sex": "F"
   },
   {
    "Id": "@I_1884986879@",
    "Fullname": {
     "Value": "/Yates/",
     "Surname": "Yates"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@I_1884986878@",
@@ -1178,6 +1205,7 @@
     "Givenname": "Charlie",
     "Surname": "Cinelli"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "9 FEB 1896",
     "birthplace": "Italy"
@@ -1192,7 +1220,8 @@
     "Value": "Genevive /Cinelli/",
     "Givenname": "Genevive",
     "Surname": "Cinelli"
-   }
+   },
+   "sex": "F"
   },
   {
    "Id": "@I_1884986876@",
@@ -1200,7 +1229,8 @@
     "Value": "Mike /Metzger/",
     "Givenname": "Mike",
     "Surname": "Metzger"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@I_1884986875@",
@@ -1208,29 +1238,26 @@
     "Value": "Donna Marie /Metzger/",
     "Givenname": "Donna Marie",
     "Surname": "Metzger"
-   }
+   },
+   "sex": "F"
   },
   {
    "Id": "@I_1884986874@",
    "Fullname": {
     "Value": "/Williams/",
     "Surname": "Williams"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@I_1884986873@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Keith Homer /Harrington/",
      "Givenname": "Keith Homer",
      "Surname": "Harrington"
     },
-    {
-     "Value": "Keith /Williams/",
-     "Givenname": "Keith",
-     "Surname": "Williams"
-    }
-   ],
+   "sex": "M",
    "Birth": {
     "birthdate": "24 December 1921",
     "birthplace": "St. Louis City, Missouri, United States of America"
@@ -1247,7 +1274,8 @@
    "Fullname": {
     "Value": "/Cibon/",
     "Surname": "Cibon"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@I_1884986871@",
@@ -1256,6 +1284,7 @@
     "Givenname": "Minnie",
     "Surname": "[---?---]"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "1892",
     "birthplace": "Bohemia"
@@ -1269,6 +1298,7 @@
     "Givenname": "Joseph",
     "Surname": "BRUNAT"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "1910",
     "birthplace": "St Louis, Missouri"
@@ -1276,17 +1306,13 @@
   },
   {
    "Id": "@I_1884986869@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "John Carl /Rongey/",
      "Givenname": "John Carl",
      "Surname": "Rongey"
     },
-    {
-     "Value": "Jack //",
-     "Givenname": "Jack"
-    }
-   ],
+   "sex": "M",
    "Birth": {
     "birthdate": "21 JUL 1933"
    },
@@ -1301,6 +1327,7 @@
     "Givenname": "Rudolf Joseph",
     "Surname": "BUJNAK"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "19 JUL 1896",
     "birthplace": "St Louis , Missouri"
@@ -1318,7 +1345,8 @@
     "Value": "Mary /[---?---]/",
     "Givenname": "Mary",
     "Surname": "[---?---]"
-   }
+   },
+   "sex": "F"
   },
   {
    "Id": "@I_1884986866@",
@@ -1326,7 +1354,8 @@
     "Value": "Dorothy /[---?---]/",
     "Givenname": "Dorothy",
     "Surname": "[---?---]"
-   }
+   },
+   "sex": "F"
   },
   {
    "Id": "@I_1884986865@",
@@ -1335,6 +1364,7 @@
     "Givenname": "John",
     "Surname": "Burian"
    },
+   "sex": "M",
    "Birth": {
     "birthplace": "Bohemia"
    }
@@ -1346,6 +1376,7 @@
     "Givenname": "William Otto",
     "Surname": "Traxel"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "26 Jan 1891",
     "birthplace": "Missouri"
@@ -1359,23 +1390,13 @@
   },
   {
    "Id": "@I6135340450@",
-   "Fullname": [
+   "Fullname": 
     {
      "Value": "Louise /Brown/",
      "Givenname": "Louise",
      "Surname": "Brown"
     },
-    {
-     "Value": "Louisa /Brown/",
-     "Givenname": "Louisa",
-     "Surname": "Brown"
-    },
-    {
-     "Value": "Louise /Moses/",
-     "Givenname": "Louise",
-     "Surname": "Moses"
-    }
-   ],
+   "sex": "F",
    "Birth": {
     "birthdate": "18 FEB 1894",
     "birthplace": "St Louis, Missouri"
@@ -1394,6 +1415,7 @@
     "Givenname": "Jacob",
     "Surname": "Traxel"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "27 Nov 1861",
     "birthplace": "Germany"
@@ -1409,6 +1431,7 @@
     "Givenname": "Barbara",
     "Surname": "Kessler"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "29 Jun 1864",
     "birthplace": "Rinefultz, Germany"
@@ -1419,18 +1442,13 @@
   },
   {
    "Id": "@I6146400827@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Pauline /Traxel/",
      "Givenname": "Pauline",
      "Surname": "Traxel"
     },
-    {
-     "Value": "Pauline E /Maloney/",
-     "Givenname": "Pauline E",
-     "Surname": "Maloney"
-    }
-   ],
+   "sex": "F",
    "Birth": {
     "birthdate": "Jul 1888",
     "birthplace": "Illinois"
@@ -1446,6 +1464,7 @@
     "Givenname": "Augusta K",
     "Surname": "Traxel"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "Nov 1895",
     "birthplace": "Missouri"
@@ -1461,6 +1480,7 @@
     "Givenname": "Jacob C",
     "Surname": "Traxel"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "1892",
     "birthplace": "Missouri"
@@ -1468,18 +1488,13 @@
   },
   {
    "Id": "@I6146415679@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Heinrich /Traxel/",
      "Givenname": "Heinrich",
      "Surname": "Traxel"
     },
-    {
-     "Value": "Heinrich /Traxel/",
-     "Givenname": "Heinrich",
-     "Surname": "Traxel"
-    }
-   ],
+   "sex": "M",
    "Birth": {
     "birthdate": "11 Okt 1837",
     "birthplace": "Germany"
@@ -1492,6 +1507,7 @@
     "Givenname": "Erwin Henry",
     "Surname": "VON BEHREN"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "10/27/1907",
     "birthplace": "Franklin Co. Missouri"
@@ -1510,6 +1526,7 @@
     "Givenname": "Lottie",
     "Surname": "Pehle"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "5 Feb 1913",
     "birthplace": "Franklin Co., Missouri"
@@ -1528,6 +1545,7 @@
     "Givenname": "Henry C",
     "Surname": "Von Behren"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "15 December 1864",
     "birthplace": "Kentucky"
@@ -1541,28 +1559,13 @@
   },
   {
    "Id": "@I6862850025@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Matilda Christine /Rohlfing/",
      "Givenname": "Matilda Christine",
      "Surname": "Rohlfing"
     },
-    {
-     "Value": "Mathilda /Rolfing/",
-     "Givenname": "Mathilda",
-     "Surname": "Rolfing"
-    },
-    {
-     "Value": "Tillie /Von Behren/",
-     "Givenname": "Tillie",
-     "Surname": "Von Behren"
-    },
-    {
-     "Value": "Mathilda Christine /VonBehren/",
-     "Givenname": "Mathilda Christine",
-     "Surname": "VonBehren"
-    }
-   ],
+   "sex": "F",
    "Birth": {
     "birthdate": "29 Jan 1869",
     "birthplace": "Berger, Franklin, Missouri, USA"
@@ -1581,6 +1584,7 @@
     "Givenname": "Louis H P",
     "Surname": "Von Behren"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "30 Oct 1892",
     "birthplace": "New Haven, Missouri, USA"
@@ -1599,6 +1603,7 @@
     "Givenname": "Ida C M",
     "Surname": "Von Behren"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "Jan 1896",
     "birthplace": "Missouri"
@@ -1612,27 +1617,16 @@
   },
   {
    "Id": "@I6862850035@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Luella M /Von Behren/",
      "Givenname": "Luella M",
      "Surname": "Von Behren"
     },
-    {
-     "Value": "Luella /Vonbehren/",
-     "Givenname": "Luella",
-     "Surname": "Vonbehren"
-    }
-   ],
+   "sex": "F",
    "Birth": {
-    "birthdate": [
-     "1903",
-     "abt 1905"
-    ],
-    "birthplace": [
-     "Missouri",
-     "Missouri"
-    ]
+    "birthdate": "1903",
+    "birthplace": "Missouri",
    }
   },
   {
@@ -1642,6 +1636,7 @@
     "Givenname": "Priscilla",
     "Surname": "Von Behren"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "abt 1935",
     "birthplace": "Missouri"
@@ -1649,18 +1644,13 @@
   },
   {
    "Id": "@I6862854348@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Henry P /Pehle/",
      "Givenname": "Henry P",
      "Surname": "Pehle"
     },
-    {
-     "Value": "Henry /Pehle/",
-     "Givenname": "Henry",
-     "Surname": "Pehle"
-    }
-   ],
+   "sex": "M",
    "Birth": {
     "birthdate": "13 October 1873",
     "birthplace": "Franklin County, Missouri, United States of America"
@@ -1674,23 +1664,13 @@
   },
   {
    "Id": "@I6862854349@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Louise Mathilda Tillie /Witthaus/",
      "Givenname": "Louise Mathilda Tillie",
      "Surname": "Witthaus"
     },
-    {
-     "Value": "Louise M. /Pehle/",
-     "Givenname": "Louise M.",
-     "Surname": "Pehle"
-    },
-    {
-     "Value": "Tillie /Witthaus/",
-     "Givenname": "Tillie",
-     "Surname": "Witthaus"
-    }
-   ],
+   "sex": "F",
    "Birth": {
     "birthdate": "19 April 1881",
     "birthplace": "Warren County, Missouri, United States of America"
@@ -1709,6 +1689,7 @@
     "Givenname": "Virgil A H",
     "Surname": "Pehle"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1923",
     "birthplace": "Missouri"
@@ -1727,6 +1708,7 @@
     "Givenname": "Arthur",
     "Surname": "Pehle"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1900",
     "birthplace": "Missouri"
@@ -1745,6 +1727,7 @@
     "Givenname": "Ruby",
     "Surname": "Pehle"
    },
+   "sex": "U",
    "Birth": {
     "birthdate": "abt 1908",
     "birthplace": "Missouri"
@@ -1757,6 +1740,7 @@
     "Givenname": "Charles",
     "Surname": "Pehle"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "February 1836",
     "birthplace": "Prussia"
@@ -1770,18 +1754,13 @@
   },
   {
    "Id": "@I6862860700@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Louisa /Kappleman/",
      "Givenname": "Louisa",
      "Surname": "Kappleman"
     },
-    {
-     "Value": "Louisa /Obermeyer/",
-     "Givenname": "Louisa",
-     "Surname": "Obermeyer"
-    }
-   ],
+   "sex": "F",
    "Birth": {
     "birthdate": "2 Feb 1846",
     "birthplace": "Prussia"
@@ -1800,6 +1779,7 @@
     "Givenname": "August",
     "Surname": "Pehle"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "27 November 1864",
     "birthplace": "New Haven, Franklin County, Missouri, United States of America"
@@ -1818,6 +1798,7 @@
     "Givenname": "Adolf",
     "Surname": "Pehle"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "24 May 1866",
     "birthplace": "Missouri"
@@ -1828,18 +1809,13 @@
   },
   {
    "Id": "@I6862860708@",
-   "Fullname": [
+   "Fullname": 
     {
      "Value": "Frederick Fritz /Pehle/",
      "Givenname": "Frederick Fritz",
      "Surname": "Pehle"
     },
-    {
-     "Value": "Fritz /Pehle/",
-     "Givenname": "Fritz",
-     "Surname": "Pehle"
-    }
-   ],
+   "sex": "M",
    "Birth": {
     "birthdate": "1 May 1870",
     "birthplace": "New Haven, Franklin County, Missouri, United States of America"
@@ -1858,6 +1834,7 @@
     "Givenname": "Mina",
     "Surname": "Pehle"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "abt 1873",
     "birthplace": "Missouri"
@@ -1865,18 +1842,13 @@
   },
   {
    "Id": "@I6862860712@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Lena /Pehle/",
      "Givenname": "Lena",
      "Surname": "Pehle"
     },
-    {
-     "Value": "Caroline /Willer/",
-     "Givenname": "Caroline",
-     "Surname": "Willer"
-    }
-   ],
+   "sex": "F",
    "Birth": {
     "birthdate": "23 October 1876",
     "birthplace": "New Haven, Franklin County, Missouri, USA"
@@ -1895,6 +1867,7 @@
     "Givenname": "Amelia",
     "Surname": "Pehle"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "abt 1879",
     "birthplace": "Missouri"
@@ -1910,6 +1883,7 @@
     "Givenname": "Henry",
     "Surname": "Witthaus"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "12 April 1844",
     "birthplace": "Warren Co., Missouri"
@@ -1928,6 +1902,7 @@
     "Givenname": "Charlotte",
     "Surname": "Taake"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "May 1855",
     "birthplace": "Missouri, USA"
@@ -1946,6 +1921,7 @@
     "Givenname": "August",
     "Surname": "Witthaus"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "13 Aug 1869",
     "birthplace": "Missouri"
@@ -1964,6 +1940,7 @@
     "Givenname": "Mina",
     "Surname": "Witthaus"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "abt 1874",
     "birthplace": "Missouri"
@@ -1976,6 +1953,7 @@
     "Givenname": "Julius",
     "Surname": "Witthaus"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1875",
     "birthplace": "Missouri"
@@ -1994,6 +1972,7 @@
     "Givenname": "Ernst",
     "Surname": "Witthaus"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1876",
     "birthplace": "Missouri"
@@ -2012,6 +1991,7 @@
     "Givenname": "Martin",
     "Surname": "Witthaus"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1878",
     "birthplace": "Missouri"
@@ -2019,28 +1999,15 @@
   },
   {
    "Id": "@I6864750401@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "John /Moses/",
      "Givenname": "John",
      "Surname": "Moses"
     },
-    {
-     "Value": "John F /Moses/",
-     "Givenname": "John F",
-     "Surname": "Moses"
-    },
-    {
-     "Value": "John F. /Moses/",
-     "Givenname": "John F.",
-     "Surname": "Moses"
-    }
-   ],
+   "sex": "M",
    "Birth": {
-    "birthdate": [
-     "abt 1888",
-     "abt 1891"
-    ],
+    "birthdate": "abt 1888",
     "birthplace": "Missouri"
    }
   },
@@ -2050,7 +2017,8 @@
     "Value": "Barbara /Koenig/",
     "Givenname": "Barbara",
     "Surname": "Koenig"
-   }
+   },
+   "sex": "F"
   },
   {
    "Id": "@I312154507491@",
@@ -2058,7 +2026,8 @@
     "Value": "Heinrich /Traxel/",
     "Givenname": "Heinrich",
     "Surname": "Traxel"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@I312154507493@",
@@ -2066,7 +2035,8 @@
     "Value": "Christina /Mittnacht/",
     "Givenname": "Christina",
     "Surname": "Mittnacht"
-   }
+   },
+   "sex": "F"
   },
   {
    "Id": "@I312154507747@",
@@ -2075,24 +2045,20 @@
     "Givenname": "Anna Barbara",
     "Surname": "Traxel"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "abt 1848"
    }
   },
   {
    "Id": "@I312206999334@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Cord Heinrich /Von Behren/",
      "Givenname": "Cord Heinrich",
      "Surname": "Von Behren"
     },
-    {
-     "Value": "Kort /Von Behren/",
-     "Givenname": "Kort",
-     "Surname": "Von Behren"
-    }
-   ],
+   "sex": "M",
    "Birth": {
     "birthdate": "1823-11-21",
     "birthplace": "Bauerschaft,Nordhemmern,Westfalen,Germany"
@@ -2105,6 +2071,7 @@
     "Givenname": "Christina",
     "Surname": "Telljohann"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "23 Apr 1830",
     "birthplace": "Prussia, Germany"
@@ -2123,6 +2090,7 @@
     "Givenname": "Elizabeth",
     "Surname": "Von Behren"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "Abt 1861",
     "birthplace": "Kentucky"
@@ -2135,6 +2103,7 @@
     "Givenname": "Louisa",
     "Surname": "Von Behren"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "Abt 1867",
     "birthplace": "Kentucky"
@@ -2147,6 +2116,7 @@
     "Givenname": "Louis",
     "Surname": "Von Behren"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "Abt 1871",
     "birthplace": "Missouri"
@@ -2159,6 +2129,7 @@
     "Givenname": "Lena",
     "Surname": "Von Behren"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "Abt 1873",
     "birthplace": "Missouri"
@@ -2171,6 +2142,7 @@
     "Givenname": "Friederke",
     "Surname": "Von Behren"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "abt 1860"
    }
@@ -2182,6 +2154,7 @@
     "Givenname": "Suzanne",
     "Surname": "Traxel Corbett"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "23 Jan 1953"
    }
@@ -2193,6 +2166,7 @@
     "Givenname": "Jay",
     "Surname": "Traxel"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "4 May 1954"
    }
@@ -2204,6 +2178,7 @@
     "Givenname": "Opal Laverne",
     "Surname": "Duncan"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "28 Aug 1914",
     "birthplace": "Shamrock, Wheeler County, Texas, United States of America"
@@ -2222,6 +2197,7 @@
     "Givenname": "William J",
     "Surname": "Duncan"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1881",
     "birthplace": "Arkansas"
@@ -2234,6 +2210,7 @@
     "Givenname": "Mittie",
     "Surname": "Duncan"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "abt 1888",
     "birthplace": "Texas"
@@ -2246,6 +2223,7 @@
     "Givenname": "George L",
     "Surname": "Duncan"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1907",
     "birthplace": "Texas"
@@ -2258,6 +2236,7 @@
     "Givenname": "Frank W",
     "Surname": "Duncan"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1913",
     "birthplace": "Texas"
@@ -2270,6 +2249,7 @@
     "Givenname": "ELLA N",
     "Surname": "Bresnahan"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "7/3/1885"
    },
@@ -2287,6 +2267,7 @@
     "Givenname": "Michael Francis",
     "Surname": "Maloney"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1880",
     "birthplace": "Missouri"
@@ -2299,6 +2280,7 @@
     "Givenname": "Barbara Frances",
     "Surname": "Maloney"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "23 Jun 1927",
     "birthplace": "St Louis, Missouri"
@@ -2314,6 +2296,7 @@
     "Givenname": "Elizabeth",
     "Surname": "Maloney"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "abt 1910",
     "birthplace": "Missouri"
@@ -2329,23 +2312,13 @@
   },
   {
    "Id": "@I312215561902@",
-   "Fullname": [
+   "Fullname": 
     {
      "Value": "Friedrich Wilhelm /Rohlfing/",
      "Givenname": "Friedrich Wilhelm",
      "Surname": "Rohlfing"
     },
-    {
-     "Value": "F W /Rohlfing/",
-     "Givenname": "F W",
-     "Surname": "Rohlfing"
-    },
-    {
-     "Value": "Fred /Rolfing/",
-     "Givenname": "Fred",
-     "Surname": "Rolfing"
-    }
-   ],
+   "sex": "M",
    "Birth": {
     "birthdate": "12 May 1818",
     "birthplace": "Nordhemmern, Minden-Lubbecke, Nordrhein-Westfalen, Germany"
@@ -2356,32 +2329,16 @@
   },
   {
    "Id": "@I312215561907@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Christina Maria /Meier/",
      "Givenname": "Christina Maria",
      "Surname": "Meier"
     },
-    {
-     "Value": "Christina /Meyer/",
-     "Givenname": "Christina",
-     "Surname": "Meyer"
-    },
-    {
-     "Value": "Christian /Rolfing/",
-     "Givenname": "Christian",
-     "Surname": "Rolfing"
-    }
-   ],
+   "sex": "F",
    "Birth": {
-    "birthdate": [
-     "5 July 1829",
-     "Abt 1829"
-    ],
-    "birthplace": [
-     "Nordrhein-Westfalen, Germany",
-     "Prussia"
-    ]
+    "birthdate": "5 July 1829",
+    "birthplace": "Nordrhein-Westfalen, Germany",
    },
    "death": {
     "date": "6 December 1912"
@@ -2389,18 +2346,13 @@
   },
   {
    "Id": "@I312215561908@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Christian Fredrick \"Chris\" /Rohlfing/",
      "Givenname": "Christian Fredrick \"Chris\"",
      "Surname": "Rohlfing"
     },
-    {
-     "Value": "Christ /Rohlfing/",
-     "Givenname": "Christ",
-     "Surname": "Rohlfing"
-    }
-   ],
+   "sex": "M",
    "Birth": {
     "birthdate": "17 June 1863",
     "birthplace": "Hermann, Gasconade County, Missouri, United States of America"
@@ -2419,6 +2371,7 @@
     "Givenname": "August",
     "Surname": "Rohlfing"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "1 Dec1864",
     "birthplace": "Missouri"
@@ -2434,6 +2387,7 @@
     "Givenname": "Louis W",
     "Surname": "Rohlfing"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "6 November 1866",
     "birthplace": "Berger, Franklin County, Missouri, United States of America"
@@ -2452,6 +2406,7 @@
     "Givenname": "Maria \" Mary\" S",
     "Surname": "Rohlfing"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "22 November 1857",
     "birthplace": "Missouri"
@@ -2467,6 +2422,7 @@
     "Givenname": "Frederick \"Fritz\"",
     "Surname": "Rohlfing"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1859",
     "birthplace": "Missouri"
@@ -2482,6 +2438,7 @@
     "Givenname": "Johann Christian",
     "Surname": "Rohlfing"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "17 Nov 1776",
     "birthplace": "Nordhemmern, Minden-Lübbecke, NRW, Deutschland"
@@ -2497,6 +2454,7 @@
     "Givenname": "Anna Maria Ilsabein",
     "Surname": "Loewe"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "11 Jun 1813",
     "birthplace": "Südhemmern, Minden-Lubbecke, Nordrhein-Westfalen, Germany"
@@ -2507,23 +2465,15 @@
   },
   {
    "Id": "@I312215806584@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Maria Caroline Sophie \"Louisa\" /Rohlfing/",
      "Givenname": "Maria Caroline Sophie \"Louisa\"",
      "Surname": "Rohlfing"
     },
-    {
-     "Value": "Maria Caroline Christine /Rohlfing/",
-     "Givenname": "Maria Caroline Christine",
-     "Surname": "Rohlfing"
-    }
-   ],
+   "sex": "F",
    "Birth": {
-    "birthdate": [
-     "8 Jun 1840",
-     "9 Jul"
-    ],
+    "birthdate": "8 Jun 1840",
     "birthplace": "Germany"
    },
    "death": {
@@ -2537,6 +2487,7 @@
     "Givenname": "Anne Marie Elisabeth",
     "Surname": "Boesche"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "9 Nov 1777"
    },
@@ -2551,6 +2502,7 @@
     "Givenname": "Johann Heinrich",
     "Surname": "Rohlfing"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "31 Dec 1802",
     "birthplace": "Nordhemmern, Minden-Lubbecke, Nordrhein-Westfalen, Germany"
@@ -2563,6 +2515,7 @@
     "Givenname": "Anne Marie Christine Elisabeth",
     "Surname": "Rohlfing"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "23 Jan 1805",
     "birthplace": "Nordhemmern, Minden-Lubbecke, Nordrhein-Westfalen, Germany"
@@ -2578,6 +2531,7 @@
     "Givenname": "Anne Marie Christine Elisabeth",
     "Surname": "Rohlfing"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "23 Jan 1805",
     "birthplace": "Nordhemmern, Minden-Lubbecke, Nordrhein-Westfalen, Germany"
@@ -2593,6 +2547,7 @@
     "Givenname": "Johann Friedrich Wilhelm",
     "Surname": "Rohlfing"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "2 Oct 1808",
     "birthplace": "Nordhemmern, Minden-Lubbecke, Nordrhein-Westfalen, Germany"
@@ -2608,6 +2563,7 @@
     "Givenname": "Johann Cord Heinrich Christian",
     "Surname": "Rohlfing"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "2 Nov 1811",
     "birthplace": "Nordhemmern, Minden-Lubbecke, Nordrhein-Westfalen, Germany"
@@ -2623,6 +2579,7 @@
     "Givenname": "Anne Christine Margarethe Elisabeth",
     "Surname": "Rohlfing"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "31 Dec 1813",
     "birthplace": "Nordhemmern, Minden-Lubbecke, Nordrhein-Westfalen, Germany"
@@ -2638,6 +2595,7 @@
     "Givenname": "Johann Heinrich Christian",
     "Surname": "Rohlfing"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "30 Jul 1821",
     "birthplace": "Nordhemmern, Minden-Lubbecke, Nordrhein-Westfalen, Germany"
@@ -2645,18 +2603,13 @@
   },
   {
    "Id": "@I312216250023@",
-   "Fullname": [
+   "Fullname": 
     {
      "Value": "Christian Friedrich Heinrich \"Henry\" /Rohlfing Sr./",
      "Givenname": "Christian Friedrich Heinrich \"Henry\"",
      "Surname": "Rohlfing Sr."
     },
-    {
-     "Value": "Henry /Rohlfing/",
-     "Givenname": "Henry",
-     "Surname": "Rohlfing"
-    }
-   ],
+   "sex": "M",
    "Birth": {
     "birthdate": "23 Feb 1849",
     "birthplace": "Nordhemmern, Minden-Lubbecke, Nordrhein-Westfalen, Germany"
@@ -2672,6 +2625,7 @@
     "Givenname": "Anna Maria \"Caroline\"",
     "Surname": "Rohlfing"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "16 Oct 1844",
     "birthplace": "Nordhemmern, Minden-Lubbecke, Nordrhein-Westfalen, Germany"
@@ -2687,6 +2641,7 @@
     "Givenname": "Marie Caroline \"Christine\"",
     "Surname": "Rohlfing"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "9 Jul 1842",
     "birthplace": "Nordhemmern, Minden-Lubbecke, Nordrhein-Westfalen, Germany"
@@ -2737,6 +2692,7 @@
     "Givenname": "Fredericka",
     "Surname": "Rohlfing"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "1862",
     "birthplace": "Big Berger, Gasconade, Missouri, USA"
@@ -2747,32 +2703,16 @@
   },
   {
    "Id": "@I312216784561@",
-   "Fullname": [
+   "Fullname": 
     {
      "Value": "Sabina Anna /Humberg/",
      "Givenname": "Sabina Anna",
      "Surname": "Humberg"
     },
-    {
-     "Value": "Sabina A /Rohlfing/",
-     "Givenname": "Sabina A",
-     "Surname": "Rohlfing"
-    },
-    {
-     "Value": "Sabina Anna /Rohlfing/",
-     "Givenname": "Sabina Anna",
-     "Surname": "Rohlfing"
-    }
-   ],
+   "sex": "F",
    "Birth": {
-    "birthdate": [
-     "9 September 1868",
-     "abt 1869"
-    ],
-    "birthplace": [
-     "Gasconade County, Missouri, United States of America",
-     "Missouri"
-    ]
+    "birthdate": "9 September 1868",
+    "birthplace": "Gasconade County, Missouri, United States of America",
    },
    "death": {
     "date": "31 August 1939"
@@ -2788,6 +2728,7 @@
     "Givenname": "Fredericka",
     "Surname": "Rohlfing"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "1871",
     "birthplace": "Big Berger, Franklin, Missouri, USA"
@@ -2798,18 +2739,13 @@
   },
   {
    "Id": "@I312216785247@",
-   "Fullname": [
+   "Fullname": 
     {
      "Value": "John Andreas Christoph /Rohlfing/",
      "Givenname": "John Andreas Christoph",
      "Surname": "Rohlfing"
     },
-    {
-     "Value": "Johnnie /Rohlfing/",
-     "Givenname": "Johnnie",
-     "Surname": "Rohlfing"
-    }
-   ],
+   "sex": "M",
    "Birth": {
     "birthdate": "5 March 1898",
     "birthplace": "Berger, Franklin County, Missouri, United States of America"
@@ -2828,6 +2764,7 @@
     "Givenname": "Christian H.",
     "Surname": "Rohlfing"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "17 September 1903",
     "birthplace": "Missouri, United States of America"
@@ -2846,6 +2783,7 @@
     "Givenname": "William Christian Friederich",
     "Surname": "Rohlfing"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "10 June 1906",
     "birthplace": "Missouri, United States of America"
@@ -2864,6 +2802,7 @@
     "Givenname": "Lydia D",
     "Surname": "Rohlfing Hoerstkamp"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "5 May 1908",
     "birthplace": "Missouri, United States of America"
@@ -2882,6 +2821,7 @@
     "Givenname": "Verana M",
     "Surname": "Rohlfing Wehmueller"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "5 March 1896",
     "birthplace": "Missouri, USA"
@@ -2900,6 +2840,7 @@
     "Givenname": "Mathilde",
     "Surname": "Rohlfing Schultz"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "7 November 1899",
     "birthplace": "Berger, Franklin County, Missouri, United States of America"
@@ -2918,6 +2859,7 @@
     "Givenname": "Martha Sabina",
     "Surname": "Rohlfing Bensing"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "11 September 1890",
     "birthplace": "Missouri, USA"
@@ -2936,6 +2878,7 @@
     "Givenname": "Theodore F L",
     "Surname": "Rohlfing"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "8 May 1894",
     "birthplace": "Missouri, United States of America"
@@ -2954,6 +2897,7 @@
     "Givenname": "Sophia M \"Christina\"",
     "Surname": "Rohlfing"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "1 March 1893",
     "birthplace": "Hermann, Gasconade County, Missouri, United States of America"
@@ -2972,6 +2916,7 @@
     "Givenname": "Sabina",
     "Surname": "Rohlfing"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "8 Dec 1901",
     "birthplace": "Missouri"
@@ -2986,7 +2931,8 @@
     "Value": "Emil /Bensing/",
     "Givenname": "Emil",
     "Surname": "Bensing"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@I312216803979@",
@@ -2995,6 +2941,7 @@
     "Givenname": "Alphonse",
     "Surname": "Wehmuller"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1887",
     "birthplace": "Missouri"
@@ -3007,6 +2954,7 @@
     "Givenname": "Christoph",
     "Surname": "Humburg"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "22 October 1843",
     "birthplace": "Germany"
@@ -3022,6 +2970,7 @@
     "Givenname": "Martha Appolonia",
     "Surname": "Hellberg"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "1 September 1848",
     "birthplace": "Hermann, Gasconade County, Missouri, United States of America"
@@ -3035,18 +2984,13 @@
   },
   {
    "Id": "@I312216806498@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Anna Katherine /Humburg/",
      "Givenname": "Anna Katherine",
      "Surname": "Humburg"
     },
-    {
-     "Value": "Annie /Rohlfing/",
-     "Givenname": "Annie",
-     "Surname": "Rohlfing"
-    }
-   ],
+   "sex": "F",
    "Birth": {
     "birthdate": "23 March 1870",
     "birthplace": "New Haven, Franklin County, Missouri, United States of America"
@@ -3065,6 +3009,7 @@
     "Givenname": "Jacob",
     "Surname": "Humburg"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "Abt 1871",
     "birthplace": "Missouri"
@@ -3077,6 +3022,7 @@
     "Givenname": "Paulina",
     "Surname": "Humburg"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "Abt 1873",
     "birthplace": "Missouri"
@@ -3089,6 +3035,7 @@
     "Givenname": "Christina",
     "Surname": "Humburg"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "Abt 1875",
     "birthplace": "Missouri"
@@ -3101,6 +3048,7 @@
     "Givenname": "Henry",
     "Surname": "Humburg"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "Abt 1877",
     "birthplace": "Missouri"
@@ -3113,6 +3061,7 @@
     "Givenname": "Amalia",
     "Surname": "Humburg Westermann"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "Abt 1879",
     "birthplace": "Missouri"
@@ -3120,18 +3069,13 @@
   },
   {
    "Id": "@I312216813644@",
-   "Fullname": [
+   "Fullname": 
     {
      "Value": "Pauline \"Lena\" /Rohlfing/",
      "Givenname": "Pauline \"Lena\"",
      "Surname": "Rohlfing"
     },
-    {
-     "Value": "Lena /Bretthorst/",
-     "Givenname": "Lena",
-     "Surname": "Bretthorst"
-    }
-   ],
+   "sex": "F",
    "Birth": {
     "birthdate": "13 November 1891",
     "birthplace": "Berger, Franklin County, Missouri, United States of America"
@@ -3150,6 +3094,7 @@
     "Givenname": "Ida",
     "Surname": "Rohlfing"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "25 February 1895",
     "birthplace": "Missouri, USA"
@@ -3168,6 +3113,7 @@
     "Givenname": "Herman C.",
     "Surname": "Rohlfing"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "25 October 1896",
     "birthplace": "Missouri, USA"
@@ -3186,6 +3132,7 @@
     "Givenname": "Albert August",
     "Surname": "Rohlfing"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "25 November 1898",
     "birthplace": "Missouri, United States of America"
@@ -3204,6 +3151,7 @@
     "Givenname": "Louis",
     "Surname": "Rohlfing"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "19 December 1900",
     "birthplace": "Missouri"
@@ -3222,6 +3170,7 @@
     "Givenname": "Anna Martha",
     "Surname": "Rohlfing Dilthey"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "26 August 1904",
     "birthplace": "Saint Louis, St. Louis City, Missouri, United States of America"
@@ -3240,6 +3189,7 @@
     "Givenname": "Carolina",
     "Surname": "Rohlfing"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "abt 1909",
     "birthplace": "Missouri"
@@ -3252,6 +3202,7 @@
     "Givenname": "Henry",
     "Surname": "Rohlfing"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "1902",
     "birthplace": "Missouri"
@@ -3269,7 +3220,8 @@
     "Value": "Casper /Sherman/",
     "Givenname": "Casper",
     "Surname": "Sherman"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@I312216818248@",
@@ -3278,6 +3230,7 @@
     "Givenname": "August",
     "Surname": "Sherman"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1879",
     "birthplace": "Missouri"
@@ -3290,6 +3243,7 @@
     "Givenname": "Louise",
     "Surname": "Berger"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "5 Jun 1849",
     "birthplace": "Hemebur P'raumindau, Germany"
@@ -3308,6 +3262,7 @@
     "Givenname": "Mary",
     "Surname": "Rohlfing"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "Feb 1873",
     "birthplace": "Missouri, USA"
@@ -3320,6 +3275,7 @@
     "Givenname": "Fritz",
     "Surname": "Rohlfing"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "Sep 1875",
     "birthplace": "Missouri, USA"
@@ -3332,6 +3288,7 @@
     "Givenname": "Louisa",
     "Surname": "Rohlfing"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "Mar 1877",
     "birthplace": "Missouri, USA"
@@ -3344,6 +3301,7 @@
     "Givenname": "Henry",
     "Surname": "Rohlfing"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "Mar 1879",
     "birthplace": "Missouri, USA"
@@ -3356,6 +3314,7 @@
     "Givenname": "Edwin",
     "Surname": "Rohlfing"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "Mar 1881",
     "birthplace": "Missouri, USA"
@@ -3368,6 +3327,7 @@
     "Givenname": "Louis",
     "Surname": "Rohlfing"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "Jan 1883",
     "birthplace": "Missouri, USA"
@@ -3380,6 +3340,7 @@
     "Givenname": "Bertha",
     "Surname": "Rohlfing"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "Aug 1887",
     "birthplace": "Missouri, USA"
@@ -3392,6 +3353,7 @@
     "Givenname": "August",
     "Surname": "Rohlfing"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "Oct 1889",
     "birthplace": "Missouri, USA"
@@ -3403,7 +3365,8 @@
     "Value": "Christian /Humburg/",
     "Givenname": "Christian",
     "Surname": "Humburg"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@I312217331987@",
@@ -3411,7 +3374,8 @@
     "Value": "Marie /Humburg Bieremann/",
     "Givenname": "Marie",
     "Surname": "Humburg Bieremann"
-   }
+   },
+   "sex": "F"
   },
   {
    "Id": "@I312217331989@",
@@ -3427,7 +3391,8 @@
     "Value": "Sophia /Humburg Vogel/",
     "Givenname": "Sophia",
     "Surname": "Humburg Vogel"
-   }
+   },
+   "sex": "F"
   },
   {
    "Id": "@I312217331991@",
@@ -3435,7 +3400,8 @@
     "Value": "Martha /Humburg Rau/",
     "Givenname": "Martha",
     "Surname": "Humburg Rau"
-   }
+   },
+   "sex": "F"
   },
   {
    "Id": "@I312217332550@",
@@ -3461,6 +3427,7 @@
     "Givenname": "Anne Marie Ilsebein",
     "Surname": "Schriefer"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "27 Oct 1802"
    }
@@ -3472,6 +3439,7 @@
     "Givenname": "Marie Caroline",
     "Surname": "Rohlfing"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "14 Feb 1832"
    }
@@ -3483,6 +3451,7 @@
     "Givenname": "Cord Heinrich Ludwig",
     "Surname": "Rohlfing"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "01 Jun 1838"
    }
@@ -3494,6 +3463,7 @@
     "Givenname": "Johann Christian\"Osterkrüger\"",
     "Surname": "Rohlfing"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "Sept 1737",
     "birthplace": "Nordhemmern, Nordrhein-Westfalen, Germany"
@@ -3509,6 +3479,7 @@
     "Givenname": "Marie Ilsabein",
     "Surname": "Moeller"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "Mar 1750",
     "birthplace": "Nordhemmern, Minden-Lubbecke, Nordrhein-Westfalen, Germany"
@@ -3524,6 +3495,7 @@
     "Givenname": "Anne Marie Ilsabein",
     "Surname": "Rohlfing"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "Sep 1781",
     "birthplace": "Nordhemmern, Minden-Lubbecke, Nordrhein-Westfalen, Germany"
@@ -3539,6 +3511,7 @@
     "Givenname": "Johann Henrich",
     "Surname": "Rohlfing"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "22 Sep 1769",
     "birthplace": "Nordhemmern, Minden-Lubbecke, Nordrhein-Westfalen, Germany"
@@ -3554,6 +3527,7 @@
     "Givenname": "Cordt Henrich",
     "Surname": "Rohlfing"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "12 Jan 1772",
     "birthplace": "Nordhemmern, Minden-Lübbecke, North Rhine-Westphalia, Germany"
@@ -3569,6 +3543,7 @@
     "Givenname": "Anne Marie Elisabeth",
     "Surname": "Rohlfing"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "24 Aug 1774",
     "birthplace": "Nordhemmern, Minden-Lubbecke, Nordrhein-Westfalen, Germany"
@@ -3584,6 +3559,7 @@
     "Givenname": "Christopher",
     "Surname": "Rohlfing"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "13 Oct 1780",
     "birthplace": "Nordhemmern, Minden-Lubbecke, Nordrhein-Westfalen, Germany"
@@ -3599,6 +3575,7 @@
     "Givenname": "Anne Marie Catherine Elisabeth",
     "Surname": "Rohlfing"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "4 Apr 1784",
     "birthplace": "Nordhemmern, Minden-Lubbecke, Nordrhein-Westfalen, Germany"
@@ -3614,6 +3591,7 @@
     "Givenname": "Johann Christoph",
     "Surname": "Rohlfing"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "16 Jan 1787",
     "birthplace": "Nordhemmern, Minden-Lubbecke, Nordrhein-Westfalen, Germany"
@@ -3629,6 +3607,7 @@
     "Givenname": "Johann Christoph",
     "Surname": "Rohlfing"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "16 Jan 1791",
     "birthplace": "Nordhemmern, Minden-Lubbecke, Nordrhein-Westfalen, Germany"
@@ -3644,6 +3623,7 @@
     "Givenname": "Johan Christoph",
     "Surname": "Rohlfing"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "17 Mar 1793",
     "birthplace": "Nordhemmern, Minden-Lubbecke, Nordrhein-Westfalen, Germany"
@@ -3659,6 +3639,7 @@
     "Givenname": "Cort Heinrich Christoph",
     "Surname": "Rohlfing"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "12 Jan 1796",
     "birthplace": "Nordhemmern, Minden-Lubbecke, Nordrhein-Westfalen, Germany"
@@ -3674,6 +3655,7 @@
     "Givenname": "Herman",
     "Surname": "Rohlfing"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "1697",
     "birthplace": "Nordhemmern, Minden-Lubbecke, Nordrhein-Westfalen, Germany"
@@ -3689,6 +3671,7 @@
     "Givenname": "Ilsche",
     "Surname": "Von Beeren"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "1699",
     "birthplace": "Nordhemmern, Minden-Lubbecke, Nordrhein-Westfalen, Germany"
@@ -3700,7 +3683,8 @@
     "Value": "Cord /Von Beeren/",
     "Givenname": "Cord",
     "Surname": "Von Beeren"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@I312217512448@",
@@ -3709,6 +3693,7 @@
     "Givenname": "Dorthea",
     "Surname": "Südmeier"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "1693",
     "birthplace": "Nordhemmern, Minden-Lubbecke, Nordrhein-Westfalen, Germany"
@@ -3723,7 +3708,8 @@
     "Value": "Cord /Suttmeyer/",
     "Givenname": "Cord",
     "Surname": "Suttmeyer"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@I312217512867@",
@@ -3732,6 +3718,7 @@
     "Givenname": "Ann Lisabeth",
     "Surname": "Rohlfing"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "1728",
     "birthplace": "Nordhemmern, Minden-Lubbecke, Nordrhein-Westfalen, Germany"
@@ -3744,6 +3731,7 @@
     "Givenname": "Anna Maria Isaben",
     "Surname": "Rohlfing"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "1733",
     "birthplace": "Nordhemmern, Minden-Lubbecke, Nordrhein-Westfalen, Germany"
@@ -3756,6 +3744,7 @@
     "Givenname": "Cord Heinrich",
     "Surname": "Rohlfing"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "1735",
     "birthplace": "Nordhemmern, Minden-Lubbecke, Nordrhein-Westfalen, Germany"
@@ -3768,6 +3757,7 @@
     "Givenname": "Ilse Margreth",
     "Surname": "Rohlfing"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "1739",
     "birthplace": "Nordhemmern, Minden-Lubbecke, Nordrhein-Westfalen, Germany"
@@ -3782,7 +3772,8 @@
     "Value": "Lüdeke \"auf Scheven Stätte\" /Rohlfink/",
     "Givenname": "Lüdeke \"auf Scheven Stätte\"",
     "Surname": "Rohlfink"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@I312217515919@",
@@ -3791,6 +3782,7 @@
     "Givenname": "unnamed",
     "Surname": "Rohlfing"
    },
+   "sex": "U",
    "Birth": {
     "birthdate": "30 May 1673",
     "birthplace": "Nordhemmern, Minden-Lübbecke, North Rhine-Westphalia, Germany"
@@ -3806,6 +3798,7 @@
     "Givenname": "Anne Elisabeth Ilsche",
     "Surname": "Rohlfing"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "1679",
     "birthplace": "Nordhemmern, Minden-Lubbecke, Nordrhein-Westfalen, Germany"
@@ -3821,6 +3814,7 @@
     "Givenname": "Anneke",
     "Surname": "Rohlfing"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "1677",
     "birthplace": "Nordhemmern, Minden-Lubbecke, Nordrhein-Westfalen, Germany"
@@ -3833,6 +3827,7 @@
     "Givenname": "Anna Cathrina",
     "Surname": "Rohlfing"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "1681",
     "birthplace": "Nordhemmern, Minden-Lubbecke, Nordrhein-Westfalen, Germany"
@@ -3845,6 +3840,7 @@
     "Givenname": "Anna Maria",
     "Surname": "Rohlfing"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "1683",
     "birthplace": "Nordhemmern, Minden-Lubbecke, Nordrhein-Westfalen, Germany"
@@ -3860,6 +3856,7 @@
     "Givenname": "Cordt \"auf Scheven Stätte\"",
     "Surname": "Rohlfing"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "1684",
     "birthplace": "Nordhemmern, Minden-Lubbecke, Nordrhein-Westfalen, Germany"
@@ -3875,6 +3872,7 @@
     "Givenname": "Anna Ilsche",
     "Surname": "Rohlfing"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "1687",
     "birthplace": "Nordhemmern, Minden-Lubbecke, Nordrhein-Westfalen, Germany"
@@ -3889,22 +3887,18 @@
     "Value": "Cord /Grandeman/",
     "Givenname": "Cord",
     "Surname": "Grandeman"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@I312217734309@",
-   "Fullname": [
+   "Fullname": 
     {
      "Value": "Frederick A /Pehle/",
      "Givenname": "Frederick A",
      "Surname": "Pehle"
     },
-    {
-     "Value": "Johann Friedrich Karl /Pehle/",
-     "Givenname": "Johann Friedrich Karl",
-     "Surname": "Pehle"
-    }
-   ],
+   "sex": "M",
    "Birth": {
     "birthdate": "22 Jul 1799",
     "birthplace": "Oerlinghausen, Lippe, Nordrhein-Westfalen, Germany"
@@ -3923,24 +3917,20 @@
     "Givenname": "Friederich Arnold",
     "Surname": "Pehle"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "1780"
    }
   },
   {
    "Id": "@I312217735664@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Hanne Friedrike Wilhelmine /Kerker/",
      "Givenname": "Hanne Friedrike Wilhelmine",
      "Surname": "Kerker"
     },
-    {
-     "Value": "Wilhelmine /Pehle/",
-     "Givenname": "Wilhelmine",
-     "Surname": "Pehle"
-    }
-   ],
+   "sex": "F",
    "Birth": {
     "birthdate": "29 Sep 1805",
     "birthplace": "Germany"
@@ -3959,6 +3949,7 @@
     "Givenname": "Wilhelmine Amalie",
     "Surname": "Pehle"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "4 Aug 1835",
     "birthplace": "Oerlinghausen,Lippe,Germany"
@@ -3970,7 +3961,8 @@
     "Value": "Friederike Luise /Brokmann/",
     "Givenname": "Friederike Luise",
     "Surname": "Brokmann"
-   }
+   },
+   "sex": "F"
   },
   {
    "Id": "@I312217739117@",
@@ -3979,6 +3971,7 @@
     "Givenname": "Friedrich Wilhelm Adolph",
     "Surname": "Pehle"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "25 JAN 1839",
     "birthplace": "Germany"
@@ -3997,6 +3990,7 @@
     "Givenname": "Caroline",
     "Surname": "Pehle"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "ABT 1850",
     "birthplace": "Franklin County, Missouri"
@@ -4009,6 +4003,7 @@
     "Givenname": "Emilie",
     "Surname": "Pehle"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "ABT 1852",
     "birthplace": "Franklin County, Missouri"
@@ -4021,6 +4016,7 @@
     "Givenname": "Louise Anna",
     "Surname": "Pehle"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "30 APR 1852",
     "birthplace": "Senate Grove, Franklin, Missouri"
@@ -4036,6 +4032,7 @@
     "Givenname": "Hannah",
     "Surname": "Altheide"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "abt 1839",
     "birthplace": "Prussia"
@@ -4043,18 +4040,13 @@
   },
   {
    "Id": "@I312219269817@",
-   "Fullname": [
+   "Fullname": 
     {
      "Value": "Wilhelmine Frederike /Pehle/",
      "Givenname": "Wilhelmine Frederike",
      "Surname": "Pehle"
     },
-    {
-     "Value": "Friedericke /Weber/",
-     "Givenname": "Friedericke",
-     "Surname": "Weber"
-    }
-   ],
+   "sex": "F",
    "Birth": {
     "birthdate": "1832",
     "birthplace": "Germany"
@@ -4062,18 +4054,13 @@
   },
   {
    "Id": "@I312219270705@",
-   "Fullname": [
+   "Fullname": 
     {
      "Value": "Sadina /Pehle/",
      "Givenname": "Sadina",
      "Surname": "Pehle"
     },
-    {
-     "Value": "Sadina A. /Nollner/",
-     "Givenname": "Sadina A.",
-     "Surname": "Nollner"
-    }
-   ],
+   "sex": "F",
    "Birth": {
     "birthdate": "abt 1862",
     "birthplace": "Missouri"
@@ -4092,6 +4079,7 @@
     "Givenname": "Anna",
     "Surname": "Pehle"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "abt 1864",
     "birthplace": "Missouri"
@@ -4104,6 +4092,7 @@
     "Givenname": "Henry",
     "Surname": "Pehle"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1866",
     "birthplace": "Missouri"
@@ -4116,6 +4105,7 @@
     "Givenname": "Gustave",
     "Surname": "Pehle"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1868",
     "birthplace": "Missouri"
@@ -4134,6 +4124,7 @@
     "Givenname": "William E",
     "Surname": "Pehle"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "Feb 1873",
     "birthplace": "Missouri, USA"
@@ -4141,18 +4132,13 @@
   },
   {
    "Id": "@I312219270817@",
-   "Fullname": [
+   "Fullname": 
     {
      "Value": "Amanda /Pehle/",
      "Givenname": "Amanda",
      "Surname": "Pehle"
     },
-    {
-     "Value": "Amanda L /Kruse/",
-     "Givenname": "Amanda L",
-     "Surname": "Kruse"
-    }
-   ],
+   "sex": "F",
    "Birth": {
     "birthdate": "Apr 1877",
     "birthplace": "Missouri, USA"
@@ -4166,18 +4152,13 @@
   },
   {
    "Id": "@I312219270819@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Alice /Pehle/",
      "Givenname": "Alice",
      "Surname": "Pehle"
     },
-    {
-     "Value": "Ella /Pehle/",
-     "Givenname": "Ella",
-     "Surname": "Pehle"
-    }
-   ],
+   "sex": "F",
    "Birth": {
     "birthdate": "May 1880",
     "birthplace": "Missouri, USA"
@@ -4190,6 +4171,7 @@
     "Givenname": "Mary D",
     "Surname": "Pehle"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "abt 1855",
     "birthplace": "Missouri"
@@ -4202,6 +4184,7 @@
     "Givenname": "William",
     "Surname": "Weber"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "Oct 1888",
     "birthplace": "Missouri, USA"
@@ -4219,7 +4202,8 @@
     "Value": "Christ /Weber/",
     "Givenname": "Christ",
     "Surname": "Weber"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@I312219273558@",
@@ -4228,6 +4212,7 @@
     "Givenname": "Fredericka",
     "Surname": "Weber"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "Jul 1842",
     "birthplace": "Germany"
@@ -4240,6 +4225,7 @@
     "Givenname": "Luise Wilhelmine Amalie",
     "Surname": "Pehle"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "12 Nov 1801"
    },
@@ -4254,6 +4240,7 @@
     "Givenname": "Sophie Amalia",
     "Surname": "Pehle"
    },
+   "sex": "F",
    "Birth": {
     "birthplace": "Evangelisch,Oerlinghausen,Lippe,Germany"
    }
@@ -4265,6 +4252,7 @@
     "Givenname": "Hanne Friederike",
     "Surname": "Pehle"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "22 Jan 1813"
    }
@@ -4276,6 +4264,7 @@
     "Givenname": "Ernst Henrich Jacob",
     "Surname": "Pehle"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "22 Feb 1811"
    }
@@ -4287,6 +4276,7 @@
     "Givenname": "Johann Friederich Adolph",
     "Surname": "Paehle"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "29 Feb 1804"
    }
@@ -4298,6 +4288,7 @@
     "Givenname": "Johann Henrich Adolph",
     "Surname": "Pehle"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "20 Jun 1815"
    },
@@ -4312,6 +4303,7 @@
     "Givenname": "Henriette Wilhelmine Florentine",
     "Surname": "Paehle"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "21 Jan 1806"
    }
@@ -4322,7 +4314,8 @@
     "Value": "Adolph /Pehl/",
     "Givenname": "Adolph",
     "Surname": "Pehl"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@I312219295635@",
@@ -4331,6 +4324,7 @@
     "Givenname": "Phillipp Henrich",
     "Surname": "Pehl"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "22 Jul 1818"
    }
@@ -4341,7 +4335,8 @@
     "Value": "Christian /Weber/",
     "Givenname": "Christian",
     "Surname": "Weber"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@I312219304413@",
@@ -4350,6 +4345,7 @@
     "Givenname": "Freidrick Adolph",
     "Surname": "Pehle"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "2 Dec 1828",
     "birthplace": "Germany"
@@ -4379,6 +4375,7 @@
     "Givenname": "George Charles",
     "Surname": "Pehle"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "Dec 15 1882",
     "birthplace": "Missouri"
@@ -4397,6 +4394,7 @@
     "Givenname": "C Emilie",
     "Surname": "Pehle"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "8 SEP 1879",
     "birthplace": "Franklin County, Missouri"
@@ -4415,6 +4413,7 @@
     "Givenname": "William Herman",
     "Surname": "Pehle"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "22 May 1868",
     "birthplace": "New Haven, Franklin County, Missouri, United States of America"
@@ -4428,18 +4427,13 @@
   },
   {
    "Id": "@I312219397306@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Fred /Kleinebeker/",
      "Givenname": "Fred",
      "Surname": "Kleinebeker"
     },
-    {
-     "Value": "John F /Kleinebecker/",
-     "Givenname": "John F",
-     "Surname": "Kleinebecker"
-    }
-   ],
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1843",
     "birthplace": "Prussia"
@@ -4451,7 +4445,8 @@
     "Value": "Caroline /Baedecker/",
     "Givenname": "Caroline",
     "Surname": "Baedecker"
-   }
+   },
+   "sex": "F"
   },
   {
    "Id": "@I312219399612@",
@@ -4459,7 +4454,8 @@
     "Value": "Edward /Pehle/",
     "Givenname": "Edward",
     "Surname": "Pehle"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@I312219399614@",
@@ -4467,7 +4463,8 @@
     "Value": "John /Pehle/",
     "Givenname": "John",
     "Surname": "Pehle"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@I312219399615@",
@@ -4475,7 +4472,8 @@
     "Value": "Fred /Pehle/",
     "Givenname": "Fred",
     "Surname": "Pehle"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@I312219399616@",
@@ -4483,7 +4481,8 @@
     "Value": "Arthur /Pehle/",
     "Givenname": "Arthur",
     "Surname": "Pehle"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@I312219399617@",
@@ -4491,7 +4490,8 @@
     "Value": "Lena /Pehle Gerlemann/",
     "Givenname": "Lena",
     "Surname": "Pehle Gerlemann"
-   }
+   },
+   "sex": "F"
   },
   {
    "Id": "@I312219406744@",
@@ -4500,6 +4500,7 @@
     "Givenname": "William",
     "Surname": "Kappelmann"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "07 Jun 1804",
     "birthplace": "Borgholzhausen, Westphalia, Prussia, Germany"
@@ -4515,6 +4516,7 @@
     "Givenname": "Anna Maria Catharine Wilhelmine",
     "Surname": "Lippold"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "1 March 1808",
     "birthplace": "Germany"
@@ -4530,6 +4532,7 @@
     "Givenname": "Franz Wilhelm",
     "Surname": "Kappelmann"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "13 JAN 1840",
     "birthplace": "Barthausen, Westphalia, Germany"
@@ -4545,6 +4548,7 @@
     "Givenname": "Johann Heinrich Wilhelm",
     "Surname": "Kappelmann"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "17 Jan 1839",
     "birthplace": "Nordrhein-Westfalen, Germany"
@@ -4560,6 +4564,7 @@
     "Givenname": "Wilhelmine Charlotte",
     "Surname": "Kappelmann"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "21 NOV 1849",
     "birthplace": "Ostbarthausen, Westphalia, Germany"
@@ -4575,6 +4580,7 @@
     "Givenname": "Johann Heinrich",
     "Surname": "Kappelman"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "28 Nov 1837",
     "birthplace": "Gütersloher Landkreis, Nordrhein-Westfalen, Germany"
@@ -4590,6 +4596,7 @@
     "Givenname": "Friederich Wilhelm",
     "Surname": "Kappelmann"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "12 Sep 1833",
     "birthplace": "Nordrhein-Westfalen, Germany"
@@ -4605,6 +4612,7 @@
     "Givenname": "Oscar Carl",
     "Surname": "Pehle"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "25 November 1885",
     "birthplace": "New Haven, Franklin County, Missouri, United States of America"
@@ -4620,6 +4628,7 @@
     "Givenname": "William",
     "Surname": "Obermeyer"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "1843"
    },
@@ -4634,6 +4643,7 @@
     "Givenname": "Dena",
     "Surname": "Witthaus"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "Jan 1883",
     "birthplace": "Missouri, USA"
@@ -4641,23 +4651,15 @@
   },
   {
    "Id": "@I312223006714@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Edward Henry /Witthaus/",
      "Givenname": "Edward Henry",
      "Surname": "Witthaus"
     },
-    {
-     "Value": "Edward /Witthaus/",
-     "Givenname": "Edward",
-     "Surname": "Witthaus"
-    }
-   ],
+   "sex": "M",
    "Birth": {
-    "birthdate": [
-     "15 October 1884",
-     "Nov 1884"
-    ],
+    "birthdate": "15 October 1884",
     "birthplace": "Missouri, USA"
    },
    "death": {
@@ -4674,6 +4676,7 @@
     "Givenname": "Lizzie",
     "Surname": "Witthaus"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "Dec 1890",
     "birthplace": "Missouri, USA"
@@ -4686,6 +4689,7 @@
     "Givenname": "Malinda",
     "Surname": "Witthaus"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "Feb 1894",
     "birthplace": "Missouri, USA"
@@ -4698,6 +4702,7 @@
     "Givenname": "Gottlieb Ludwig",
     "Surname": "Witthaus"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "13 January 1818",
     "birthplace": "Nordrhein-Westfalen, Germany"
@@ -4734,6 +4739,7 @@
     "Givenname": "Simon Henry",
     "Surname": "Witthaus"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "19 Mar 1858",
     "birthplace": "Warren County, MO."
@@ -4749,6 +4755,7 @@
     "Givenname": "Hannah Charlotte",
     "Surname": "Witthaus"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "1 Nov 1854"
    }
@@ -4760,6 +4767,7 @@
     "Givenname": "Gottlieb Ludwig",
     "Surname": "Witthaus"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "1856"
    },
@@ -4774,6 +4782,7 @@
     "Givenname": "Louis G",
     "Surname": "Witthaus"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "1857"
    }
@@ -4785,6 +4794,7 @@
     "Givenname": "Fritz",
     "Surname": "Witthaus"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "1861"
    }
@@ -4796,6 +4806,7 @@
     "Givenname": "August",
     "Surname": "Witthaus"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "1869"
    }
@@ -4807,6 +4818,7 @@
     "Givenname": "Jobst Heinrich",
     "Surname": "Witthaus"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "19 Jan 1789",
     "birthplace": "Valdorf, Vlotho, Westphalla, Germany"
@@ -4897,6 +4909,7 @@
     "Givenname": "Herman Heinrich",
     "Surname": "Witthaus"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "28 February 1828"
    },
@@ -4914,6 +4927,7 @@
     "Givenname": "Hanne Catharine Elisabeth",
     "Surname": "Wehmeyer"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "15 Jun 1793"
    }
@@ -4924,7 +4938,8 @@
     "Value": "Joh. Herm. /Witthaus/",
     "Givenname": "Joh. Herm.",
     "Surname": "Witthaus"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@I312223020453@",
@@ -4932,7 +4947,8 @@
     "Value": "Christine Charlotte /Nacken/",
     "Givenname": "Christine Charlotte",
     "Surname": "Nacken"
-   }
+   },
+   "sex": "F"
   },
   {
    "Id": "@I312236098074@",
@@ -4941,6 +4957,7 @@
     "Givenname": "Mary",
     "Surname": "Buynak"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "abt 1898",
     "birthplace": "Czechoslovakia"
@@ -4952,7 +4969,8 @@
     "Value": "William /Kessler/",
     "Givenname": "William",
     "Surname": "Kessler"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@I312236126204@",
@@ -4960,7 +4978,8 @@
     "Value": "Elizabeth /Flocken/",
     "Givenname": "Elizabeth",
     "Surname": "Flocken"
-   }
+   },
+   "sex": "F"
   },
   {
    "Id": "@I312252876692@",
@@ -4968,7 +4987,8 @@
     "Value": "Michele /Emerson/",
     "Givenname": "Michele",
     "Surname": "Emerson"
-   }
+   },
+   "sex": "F"
   },
   {
    "Id": "@I312268602928@",
@@ -4977,6 +4997,7 @@
     "Givenname": "Charles H",
     "Surname": "Timmerberg"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "1827",
     "birthplace": "Germany"
@@ -4992,6 +5013,7 @@
     "Givenname": "Christina",
     "Surname": "Timmerberg"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "abt 1855",
     "birthplace": "Missouri"
@@ -5004,6 +5026,7 @@
     "Givenname": "John C.",
     "Surname": "Timmerberg"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "Abt 1859",
     "birthplace": "Missouri"
@@ -5016,6 +5039,7 @@
     "Givenname": "Charles H.",
     "Surname": "Timmerberg"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "Abt 1861",
     "birthplace": "Missouri"
@@ -5027,7 +5051,8 @@
     "Value": "Dominick /Schiaffo/",
     "Givenname": "Dominick",
     "Surname": "Schiaffo"
-   }
+   },
+   "sex": "M"
   },
   {
    "Id": "@I312270708735@",
@@ -5036,6 +5061,7 @@
     "Givenname": "Keith Homer",
     "Surname": "Harrington"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1901",
     "birthplace": "Missouri, United States of America"
@@ -5051,6 +5077,7 @@
     "Givenname": "Lillie",
     "Surname": "Harrington"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "abt 1876",
     "birthplace": "Illinois"
@@ -5063,6 +5090,7 @@
     "Givenname": "Homer",
     "Surname": "Harrington"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1876",
     "birthplace": "Illinois"
@@ -5075,6 +5103,7 @@
     "Givenname": "Kenneth C",
     "Surname": "Harrington"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "abt 1903",
     "birthplace": "Missouri"
@@ -5087,6 +5116,7 @@
     "Givenname": "George Claudius",
     "Surname": "Noblot"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "31 August 1896",
     "birthplace": "St. Louis City, Missouri, United States of America"
@@ -5105,6 +5135,7 @@
     "Givenname": "Selma Edna",
     "Surname": "Holtgrewe"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "3 Oct 1922",
     "birthplace": "Senate Grove, Missouri"
@@ -5123,6 +5154,7 @@
     "Givenname": "Harvey Louis",
     "Surname": "Vonbehren"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "21 Nov 1925",
     "birthplace": "New Haven,  Missouri"
@@ -5141,6 +5173,7 @@
     "Givenname": "Edna Caroline",
     "Surname": "Von Behren"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "13 March 1896",
     "birthplace": "Missouri"
@@ -5154,18 +5187,13 @@
   },
   {
    "Id": "@I312295431203@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Mildred E. /Brandt/",
      "Givenname": "Mildred E.",
      "Surname": "Brandt"
     },
-    {
-     "Value": "Mildred /Von Behren/",
-     "Givenname": "Mildred",
-     "Surname": "Von Behren"
-    }
-   ],
+   "sex": "F",
    "Birth": {
     "birthdate": "12 May 1934",
     "birthplace": "Senate Grove, Missouri"
@@ -5179,27 +5207,16 @@
   },
   {
    "Id": "@I312295432360@",
-   "Fullname": [
+   "Fullname":
     {
      "Value": "Lorene Edna /Von Behren/",
      "Givenname": "Lorene Edna",
      "Surname": "Von Behren"
     },
-    {
-     "Value": "Lorene /Von Behren/",
-     "Givenname": "Lorene",
-     "Surname": "Von Behren"
-    }
-   ],
+   "sex": "F",
    "Birth": {
-    "birthdate": [
-     "15 May 1930",
-     "abt 1931"
-    ],
-    "birthplace": [
-     "Franklin County, Missouri, USA",
-     "Missouri"
-    ]
+    "birthdate": "15 May 1930",
+    "birthplace": "Franklin County, Missouri, USA",
    },
    "death": {
     "date": "4 August 2007"
@@ -5215,6 +5232,7 @@
     "Givenname": "Louis",
     "Surname": "Von Behren"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "26 February 1938",
     "birthplace": "Missouri"
@@ -5233,6 +5251,7 @@
     "Givenname": "Evelyn I",
     "Surname": "Von Behren"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "28 Apr 1931"
    }
@@ -5244,6 +5263,7 @@
     "Givenname": "Lawrence",
     "Surname": "Von Behren"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "21 Sep 1957",
     "birthplace": "Washington MO"
@@ -5256,6 +5276,7 @@
     "Givenname": "Douglas Lewis",
     "Surname": "Von Behren"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "26 Jan 1962"
    },
@@ -5323,7 +5344,8 @@
     "Value": "Julie /Neal/",
     "Givenname": "Julie",
     "Surname": "Neal"
-   }
+   },
+   "sex": "F"
   },
   {
    "Id": "@I312295437589@",
@@ -5331,7 +5353,8 @@
     "Value": "Nina Von /Behren/",
     "Givenname": "Nina Von",
     "Surname": "Behren"
-   }
+   },
+   "sex": "F"
   },
   {
    "Id": "@I312295437624@",
@@ -5339,7 +5362,8 @@
     "Value": "Jeanelle /Logan/",
     "Givenname": "Jeanelle",
     "Surname": "Logan"
-   }
+   },
+   "sex": "F"
   },
   {
    "Id": "@I312295439877@",
@@ -5348,6 +5372,7 @@
     "Givenname": "Louis",
     "Surname": "Weber"
    },
+   "sex": "M",
    "Birth": {
     "birthdate": "Mar 1877",
     "birthplace": "Missouri, USA"
@@ -5360,10 +5385,11 @@
     "Givenname": "Emila",
     "Surname": "Weber"
    },
+   "sex": "F",
    "Birth": {
     "birthdate": "Dec 1878",
     "birthplace": "Missouri, USA"
    }
   }
  ]
-}
+module.exports = vbNames

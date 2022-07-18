@@ -1,5 +1,5 @@
-{
- "familyUnit": [
+const michelleRelations =
+ [
   {
    "Id": "@F38@",
    "marriage": {
@@ -30,10 +30,8 @@
   {
    "Id": "@F100@",
    "marriage": {
-    "date": [
-     "1704",
-     "14 Feb 1708"
-    ]
+    "date": 
+     "14 Feb 1708",
    },
    "husband": "@P388@",
    "wife": "@P387@",
@@ -687,10 +685,8 @@
   {
    "Id": "@F56@",
    "marriage": {
-    "date": [
-     "1885",
-     "3 Mar 1888"
-    ]
+    "date":
+     "3 Mar 1888",
    },
    "husband": "@P281@",
    "wife": "@P296@",
@@ -1136,4 +1132,4 @@
    "wife": "@P193@"
   }
  ]
-}
+module.exports = michelleRelations

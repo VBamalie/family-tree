@@ -1,5 +1,4 @@
-{
- "familyUnit": [
+const  vbRelations= [
   {
    "Id": "@F1@",
    "husband": "@I6862845710@",
@@ -681,10 +680,7 @@
     "@I312219406751@"
    ],
    "marriage": {
-    "date": [
-     "30 Nov 1828",
-     "03 May 1834"
-    ]
+    "date": "30 Nov 1828",
    }
   },
   {
@@ -789,10 +785,7 @@
     "@I312219270819@"
    ],
    "marriage": {
-    "date": [
-     "12 Apr 1861",
-     "1866"
-    ]
+    "date": "12 Apr 1861",
    }
   },
   {
@@ -1041,4 +1034,4 @@
    "children": "@I312217512448@"
   }
  ]
-}
+module.exports = vbRelations

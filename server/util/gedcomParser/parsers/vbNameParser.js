@@ -1,3 +1,9 @@
+import { JsonParsing, ParsingOptions } from "gedcom.json";
+
+
+let parsingOptions = new ParsingOptions();
+
+parsingOptions.SetText(`
 0 HEAD
 1 SUBM @SUBM1@
 1 SOUR Ancestry.com Family Trees
@@ -17846,3 +17852,45 @@
 1 RIN 13
 0 @T9@ _MTTAG
 1 NAME DNA Connection
+`);
+
+parsingOptions.SetConfig(`
+---
+Definition:
+- Tag: INDI
+  CollectAs: Individuals
+  CollectAsArray: true
+  Property: Id
+  Properties:
+  - Tag: NAME
+    Property: Fullname
+    Properties:
+    - Tag: GIVN
+      Property: Givenname
+    - Tag: SURN
+      Property: Surname
+  - Tag: SEX
+    Property: sex
+  - Tag: BIRT
+    Property: Birth
+    Properties:
+    - Tag: DATE
+      Property: birthdate
+    - Tag: PLAC
+      Property: birthplace
+  - Tag: DEAT
+    Property: death
+    Properties:
+    - Tag: DATE
+      Property: date
+  - Tag: BURI
+    Property: burial
+    Properties:
+    - Tag: PLAC
+      Property: burial
+...
+`);
+
+let parse = new JsonParsing(parsingOptions);
+
+parse.ParseTextAsync().then(result => parse.SaveAs(result.Object, "test.json")).catch(e => console.error(e));

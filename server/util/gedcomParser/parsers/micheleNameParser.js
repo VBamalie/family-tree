@@ -31964,6 +31964,8 @@ Definition:
       Property: Givenname
     - Tag: SURN
       Property: Surname
+  - Tag: SEX
+    Property: sex
   - Tag: BIRT
     Property: Birth
     Properties:
