@@ -1,15 +1,10 @@
-//gets a single person's name and lifespan then goes five lines down the family tree
-//start with one id then finds their name and their partner's name
-//then uses their id to find which relation they were listed as a child in
-//then grabs the id of their name and their partner's
-//repeat for five times
-
 //imports
 const {MicNames, MicRelations} = require("../models")
 const cleanUpName = require("../util/nameCleaner")
-
+//this function  grabs a single person's parents, grandparents, and great grandparents and organizes them so i can properly put it  into a tree
 module.exports ={
     async getMicTree(req, res){
+        //this is a function that i repeat many times that gets a person's name, and lifespan
         async function getSinglePerson(Id){
             singlePerson = await MicNames.findOne({Id: Id})
             const deathDate = singlePerson.death.date || ""
@@ -21,6 +16,7 @@ module.exports ={
             }
             return data
         }
+        //this function move up to the next generation
         async function getSingleRelation(Id){
             const relation = await MicRelations.find({children: Id})
             const motherData = await getSinglePerson(relation[0].wife)
@@ -31,17 +27,17 @@ module.exports ={
                 mother: motherData,
                 motherId: relation[0].wife
             }
-            console.log(`${Id}'s PARENTS`)
-            console.log(relationIds)
             return relationIds
         }
 
+        //all the raw data needed from the function
         const mainPerson = await getSinglePerson(req.params.Id)
         const parents = await getSingleRelation(req.params.Id)
         const motherSideGrandParents = await getSingleRelation(parents.motherId)
         const fatherSideGrandParents = await getSingleRelation(parents.fatherId)
    
-        
+        //organize all the raw data here
+
         const compiledData = {
             first: mainPerson,
             second: parents,

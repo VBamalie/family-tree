@@ -24,8 +24,8 @@ module.exports = {
         }
 
         //this find the husband's parent's nuclear family relation by looking for any relation with the husband as the child
-        const mainPersonParents = await VbRelations.find({children: req.params.Id})
-
+        const mainPersonParents = await VbRelations.find({children: req.params.Id}) 
+        
         //then we take and clean up his parent's names
         let fatherName = await VbNames.findOne({Id: mainPersonParents[0].husband})
         fatherName = cleanUpName(fatherName)
