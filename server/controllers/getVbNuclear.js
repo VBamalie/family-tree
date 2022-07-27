@@ -7,12 +7,32 @@
 
 //import 
 const {VbNames, VbRelations} = require("../models")
+const cleanUpName = require("../util/nameCleaner")
 
 module.exports = {
     async getVbNuclear(req, res){
         const mainPerson = await VbNames.findOne({Id: req.params.Id})
-        // const parentRelation = await MicRelations.find({husband: req.params.Id}) || MicRelations.find({wife: req.params.Id})
-        // const info = mainPerson + parentRelation
-        res.status(200).json(mainPerson)
+        const mainName = cleanUpName(mainPerson)
+
+        const mainPersonRelation = await VbRelations.find({husband: req.params.Id})
+
+        const wifeInfo = await VbNames.findOne({Id: mainPersonRelation[0].wife})
+        const wifeName = cleanUpName(wifeInfo)
+        
+        const childrenNames = []
+        for (let i = 0; i < mainPersonRelation[0].children.length; i++) {
+            let child = await VbNames.findOne({Id: mainPersonRelation[0].children[i]})
+            child = cleanUpName(child)
+            childrenNames.push(child)
+          }
+        const compiledData ={
+            husband: mainPerson,
+            husbandName: mainName,
+            wife: wifeInfo,
+            wifeName: wifeName,
+            children: childrenNames
+        }
+
+        res.status(200).json(compiledData)
     }
 }
