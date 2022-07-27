@@ -3,6 +3,7 @@ const { Schema, model } = require('mongoose');
 const nameSchema = new Schema({
     Id:{},
     Fullname:{
+        Value:{type: String},
         Givenname:{type: String},
         Surname:{type: String}
     },
@@ -16,6 +17,12 @@ const nameSchema = new Schema({
     },
     burial:{
         burial:{type: String}
+    },
+    description:{
+        type: String
+    },
+    photo:{
+        type: String
     }
 });
 

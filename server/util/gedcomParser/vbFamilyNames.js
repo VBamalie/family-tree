@@ -1,20 +1,6 @@
 const vbNames = 
 [
   {
-   "Id": "@I6862819516@",
-   "Fullname":
-    {
-     "Value": "Michael /VON BEHREN/",
-     "Givenname": "Michael",
-     "Surname": "VON BEHREN"
-    },
-   "sex": "M",
-   "Birth": {
-    "birthdate": "12/13/1964",
-    "birthplace": "Groton, New London, Connecticut, USA"
-   }
-  },
-  {
    "Id": "@I_1884986968@",
    "Fullname": {
     "Value": "Erwin Henry /VON BEHREN/",
@@ -23,8 +9,8 @@ const vbNames =
    },
    "sex": "M",
    "Birth": {
-    "birthdate": "19 AUG 1940",
-    "birthplace": "St. Louis, Missouri"
+    "birthdate": "1940",
+    "birthplace": "Missouri"
    }
   },
   {
@@ -36,8 +22,8 @@ const vbNames =
    },
    "sex": "F",
    "Birth": {
-    "birthdate": "16 AUG 1942",
-    "birthplace": "St. Louis, Missouri"
+    "birthdate": "1942",
+    "birthplace": "Missouri"
    }
   },
   {

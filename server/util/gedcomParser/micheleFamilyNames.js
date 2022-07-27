@@ -2511,19 +2511,6 @@ michelleNames =
    }
   },
   {
-   "Id": "@P143@",
-   "Fullname": {
-    "Value": "Michele Louise /Doppke/",
-    "Givenname": "Michele Louise",
-    "Surname": "Von Behren"
-   },
-   "sex": "F",
-   "Birth": {
-    "birthdate": "19 Sep 1963",
-    "birthplace": "Waukegan,,Lake Co.,Illinois"
-   }
-  },
-  {
    "Id": "@P408@",
    "Fullname": {
     "Value": "/Cassandra/",
@@ -2851,8 +2838,8 @@ michelleNames =
    },
    "sex": "F",
    "Birth": {
-    "birthdate": "9 Dec 1942",
-    "birthplace": "Chicago,,Cook Co.,Illinois"
+    "birthdate": "1942",
+    "birthplace": "Illinois"
    }
   },
   {
@@ -5606,8 +5593,8 @@ michelleNames =
    },
    "sex": "M",
    "Birth": {
-    "birthdate": "06/26/1943",
-    "birthplace": "Chicago,,Cook,Illinois"
+    "birthdate": "1943",
+    "birthplace": "Illinois"
    }
   },
   {
