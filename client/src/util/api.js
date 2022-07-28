@@ -7,7 +7,7 @@ export const getVbNuclear = (nuclearId) => {
     });
   };
 export const getVbTree = (treeId) => {
-    return fetch(`/api/vb/nuclear/${treeId}`, {
+    return fetch(`/api/vb/tree/${treeId}`, {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
