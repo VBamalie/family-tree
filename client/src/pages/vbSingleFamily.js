@@ -1,5 +1,5 @@
 // import React from "react"
-// import {useParams, Link} from "react-router-dom"
+import {useParams, Link} from "react-router-dom"
 // import { useNavigate } from "react-router-dom"
 import { useState, useEffect } from "react";
 import { getVbNuclear } from "../util/api"
@@ -7,6 +7,7 @@ import Card from "react-bootstrap/Card"
 import ListGroup from 'react-bootstrap/ListGroup';
 
 const VbSingleFamily = () => {
+    let {Id} = useParams()
     const [familyName, setFamilyName] = useState("");
 
     const [husband, setHusband] = useState("")
@@ -29,7 +30,7 @@ const VbSingleFamily = () => {
     useEffect(() => {
         const getTreeInfo = async () => {
             try {
-                const res = await getVbNuclear("@I_1884986966@")
+                const res = await getVbNuclear(Id)
                 if (!res.ok) {
                     throw new Error("error")
                 }
