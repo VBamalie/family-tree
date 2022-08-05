@@ -31,8 +31,6 @@ module.exports ={
                 mother: motherData,
                 motherId: relation[0].wife
             }
-            console.log(`${Id}'s PARENTS`)
-            console.log(relationIds)
             return relationIds
         }
 
