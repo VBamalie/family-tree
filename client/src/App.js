@@ -9,13 +9,13 @@ function App() {
   useEffect(()=>{
     const getTreeInfo = async ()=>{
       try{
-        const res = await getVbTree("@P6@")
+        const res = await getVbTree("@I_1884986968@")
         if(!res.ok){
           throw new Error("error")
         }
         const testing = await res.json();
         console.log(testing)
-        setTest(testing)
+        setTest({testing})
       }catch(err){
         console.error(err)
       }

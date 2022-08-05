@@ -12,8 +12,8 @@ module.exports ={
     async getVbTree(req, res){
         async function getSinglePerson(Id){
             singlePerson = await VbNames.findOne({Id: Id})
-            const deathDate = singlePerson.death.date || ""
-            const birthDate = singlePerson.Birth.birthdate || ""
+            const deathDate = singlePerson.death.date
+            const birthDate = singlePerson.Birth.birthdate
             const data={
                 name: cleanUpName(singlePerson),
                 birth: birthDate,

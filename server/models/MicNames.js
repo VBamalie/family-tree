@@ -9,20 +9,22 @@ const nameSchema = new Schema({
     },
     sex:{type: String},
     Birth:{
-        birthdate:{type: String},
-        birthplace:{type: String}
+        birthdate:{type: String, default: ""},
+        birthplace:{type: String, default: ""}
     },
     death:{
-        date:{type: String}
+        date:{type: String,   default: ""}
     },
     burial:{
-        burial:{type: String}
+        burial:{type: String, default: ""}
     },
     description:{
-        type: String
+        type: String,
+        default: ""
     },
     photo:{
-        type: String
+        type: String,
+        default: ""
     }
 });
 

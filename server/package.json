@@ -4,17 +4,17 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "seed": "node util/seeds/seed.js",
-    "watch": "nodemon server.js"
+    "start": "node server.js --ignore './client'",
+    "seed": "node util/seeds/seed.js --ignore './client'",
+    "watch": "nodemon server.js --ignore './client'"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^5.11.6",
+    "gedcom.json": "^1.0.4",
     "graphql": "^15.5.1",
-    "gedcom.json": "^1.0.4"
+    "mongoose": "^6.5.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.6"
