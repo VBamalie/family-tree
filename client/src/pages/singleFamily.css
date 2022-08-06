@@ -1,3 +1,11 @@
+@font-face {
+    font-family: fancyFont;
+    src: url(./FhaModifiedTuscanRomanNcv-qqGV.ttf);
+}
+h1{
+    font-family: fancyFont;
+}
+
 .single-family{
     display: flex;
     flex-direction: column;
