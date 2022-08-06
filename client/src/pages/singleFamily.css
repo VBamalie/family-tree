@@ -1,0 +1,34 @@
+.single-family{
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://cdn.wallpapersafari.com/35/52/VKXjNy.jpg");
+
+    background-size: 100%;
+    align-items: center;
+}
+
+.famName-famPhoto{
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+    align-items: center;
+}
+#famName{
+    width: fit-content;
+}
+#famPhoto{
+    width: 50%;
+}
+@media only screen and (max-width: 900px) {
+    #famPhoto{
+        width: 40%;
+    }
+  }
+
+.husband-wife-card{
+    display: flex;
+    justify-content: center;
+}
+div.card{
+    width: 45%;
+}

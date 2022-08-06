@@ -3,12 +3,20 @@ import {useParams, Link} from "react-router-dom"
 // import { useNavigate } from "react-router-dom"
 import { useState, useEffect } from "react";
 import { getVbNuclear } from "../util/api"
+import "./singleFamily.css"
+
+
 import Card from "react-bootstrap/Card"
 import ListGroup from 'react-bootstrap/ListGroup';
+import ListGroupItem from "react-bootstrap/esm/ListGroupItem";
+import Image from 'react-bootstrap/Image'
 
 const VbSingleFamily = () => {
     let {Id} = useParams()
     const [familyName, setFamilyName] = useState("");
+    const [children, setChildren] = useState([])
+    const[marriage, setMarriage] = useState([])
+    const[photo, setPhoto] = useState("")
 
     const [husband, setHusband] = useState("")
     const [husbandBirth, setHusbandBirth] = useState("")
@@ -35,7 +43,19 @@ const VbSingleFamily = () => {
                     throw new Error("error")
                 }
                 const family = await res.json();
+                console.log(family)
+
                 setFamilyName(family.husband.Fullname.Surname)
+                setPhoto(family.husband.photo)
+                setChildren(family.children)
+                if(family.children === []){
+
+                }
+                setMarriage(family.marriageDate)
+                if(family.marriageDate === ""){
+                    setMarriage("unknown")
+                }
+
                 setHusband(family.husbandName)
                 setHusbandBirth(family.husband.Birth.birthdate)
                 setHusbandBirthPlace(family.husband.Birth.birthplace)
@@ -61,12 +81,13 @@ const VbSingleFamily = () => {
     })
 
     return (
-        <div>
-            <main>
-                <h1>The {familyName} Family</h1>
-                {/* Image found here */}
+        <div className="single-family">
+            <main className="famName-famPhoto">
+                <h1 id="famName">The {familyName} Family</h1>
+                <Image id="famPhoto" src="https://i.imgur.com/cYcpLWK.png" className="fluid"/>
             </main>
-            <Card style={{ width: '18rem' }}>
+            <section className="husband-wife-card">
+            <Card >
                 <Card.Body>
                     <Card.Title>{husband}</Card.Title>
                     <ListGroup variant="flush">
@@ -78,7 +99,7 @@ const VbSingleFamily = () => {
                     </ListGroup>
                 </Card.Body>
             </Card>
-            <Card style={{ width: '18rem' }}>
+            <Card >
                 <Card.Body>
                     <Card.Title>{wife}</Card.Title>
                     <ListGroup variant="flush">
@@ -90,7 +111,15 @@ const VbSingleFamily = () => {
                     </ListGroup>
                 </Card.Body>
             </Card>
-
+            </section>
+            <Card>
+                <Card.Body>
+                    <ListGroup variant="flush">
+                        <ListGroupItem>{marriage}</ListGroupItem>
+                        <ListGroupItem>{children}</ListGroupItem>
+                    </ListGroup>
+                </Card.Body>
+            </Card>
         </div>
     )
 }

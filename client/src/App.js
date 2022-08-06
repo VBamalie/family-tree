@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import BasicNavbar from './components/navbar';
 import Home from "./pages/Home"
 import VbTree from "./pages/VbTree"
 import VbSingleFamily from "./pages/VbSingleFamily"
@@ -15,26 +16,9 @@ import MicSingleFamily from "./pages/MicSingleFamily"
 // import {getVbTree} from "./util/api"
 
 function App() {
-//   const [test, setTest] = useState("testing");
-//   useEffect(()=>{
-//     const getTreeInfo = async ()=>{
-//       try{
-//         const res = await getVbTree("@I_1884986968@")
-//         if(!res.ok){
-//           throw new Error("error")
-//         }
-//         const testing = await res.json();
-//         console.log(testing)
-//         setTest(testing.first.birth)
-//       }catch(err){
-//         console.error(err)
-//       }
-//     };
-//     getTreeInfo()
-//   })
-
   return (
     <div className="App">
+      <BasicNavbar />
       <Router>
         <Routes>
           <Route path="/" element={<Home />}/>
