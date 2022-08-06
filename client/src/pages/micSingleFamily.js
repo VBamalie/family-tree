@@ -6,6 +6,8 @@ import { getMicNuclear } from "../util/api"
 import Card from "react-bootstrap/Card"
 import ListGroup from 'react-bootstrap/ListGroup';
 import ListGroupItem from "react-bootstrap/esm/ListGroupItem";
+import Image from 'react-bootstrap/Image'
+import "./singleFamily.css"
 
 const VbSingleFamily = () => {
     let {Id} = useParams()
@@ -69,39 +71,43 @@ const VbSingleFamily = () => {
     })
 
     return (
-        <div>
-            <main>
-                <h1>The {familyName} Family</h1>
-                {/* Image found here */}
+        <div className="single-family">
+            <main className="famName-famPhoto">
+                <div id="famName-box">
+                    <h1 id="famName">The {familyName} Family</h1>
+                </div>
+                <Image id="famPhoto" src="https://i.imgur.com/cYcpLWK.png" className="fluid"/>
             </main>
-            <Card style={{ width: '18rem' }}>
+            <section className="husband-wife-card">
+            <Card >
                 <Card.Body>
-                    <Card.Title>{husband}</Card.Title>
+                    <Card.Title><h2>{husband}</h2></Card.Title>
                     <ListGroup variant="flush">
-                        <ListGroup.Item>{husbandBirth} - {husbandDeath}</ListGroup.Item>
-                        <ListGroup.Item>Place of Birth: {husbandBirthPlace}</ListGroup.Item>
-                        <ListGroup.Item>Mother: {husbandMother}</ListGroup.Item>
-                        <ListGroup.Item>Father: {husbandFather}</ListGroup.Item>
-                        <ListGroup.Item>Buried at: {husbandBurial}</ListGroup.Item>
+                        <ListGroup.Item><p>{husbandBirth} - {husbandDeath}</p></ListGroup.Item>
+                        <ListGroup.Item><p>Place of Birth:</p><p>{husbandBirthPlace}</p></ListGroup.Item>
+                        <ListGroup.Item><p>Mother:</p><p>{husbandMother}</p></ListGroup.Item>
+                        <ListGroup.Item><p>Father:</p><p>{husbandFather}</p></ListGroup.Item>
+                        <ListGroup.Item><p>Buried at:</p><p>{husbandBurial}</p></ListGroup.Item>
                     </ListGroup>
                 </Card.Body>
             </Card>
-            <Card style={{ width: '18rem' }}>
+            <Card >
                 <Card.Body>
-                    <Card.Title>{wife}</Card.Title>
+                    <Card.Title><h2>{wife}</h2></Card.Title>
                     <ListGroup variant="flush">
-                        <ListGroup.Item>{wifeBirth} - {wifeDeath}</ListGroup.Item>
-                        <ListGroup.Item>Place of Birth: {wifeBirthPlace}</ListGroup.Item>
-                        <ListGroup.Item>Mother: {wifeMother}</ListGroup.Item>
-                        <ListGroup.Item>Father: {wifeFather}</ListGroup.Item>
-                        <ListGroup.Item>Buried at: {wifeBurial}</ListGroup.Item>
+                        <ListGroup.Item><p>{wifeBirth} - {wifeDeath}</p></ListGroup.Item>
+                        <ListGroup.Item><p>Place of Birth:</p><p>{wifeBirthPlace}</p></ListGroup.Item>
+                        <ListGroup.Item><p>Mother:</p><p>{wifeMother}</p></ListGroup.Item>
+                        <ListGroup.Item><p>Father:</p><p>{wifeFather}</p></ListGroup.Item>
+                        <ListGroup.Item><p>Buried at:</p><p>{wifeBurial}</p></ListGroup.Item>
                     </ListGroup>
                 </Card.Body>
             </Card>
+            </section>
             <Card>
                 <Card.Body>
                     <ListGroup variant="flush">
-                        <ListGroupItem>{marriage}</ListGroupItem>
+                        <ListGroupItem><p>Married on:</p><p>{marriage}</p></ListGroupItem>
                         <ListGroupItem>{children}</ListGroupItem>
                     </ListGroup>
                 </Card.Body>

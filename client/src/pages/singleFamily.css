@@ -1,9 +1,30 @@
+:root{
+    --beige: #c0b8a8;
+    --blue: #60827c ;
+    --red: #b76f6d ;
+    --green: #6a7642;
+    --lightBlue: #a4bdb0;
+
+}
 @font-face {
     font-family: fancyFont;
-    src: url(./FhaModifiedTuscanRomanNcv-qqGV.ttf);
+    src: url(../util/FhaModifiedTuscanRomanNcv-qqGV.ttf);
+}
+@font-face {
+    font-family: standardFont;
+    src: url(../util/FhaCondensedFrenchNc-O2n3.ttf);
 }
 h1{
     font-family: fancyFont;
+    text-align: center;
+    margin: 1%;
+    color: #6e1919;
+}
+h2{
+    font-family: standardFont;
+}
+p{
+    font-family: serif;
 }
 
 .single-family{
@@ -16,10 +37,18 @@ h1{
 }
 
 .famName-famPhoto{
+    margin-top: 80px;
     display: flex;
     width: fit-content;
     flex-direction: column;
     align-items: center;
+}
+#famName-box{
+    background-color: var(--beige);
+    border: groove var(--red) 6px;
+    box-shadow: #6e1919 1px 1px 25px inset;
+    border-radius: 6px;
+    margin-top: 1%;
 }
 #famName{
     width: fit-content;
@@ -31,12 +60,31 @@ h1{
     #famPhoto{
         width: 40%;
     }
+    div.card{
+        margin: 0%;
+    }
+    div.list-group-item{
+        flex-direction: column;
+        margin: 0%;
+    }
   }
 
 .husband-wife-card{
     display: flex;
     justify-content: center;
+    width: 86%;
+}
+div.list-group-item{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: transparent;
+    justify-content: space-between;
 }
 div.card{
     width: 45%;
+    background-color: var(--lightBlue);
+    border: groove var(--green) 6px;
+    box-shadow: var(--blue) inset 5px 5px 76px;
+    margin: 1%;
 }
