@@ -11,6 +11,7 @@ import ListGroup from 'react-bootstrap/ListGroup';
 import ListGroupItem from "react-bootstrap/esm/ListGroupItem";
 import Image from 'react-bootstrap/Image'
 
+
 const VbSingleFamily = () => {
     //grabs the Id from the parameter
     let {Id} = useParams()
@@ -22,6 +23,7 @@ const VbSingleFamily = () => {
     const [children, setChildren] = useState([])
     const[marriage, setMarriage] = useState([])
     const[photo, setPhoto] = useState("")
+    const[description, setDescription] = useState()
 
     //data on the husband
     const [husband, setHusband] = useState("")
@@ -64,6 +66,8 @@ const VbSingleFamily = () => {
                 const famPhoto = await family.husband.photo
                 setPhoto(famPhoto)
 
+                setDescription(family.husband.description)
+
                 setHusband(family.husbandName)
                 setHusbandBirth(family.husband.Birth.birthdate)
                 setHusbandBirthPlace(family.husband.Birth.birthplace)
@@ -94,7 +98,7 @@ const VbSingleFamily = () => {
                 <div id="famName-box">
                     <h1 id="famName">The {familyName} Family</h1>
                 </div>
-                <Image id="famPhoto" src="https://i.imgur.com/cYcpLWK.png" className="fluid"/>
+                <Image id="famPhoto" src={photo} className="fluid"/>
             </main>
             <section className="husband-wife-card">
             <Card >
@@ -122,11 +126,12 @@ const VbSingleFamily = () => {
                 </Card.Body>
             </Card>
             </section>
-            <Card>
+            <Card className="description">
                 <Card.Body>
                     <ListGroup variant="flush">
                         <ListGroupItem><p>Married on:</p><p>{marriage}</p></ListGroupItem>
                         <ListGroupItem>{children}</ListGroupItem>
+                        <ListGroupItem>{description}</ListGroupItem>
                     </ListGroup>
                 </Card.Body>
             </Card>

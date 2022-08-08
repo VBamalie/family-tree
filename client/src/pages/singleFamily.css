@@ -80,6 +80,7 @@ div.list-group-item{
     margin-right: 5%;
     background-color: transparent;
     justify-content: space-between;
+    white-space: pre-wrap;
 }
 div.card{
     width: 45%;
@@ -87,4 +88,8 @@ div.card{
     border: groove var(--green) 6px;
     box-shadow: var(--blue) inset 5px 5px 76px;
     margin: 1%;
+}
+
+div.description{
+    width: 75%;
 }

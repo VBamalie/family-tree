@@ -3,18 +3,29 @@ import {useParams, Link} from "react-router-dom"
 // import { useNavigate } from "react-router-dom"
 import { useState, useEffect } from "react";
 import { getMicNuclear } from "../util/api"
+import "./singleFamily.css"
+
+
 import Card from "react-bootstrap/Card"
 import ListGroup from 'react-bootstrap/ListGroup';
 import ListGroupItem from "react-bootstrap/esm/ListGroupItem";
 import Image from 'react-bootstrap/Image'
-import "./singleFamily.css"
 
-const VbSingleFamily = () => {
+
+const MicSingleFamily = () => {
+    //grabs the Id from the parameter
     let {Id} = useParams()
+
+    //set up for the dynamic data on the page
+
+    //general data
     const [familyName, setFamilyName] = useState("");
     const [children, setChildren] = useState([])
     const[marriage, setMarriage] = useState([])
+    const[photo, setPhoto] = useState("")
+    const[description, setDescription] = useState()
 
+    //data on the husband
     const [husband, setHusband] = useState("")
     const [husbandBirth, setHusbandBirth] = useState("")
     const [husbandDeath, setHusbandDeath] = useState("")
@@ -23,6 +34,7 @@ const VbSingleFamily = () => {
     const [husbandMother, setHusbandMother] = useState("")
     const [husbandFather, setHusbandFather] = useState("")
 
+    //data on the wife
     const [wife, setWife] = useState("")
     const [wifeBirth, setWifeBirth] = useState("")
     const [wifeDeath, setWifeDeath] = useState("")
@@ -33,6 +45,7 @@ const VbSingleFamily = () => {
 
 
     useEffect(() => {
+        
         const getTreeInfo = async () => {
             try {
                 const res = await getMicNuclear(Id)
@@ -40,11 +53,20 @@ const VbSingleFamily = () => {
                     throw new Error("error")
                 }
                 const family = await res.json();
-                console.log(family)
 
                 setFamilyName(family.husband.Fullname.Surname)
                 setChildren(family.children)
+                if(family.children === []){
+                    setChildren("None")
+                }
                 setMarriage(family.marriageDate)
+                if(family.marriageDate === ""){
+                    setMarriage("unknown")
+                }
+                const famPhoto = await family.husband.photo
+                setPhoto(famPhoto)
+
+                setDescription(family.husband.description)
 
                 setHusband(family.husbandName)
                 setHusbandBirth(family.husband.Birth.birthdate)
@@ -76,7 +98,7 @@ const VbSingleFamily = () => {
                 <div id="famName-box">
                     <h1 id="famName">The {familyName} Family</h1>
                 </div>
-                <Image id="famPhoto" src="https://i.imgur.com/cYcpLWK.png" className="fluid"/>
+                <Image id="famPhoto" src={photo} className="fluid"/>
             </main>
             <section className="husband-wife-card">
             <Card >
@@ -104,15 +126,16 @@ const VbSingleFamily = () => {
                 </Card.Body>
             </Card>
             </section>
-            <Card>
+            <Card className="description">
                 <Card.Body>
                     <ListGroup variant="flush">
                         <ListGroupItem><p>Married on:</p><p>{marriage}</p></ListGroupItem>
                         <ListGroupItem>{children}</ListGroupItem>
+                        <ListGroupItem>{description}</ListGroupItem>
                     </ListGroup>
                 </Card.Body>
             </Card>
         </div>
     )
 }
-export default VbSingleFamily;
+export default MicSingleFamily;
