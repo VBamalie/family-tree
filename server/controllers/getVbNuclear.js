@@ -5,7 +5,7 @@ const cleanUpName = require("../util/nameCleaner")
 module.exports = {
     async getVbNuclear(req, res){
         //grabs the husband's data based off of the URL
-        const mainPerson = await VbNames.findOne({Id: req.params.Id})
+        const mainPerson = await VbNames.find({Id: req.params.Id})
         const mainName = cleanUpName(mainPerson)
 
         //then grabs his wife and children's ids

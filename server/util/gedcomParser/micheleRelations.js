@@ -92,15 +92,6 @@ const michelleRelations =
    ]
   },
   {
-   "Id": "@F44@",
-   "marriage": {
-    "date": "16 Oct 1902"
-   },
-   "husband": "@P221@",
-   "wife": "@P232@",
-   "children": "@P233@"
-  },
-  {
    "Id": "@F45@",
    "marriage": {
     "date": "18 May 1911"

@@ -113,7 +113,8 @@ michelleNames =
    },
    "burial": {
     "burial": "Spring Grove,McHenry County,Illinois,United States of America"
-   }
+   },
+   "photo":"../../photos/adolphHansen.png"
   },
   {
    "Id": "@P278@",
@@ -1807,7 +1808,8 @@ michelleNames =
    },
    "burial": {
     "burial": "St Joseph Cemetery,,Chicago,Illinois"
-   }
+   },
+   "photo":"../../photos/timothyAmore.png" 
   },
   {
    "Id": "@P313@",
@@ -3162,7 +3164,8 @@ michelleNames =
    },
    "burial": {
     "burial": "Mound CemeteryTwin Lakes Wisconsin"
-   }
+   },
+   "photo":"../../photos/owenAmore.png"
   },
   {
    "Id": "@P366@",
@@ -3576,7 +3579,8 @@ michelleNames =
    },
    "burial": {
     "burial": "McHenry,McHenry County,Illinois,United States of America"
-   }
+   },
+   "photo":"../../photos/delHansen.png" 
   },
   {
    "Id": "@P92@",
@@ -5394,7 +5398,8 @@ michelleNames =
    "death": {
     "date":
      "17 Sep 1964",
-   }
+   },
+   "photo":"../../photos/emilRoeder.png",
   },
   {
    "Id": "@P224@",

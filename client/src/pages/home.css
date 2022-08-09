@@ -6,7 +6,10 @@ div.homePictures{
     background-image: url("https://cdn.wallpapersafari.com/35/52/VKXjNy.jpg");
     background-size: 100%;
 }
+a{
+    width: 25%;
+}
 img{
-    width: 30%;
     margin-top: 2%;
+    width: 100%;
 }

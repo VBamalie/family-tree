@@ -8,11 +8,11 @@ function BasicNavbar() {
   return (
     <Navbar expand="lg">
       <Container>
-        <Navbar.Brand href="#home">Our Family Tree</Navbar.Brand>
+        <Navbar.Brand href="/">Our Family Tree</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
             <NavDropdown title="Family Trees" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Hanson Family</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
