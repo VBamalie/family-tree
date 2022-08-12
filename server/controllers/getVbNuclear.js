@@ -1,45 +1,69 @@
 //imports
-const {VbNames, VbRelations} = require("../models")
+
 const cleanUpName = require("../util/nameCleaner")
+const getVbPerson = require("../util/getVbPerson")
+const getVbRelation = require("../util/getVbRelation")
+const getVbParents = require("../util/getVbParents")
 
 module.exports = {
     async getVbNuclear(req, res){
         //grabs the husband's data based off of the URL
-        const mainPerson = await VbNames.find({Id: req.params.Id})
+        const mainPerson = await getVbPerson(req.params.Id)
         const mainName = cleanUpName(mainPerson)
 
         //then grabs his wife and children's ids
-        const mainPersonRelation = await VbRelations.find({husband: req.params.Id})
+        const mainPersonRelation = await getVbRelation(req.params.Id)
 
         //grabs the wife's information
-        const wifeInfo = await VbNames.findOne({Id: mainPersonRelation[0].wife})
+        const wifeInfo = await getVbPerson(mainPersonRelation.wife)
         const wifeName = cleanUpName(wifeInfo)
         
         //grabs any children's names
         const childrenNames = []
-        for (let i = 0; i < mainPersonRelation[0].children.length; i++) {
-            let child = await VbNames.findOne({Id: mainPersonRelation[0].children[i]})
-            child = cleanUpName(child)
+        for (let i = 0; i < mainPersonRelation.children.length; i++) {
+            let child = await getVbPerson(mainPersonRelation.children[i]) || "Unknown"
+            if(child != "Unknown"){
+            child = await cleanUpName(child)
             childrenNames.push(child)
+            }
         }
 
         //this find the husband's parent's nuclear family relation by looking for any relation with the husband as the child
-        const mainPersonParents = await VbRelations.find({children: req.params.Id}) 
-        
-        //then we take and clean up his parent's names
-        let fatherName = await VbNames.findOne({Id: mainPersonParents[0].husband})
-        fatherName = cleanUpName(fatherName)
-        let motherName =await VbNames.findOne({Id: mainPersonParents[0].wife})
-        motherName = cleanUpName(motherName)
+        const mainPersonParents = await getVbParents(req.params.Id) || "Unknown"
+        let fatherName = "Unknown"
+        let motherName = "Unknown"
 
+
+        if(mainPersonParents != "Unknown"){
+        //then we take and clean up his parent's names
+        fatherName = await getVbPerson( mainPersonParents.husband) || "Unknown"
+            if(fatherName != "Unknown"){
+            fatherName = cleanUpName(fatherName)
+            }   
+        motherName =await getVbPerson(mainPersonParents.wife) || "Unknown"
+        if(motherName != "Unknown"){
+        motherName = cleanUpName(motherName)
+        }
+    }
         //next we do the same for the wife's parents using her id retrieved from the mainPersonRelation variable
-        const wifeParents = await VbRelations.find({children: mainPersonRelation[0].wife})
+        const wifeParents = await getVbParents(mainPersonRelation.wife) || "Unknown"
+ 
+        let wifeFatherName = "Unknown"
+        let wifeMotherName ="Unknown"
 
         //clean up the parent's name
-        let wifeFatherName = await VbNames.findOne({Id: wifeParents[0].husband})
+        if(wifeParents != "Unknown"){
+          wifeFatherName = await getVbPerson(wifeParents.husband) || "Unknown"
+          if(wifeFatherName != "Unknown"){
         wifeFatherName = cleanUpName(wifeFatherName)
-        let wifeMotherName =await VbNames.findOne({Id: wifeParents[0].wife})
+          }
+        
+       
+         wifeMotherName =await getVbPerson(wifeParents.wife) || "Unknown"
+         if(wifeMotherName != "Unknown"){
         wifeMotherName = cleanUpName(wifeMotherName)
+         }
+        }
 
         //compile all the data into one json so we can send it out
 
@@ -48,7 +72,7 @@ module.exports = {
             husbandName: mainName,
             wife: wifeInfo,
             wifeName: wifeName,
-            marriageDate: mainPersonRelation[0].marriage.date,
+            marriageDate: mainPersonRelation.marriage.date || "Unknown",
             children: childrenNames,
             husbandParents:{
                 fatherName: fatherName,

@@ -1,6 +1,26 @@
 const vbNames = 
 [
   {
+    "Id": "@I6135340451@",
+    "Fullname": {
+      "Value": "Dorothea /Traxel/",
+      "Givenname": "Dorothea",
+      "Surname": "Traxel"
+    },
+    "sex": "M",
+    "Birth": {
+      "birthdate": "1917",
+      "birthplace": "St. Louis, Missouri"
+    },
+    "death": {
+      "date": "24 AUG 1969"
+     },
+     "burial": {
+      "burial": "Pennsylvania"
+     }
+
+  },
+  {
    "Id": "@I_1884986968@",
    "Fullname": {
     "Value": "Erwin Henry /VON BEHREN/",
