@@ -13,7 +13,11 @@ function BasicNavbar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
-            <NavDropdown title="Family Trees" id="basic-nav-dropdown">
+
+            {/* second phase project */}
+
+            
+            {/* <NavDropdown title="Family Trees" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Hanson Family</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Amour Family
@@ -22,7 +26,7 @@ function BasicNavbar() {
               <NavDropdown.Item href="#action/3.4">
                 Von Behren Family
               </NavDropdown.Item>
-            </NavDropdown>
+            </NavDropdown> */}
           </Nav>
         </Navbar.Collapse>
       </Container>

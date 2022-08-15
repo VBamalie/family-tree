@@ -129,8 +129,11 @@ const VbSingleFamily = () => {
             <Card className="description">
                 <Card.Body>
                     <ListGroup variant="flush">
-                        <ListGroupItem><p>Married on:</p><p>{marriage}</p></ListGroupItem>
-                        <ListGroupItem>{children}</ListGroupItem>
+                        <ListGroupItem><h5>Married on:</h5><p>{marriage}</p></ListGroupItem>
+                            <ListGroupItem><h5>Children:</h5>{children.map((child)=>{
+                            return(<p>{child}</p>)})} </ListGroupItem>
+                         
+                            <ListGroupItem><h5>About {husband} and {wife}:</h5></ListGroupItem>
                         <ListGroupItem>{description}</ListGroupItem>
                     </ListGroup>
                 </Card.Body>

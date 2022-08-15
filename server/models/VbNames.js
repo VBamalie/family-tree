@@ -24,7 +24,7 @@ const nameSchema = new Schema({
     },
     photo:{
         type: String,
-        default: ""
+        default: "../../photos/pip.png"
     }
 });
 

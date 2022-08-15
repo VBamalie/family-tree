@@ -114,7 +114,8 @@ michelleNames =
    "burial": {
     "burial": "Spring Grove,McHenry County,Illinois,United States of America"
    },
-   "photo":"../../photos/adolphHansen.png"
+   "photo":"../../photos/adolphHansen.png",
+   "description": "When Adolph Christian Hansen was born on March 3, 1876, his father, Nils, was 30 and his mother, Karen, was 25. He married Mabel Johnson and they had one son together. He then married Hulda Sørensen. When Hulda Sørensen was born on March 27, 1889, her father, Hans, was 40, and her mother, Tellemine, was 38. Adolph and Hulda had three children together. She died in September 1958 in Waukegan, Illinois, at the age of 69, and was buried in Spring Grove, Illinois. He died on October 29, 1968, in McHenry, Illinois, at the age of 92, and was buried in Spring Grove, Illinois."
   },
   {
    "Id": "@P278@",
@@ -481,7 +482,8 @@ michelleNames =
    },
    "death": {
     "date": "5 Dec 1907"
-   }
+   },
+   "description": "Nils Andrew Hansen was born on March 4, 1845, in Stathelle, Telemark, Norway, the son of Anne and Hans. He married Karen Kittelsen on January 21, 1873, in Brevik, Telemark, Norway. When Karen Kittelsen was born on March 30, 1850, in Brevik, Telemark, Norway, her father, Kittel, was 39, and her mother, Christine, was 32. Nils and Karen had five children in 13 years. He died on December 5, 1907, at the age of 62. She died on December 28, 1944, in Chicago, Illinois, at the age of 94, and was buried there."
   },
   {
    "Id": "@P335@",
@@ -1809,7 +1811,8 @@ michelleNames =
    "burial": {
     "burial": "St Joseph Cemetery,,Chicago,Illinois"
    },
-   "photo":"../../photos/timothyAmore.png" 
+   "photo":"../../photos/timothyAmore.png",
+   "description": "When Timothy Moses Amore was born on January 4, 1876, in Medaryville, Indiana, his father, Moses, was 32 and his mother, Ellen, was 22. He married Nora Lanam on April 24, 1906, in Reynolds, Indiana. When Nora Lanam was born on August 19, 1886, in Pulaski, Indiana, her father, Daniel, was 30, and her mother, Hanorah, was 31. Tim and Nora had four children in 14 years. He died on May 25, 1960, in Chicago, Illinois, at the age of 84. She died on November 10, 1971, at the age of 85."
   },
   {
    "Id": "@P313@",
@@ -2233,7 +2236,8 @@ michelleNames =
    },
    "death": {
     "date": "1960"
-   }
+   },
+   "description": "When William Arthur Johnson was born on March 21, 1892, in Chicago, Illinois, his father, John, was 28 and his mother, Caroline, was 30. When Edna Louise Zillinger was born on February 16, 1898, in Illinois, her father, Joseph, was 28, and her mother, Augusta, was 23.  William and Edna had one daughter. He died in 1960 in his hometown at the age of 68. She died on July 17, 1996, in McHenry, Illinois, at the age of 98, and was buried in McHenry, Illinois."
   },
   {
    "Id": "@P56@",
@@ -3125,7 +3129,9 @@ michelleNames =
    },
    "burial": {
     "burial": "St Henry Cemetery MedaryvillePulsaki Co. Indiana"
-   }
+   },
+   "photo": "../../photos/mosesAmore.png",
+   "description": "When Moses Amore was born on October 20, 1843, in Ohio, his father, Francis, was 46 and his mother, Charlotte, was 45. He married Ellen O'CONNOR on April 26, 1872. When Ellen O'CONNOR was born on September 21, 1853, in Ohio, her father, Timothy, was 29, and her mother, Catherine, was 17. \n \n  Moses and Ellen had nine children in 25 years. She died on January 5, 1913, in Honey Creek, Indiana, at the age of 59, and was buried in Medaryville, Indiana. He died on June 24, 1923, in Wolcott, Indiana, at the age of 79, and was buried in Medaryville, Indiana"
   },
   {
    "Id": "@P24@",
@@ -3165,7 +3171,8 @@ michelleNames =
    "burial": {
     "burial": "Mound CemeteryTwin Lakes Wisconsin"
    },
-   "photo":"../../photos/owenAmore.png"
+   "photo":"../../photos/owenAmore.png",
+   "description": "When Owen Virgil Amore was born on November 16, 1916, in Chicago, Illinois, his father, Timothy, was 40 and his mother, Nora, was 30. He married Olga Amalie Roeder on November 30, 1937, in Indiana. When Olga Amalie Roeder was born on December 20, 1914, in Chicago, Illinois, her father, Emil, was 31, and her mother, Emilie, was 31. Owen and Olga had three children during their marriage. He died on September 26, 1980, in Waukegan, Illinois, at the age of 63, and was buried in Twin Lakes, Wisconsin. She died on April 6, 1991, in Ingleside, Illinois, at the age of 76, and was buried in Twin Lakes, Wisconsin"
   },
   {
    "Id": "@P366@",
@@ -3580,7 +3587,8 @@ michelleNames =
    "burial": {
     "burial": "McHenry,McHenry County,Illinois,United States of America"
    },
-   "photo":"../../photos/delHansen.png" 
+   "photo":"../../photos/delHansen.png",
+   "description": "When Delwyn Leonard Hansen was born on September 23, 1921, in Chicago, Illinois, his father, Adolph, was 45 and his mother, Hulda, was 32. He married Adeline Johnson on April 25, 1942, in his hometown. When Adeline Johnson was born on December 19, 1923, in Chicago, Illinois, her father, William, was 31, and her mother, Edna, was 25. Del and Adeline had three children during their marriage. He died on April 10, 2003, in McHenry, Illinois, at the age of 81, and was buried there. She died on October 21, 2009, in McHenry, Illinois, at the age of 85, and was buried in McHenry, Illinois." 
   },
   {
    "Id": "@P92@",
@@ -5400,6 +5408,7 @@ michelleNames =
      "17 Sep 1964",
    },
    "photo":"../../photos/emilRoeder.png",
+   "description": "Emil Roeder was born on July 15, 1883, in Poland the son of Caroline and Ludwig. He married Emilie Herman on February 29, 1908. Emilie Herman was born on September 4, 1883, in Sompolno, Wielkopolskie, Poland, the daughter of Paulina and Christoph. Emil and Emilie had eight children in 17 years. She died on January 6, 1960, in Chicago, Illinois, at the age of 76, and was buried there. He died on September 17, 1964, in Cook, Illinois, at the age of 81, and was buried in Chicago, Illinois."
   },
   {
    "Id": "@P224@",
@@ -5947,7 +5956,9 @@ michelleNames =
    },
    "burial": {
     "burial": "Winamac Cemetery"
-   }
+   },
+   "photo":"../../photos/danielLanam.png",
+   "description": "When Daniel Lanam was born on April 8, 1856, in Indiana, his father, John, was 36 and his mother, Catherine, was 25. He married Hanorah A. Dunn on November 6, 1881, in Pulaski, Indiana. When Hanorah A. Dunn was born on August 24, 1854, in Medaryville, Indiana, her father, Thomas, was 41, and her mother, Catherine, was 25. Daniel and Hanorah had eight children in 13 years. She died in March 1929 in Center, Indiana, at the age of 74, and was buried in Winamac, Indiana. He died on February 11, 1932, in Starke, Indiana, at the age of 75, and was buried in Winamac, Indiana."
   },
   {
    "Id": "@P324@",

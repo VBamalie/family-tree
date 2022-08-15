@@ -124,6 +124,7 @@ const vbNames =
     "burial": "Green Mt Cemetary"
    },
    "photo":"../../photos/jakebBujnakFrame.png",
+   "description": "Jakeb BUJNAK was born on July 25, 1876, the son of Mary and Andrew. He married Filomena BRUNAT. Filomena BRUNAT was born on June 6, 1878, the daughter of Annie and Martin. \n \n  Jacob and Philomena had four children together. She died as a young mother on January 23, 1912, in St Louis, Missouri, at the age of 33. \n \n He then married Mary Krekel -Welky and they had two children together. He died on February 27, 1944, in Belleville, Illinois, at the age of 67"
   },
   {
    "Id": "@I_1884986962@",
@@ -1395,7 +1396,8 @@ const vbNames =
    },
    "burial": {
     "burial": "Bel-Nor, St. Louis County, Missouri, United States of America"
-   }
+   },
+   "description": "When William Otto Traxel was born on January 26, 1891, in Missouri, his father, Jacob, was 29 and his mother, Barbara, was 26. He married Louise Brown. Louise Brown was born on February 18, 1894, in St Louis, Missouri. William and Louise had two children together then divorced. He then married ELLA N Bresnahan in 1930.She married John Moses.  Louise died on April 12, 1952, at the age of 58. William died on June 26, 1982, in St Louis, Missouri, at the age of 91, and was buried in Bel-Nor, Missouri."
   },
   {
    "Id": "@I6135340450@",
@@ -1675,6 +1677,7 @@ const vbNames =
     "burial": "Berger, Franklin County, Missouri, United States of America"
    },
    "photo": "../../photos/henryPehle.png",
+   "description": "When Henry P Pehle was born on October 13, 1873, in Franklin, Missouri, his father, Charles, was 37 and his mother, Louisa, was 27. He married Louise Mathilda Tillie Witthaus on August 28, 1903. When Louise Mathilda Tillie Witthaus was born on April 19, 1881, in Warren, Missouri, her father, Henry, was 37, and her mother, Charlotte, was 25. Henry and Tillie had six children in 27 years. She died on April 26, 1966, in Berger, Missouri, at the age of 85, and was buried there. He died on July 11, 1967, in Berger, Missouri, at the age of 93, and was buried there."
   },
   {
    "Id": "@I6862854349@",
@@ -1907,7 +1910,8 @@ const vbNames =
    },
    "burial": {
     "burial": "Warrenton, Warren County, Missouri, United States of America"
-   }
+   },
+   "description": "When Henry Witthaus was born on April 12, 1844, in Warren, Missouri, his father, Gottlieb, was 26 and his mother, Carolina, was 24. He married Charlotte Taake in 1868. Charlotte Taake was born in May 1855 in Missouri. Henry and Charlotte had ten children in 24 years. She died on May 21, 1921, in Warren, Missouri, at the age of 66, and was buried in Warrenton, Missouri. He died on March 8, 1928, in his hometown at the age of 83, and was buried in Warrenton, Missouri."
   },
   {
    "Id": "@I6862879938@",
@@ -2339,7 +2343,9 @@ const vbNames =
    },
    "death": {
     "date": "27 December 1893"
-   }
+   },
+   "photo":"../../photos/fritzRohlfing.png",
+   "description": "When Friedrich “Fritz”  Wilhelm Rohlfing was born on May 12, 1818, in Nordhemmern, North Rhine-Westphalia, Germany, his father, Johann, was 41 and his mother, Anne, was 40. He married Anna Maria Ilsabein Loewe and they had six children together. He then married Christina Maria Meier. Christina Maria Meier was born on July 5, 1829, in North Rhine-Westphalia, Germany. Fritz and Christina had six children together. He died on December 27, 1893, in Gasconade, Missouri, having lived 75 years. She died on December 6, 1912, in Gasconade, Missouri, having lived a long life of 83 years."
   },
   {
    "Id": "@I312215561907@",

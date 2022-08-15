@@ -5,11 +5,31 @@ div.homePictures{
     justify-content: space-around;
     background-image: url("https://cdn.wallpapersafari.com/35/52/VKXjNy.jpg");
     background-size: 100%;
+    padding-top: 75px;
 }
-a{
-    width: 25%;
+#individualFamilies{
+    width: 22%;
+    margin: .3%;
 }
 img{
     margin-top: 2%;
     width: 100%;
 }
+
+#namePlaque{
+    width: 100%;
+}
+
+#vbFam{
+    color: red;
+}
+
+#micFam{
+    color: brown;
+}
+
+@media only screen and (max-width: 800px) {
+    #individualFamilies{
+        width: 45%;
+    }
+  }
