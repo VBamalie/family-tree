@@ -20,7 +20,7 @@ h1{
     margin: 1%;
     color: #6e1919;
 }
-h2{
+h2, h3, h4, h5{
     font-family: standardFont;
 }
 p{
