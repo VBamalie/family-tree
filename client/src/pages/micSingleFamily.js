@@ -1,5 +1,5 @@
-// import React from "react"
-import {useParams, Link} from "react-router-dom"
+// import React from "React"
+import {useParams} from "react-router-dom"
 // import { useNavigate } from "react-router-dom"
 import { useState, useEffect } from "react";
 import { getMicNuclear } from "../util/api"
