@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "react-router-dom"
 // import { useNavigate } from "react-router-dom"
 
-import "./home.css"
+import "./homepage.css"
 import Image from 'react-bootstrap/Image'
 import Card from 'react-bootstrap/Card'
 
